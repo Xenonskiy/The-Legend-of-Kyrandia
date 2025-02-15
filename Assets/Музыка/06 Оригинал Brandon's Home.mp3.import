@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://sviaycy7klj1"
+path="res://.godot/imported/06 Оригинал Brandon's Home.mp3-21c457fc955c0c2894170f3c006e31c4.mp3str"
+
+[deps]
+
+source_file="res://Assets/Музыка/06 Оригинал Brandon's Home.mp3"
+dest_files=["res://.godot/imported/06 Оригинал Brandon's Home.mp3-21c457fc955c0c2894170f3c006e31c4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

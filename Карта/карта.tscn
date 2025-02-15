@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfxu6epfj47p2"]
+
+[ext_resource type="Texture2D" uid="uid://ggwj0vio8d" path="res://Карта/Карта текстура.png" id="1_l7jsr"]
+[ext_resource type="Script" path="res://Карта/карта.gd" id="2_2loqn"]
+
+[node name="Карта" type="Sprite2D"]
+z_index = 5
+texture = ExtResource("1_l7jsr")
+centered = false
+script = ExtResource("2_2loqn")

@@ -1,0 +1,519 @@
+[gd_scene load_steps=52 format=3 uid="uid://b3myi3rc3ri5p"]
+
+[ext_resource type="Script" path="res://Game/game.gd" id="1_eabhn"]
+[ext_resource type="Texture2D" uid="uid://cxnownoogrws" path="res://Game/Sprites/Постоянное окно игры 1680 на 1050.png" id="2_dnudx"]
+[ext_resource type="Texture2D" uid="uid://4j5wv6njosdd" path="res://Game/Sprites/Прозрачный 280 на 140.png" id="3_iyl1w"]
+[ext_resource type="PackedScene" uid="uid://b0j6x5aui331q" path="res://Player/player.tscn" id="4_vqj10"]
+[ext_resource type="FontFile" uid="uid://bxlq43i6a6tk3" path="res://Assets/Шрифты/PressStart2P-Regular.ttf" id="5_albnq"]
+[ext_resource type="PackedScene" uid="uid://cp6ysugv3prik" path="res://Главное меню/main_menu.tscn" id="5_vr18x"]
+[ext_resource type="PackedScene" uid="uid://cfxu6epfj47p2" path="res://Карта/карта.tscn" id="6_6jaip"]
+[ext_resource type="Script" path="res://Game/текст_брэндона.gd" id="6_wbbbw"]
+[ext_resource type="Texture2D" uid="uid://bmqi2iqq5b82l" path="res://Game/Sprites/Button_close.png" id="7_a0dxe"]
+[ext_resource type="Texture2D" uid="uid://bsfmwa4uha67m" path="res://Assets/Карта/Карта 1.png" id="7_qyiu3"]
+[ext_resource type="Texture2D" uid="uid://bybyhit2hnuad" path="res://Карта/Серый фон.png" id="8_45i7k"]
+[ext_resource type="FontFile" uid="uid://by8gt8ymfwxom" path="res://Assets/Шрифты/sitka-bold.ttf" id="8_ihf26"]
+[ext_resource type="Texture2D" uid="uid://b76ysevco3lfi" path="res://Assets/Карта/Карта 2.png" id="8_x8p64"]
+[ext_resource type="Texture2D" uid="uid://dow83vexn7cg8" path="res://Assets/Кнопка инвентаря.png" id="9_4v0tm"]
+[ext_resource type="Texture2D" uid="uid://c1r2pb7065wv5" path="res://Assets/Карта/Карта 3.png" id="9_m2fo0"]
+[ext_resource type="Texture2D" uid="uid://cp1rjbhsapvaj" path="res://Game/Sprites/Кнопка карты назад.png" id="10_adyfl"]
+[ext_resource type="Texture2D" uid="uid://cj1k7n0sm0amw" path="res://Assets/Items/Гранат.png" id="15_u6ngv"]
+[ext_resource type="Texture2D" uid="uid://bvs23l1s28hgi" path="res://Assets/Карта/Карта 4.png" id="16_c6j0n"]
+[ext_resource type="Texture2D" uid="uid://dk7vuonekn5ko" path="res://Assets/Карта/Карта 5.png" id="17_ihhus"]
+[ext_resource type="Texture2D" uid="uid://cdqp07p1pi0wi" path="res://Assets/Карта/Карта 6.png" id="18_vo3wa"]
+[ext_resource type="Texture2D" uid="uid://cepoag0rds7gd" path="res://Assets/Карта/Карта 7.png" id="19_vwtvc"]
+[ext_resource type="Texture2D" uid="uid://dnx6rgwhjtp52" path="res://Assets/Карта/Карта 8.png" id="20_i2v67"]
+[ext_resource type="Texture2D" uid="uid://bvwymvk6g43jo" path="res://Assets/Карта/Карта 9.png" id="21_8jrg0"]
+[ext_resource type="Texture2D" uid="uid://cutm5bgw2grgu" path="res://Assets/Карта/Карта 10.png" id="22_ye572"]
+[ext_resource type="Texture2D" uid="uid://beihr11c1s0dw" path="res://Assets/Карта/Карта 11.png" id="23_juys0"]
+[ext_resource type="Texture2D" uid="uid://bkjld0n6t2wbq" path="res://Assets/Карта/Карта 12.png" id="24_0so04"]
+[ext_resource type="Texture2D" uid="uid://cuwckt03fpp4f" path="res://Assets/Карта/Карта 13.png" id="25_kw7wo"]
+[ext_resource type="Texture2D" uid="uid://dm0e36wt73i2" path="res://Assets/Карта/Карта 14.png" id="26_2jebj"]
+[ext_resource type="Texture2D" uid="uid://7vgjpeib5ho" path="res://Assets/Карта/Карта 15.png" id="27_fppx6"]
+[ext_resource type="Texture2D" uid="uid://c1ixfoi8bnbhy" path="res://Assets/Карта/Карта 16.png" id="28_fgr4q"]
+[ext_resource type="Texture2D" uid="uid://co1ptvpxyufnj" path="res://Assets/Карта/Карта 17.png" id="29_kairl"]
+[ext_resource type="Texture2D" uid="uid://bgdybiyas3fos" path="res://Assets/Карта/Карта 18.png" id="30_t03cv"]
+[ext_resource type="Texture2D" uid="uid://csxl0t0br7k6m" path="res://Assets/Карта/Карта 19.png" id="31_kk83k"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5qdsi"]
+size = Vector2(42, 744)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ngtm"]
+size = Vector2(42, 744)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b706c"]
+size = Vector2(1596, 42)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gwn33"]
+size = Vector2(1596, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_024hf"]
+size = Vector2(84, 89)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4yvp8"]
+size = Vector2(84, 89)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_moqeu"]
+size = Vector2(83, 88)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0cvjr"]
+size = Vector2(84, 89)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_umpsx"]
+size = Vector2(84, 89)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yrxw5"]
+size = Vector2(84, 89)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nld6r"]
+size = Vector2(84, 89)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lnrly"]
+size = Vector2(84, 89)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j2u46"]
+size = Vector2(84, 89)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3oofw"]
+size = Vector2(84, 89)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mk7kv"]
+size = Vector2(73, 74)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yu6br"]
+size = Vector2(58, 53)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ov33n"]
+size = Vector2(37, 84)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ymrpn"]
+size = Vector2(68, 68)
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_eabhn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = 2
+texture = ExtResource("2_dnudx")
+centered = false
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+position = Vector2(54, 871)
+texture_normal = ExtResource("3_iyl1w")
+
+[node name="player" parent="." instance=ExtResource("4_vqj10")]
+z_index = 1
+position = Vector2(871, 494)
+
+[node name="Текст Брэндона" type="Label" parent="player"]
+z_index = 2
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -49.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("5_albnq")
+theme_override_font_sizes/font_size = 36
+horizontal_alignment = 1
+script = ExtResource("6_wbbbw")
+
+[node name="Timer" type="Timer" parent="player/Текст Брэндона"]
+wait_time = 1.5
+
+[node name="Area2D_Left" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D_Left"]
+position = Vector2(21, 372)
+shape = SubResource("RectangleShape2D_5qdsi")
+
+[node name="Area2D_Right" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D_Right"]
+position = Vector2(1659, 372)
+shape = SubResource("RectangleShape2D_7ngtm")
+
+[node name="Area2D_Up" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D_Up"]
+position = Vector2(840, 21)
+shape = SubResource("RectangleShape2D_b706c")
+
+[node name="Area2D_Down" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D_Down"]
+position = Vector2(840, 729)
+shape = SubResource("RectangleShape2D_gwn33")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+
+[node name="CanvasLayer Закрыть карту" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="Кнопка закрыть карту" type="TouchScreenButton" parent="CanvasLayer Закрыть карту"]
+z_index = 3
+position = Vector2(1591, 8)
+scale = Vector2(0.601563, 0.5625)
+texture_normal = ExtResource("7_a0dxe")
+
+[node name="Sprite2D для называния карты" type="Sprite2D" parent="CanvasLayer Закрыть карту"]
+z_index = 2
+scale = Vector2(1, 0.83)
+texture = ExtResource("8_45i7k")
+centered = false
+
+[node name="Название карты" type="Label" parent="CanvasLayer Закрыть карту"]
+z_index = 3
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 6.0
+offset_top = 20.0
+offset_right = 5.99988
+offset_bottom = 69.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("8_ihf26")
+theme_override_font_sizes/font_size = 48
+horizontal_alignment = 1
+
+[node name="Кнопка карта влево" type="TouchScreenButton" parent="CanvasLayer Закрыть карту"]
+visible = false
+z_index = 2
+position = Vector2(420, 5)
+scale = Vector2(0.55, 0.55)
+texture_normal = ExtResource("10_adyfl")
+
+[node name="Кнопка карта вправо" type="TouchScreenButton" parent="CanvasLayer Закрыть карту"]
+visible = false
+z_index = 2
+position = Vector2(1308, 77)
+rotation = 3.14159
+scale = Vector2(0.55, 0.55)
+texture_normal = ExtResource("10_adyfl")
+
+[node name="Ячейки инвентаря" type="Node2D" parent="."]
+
+[node name="Кнопка инвентаря" type="TouchScreenButton" parent="Ячейки инвентаря"]
+z_index = 2
+position = Vector2(1023, 890)
+scale = Vector2(0.45, 0.45)
+texture_normal = ExtResource("9_4v0tm")
+
+[node name="Ячейка 1" type="StaticBody2D" parent="Ячейки инвентаря"]
+
+[node name="Area2D Ячейка 1" type="Area2D" parent="Ячейки инвентаря/Ячейка 1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ячейки инвентаря/Ячейка 1/Area2D Ячейка 1"]
+position = Vector2(541, 884.5)
+shape = SubResource("RectangleShape2D_024hf")
+
+[node name="Ячейка 2" type="StaticBody2D" parent="Ячейки инвентаря"]
+
+[node name="Area2D Ячейка 2" type="Area2D" parent="Ячейки инвентаря/Ячейка 2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ячейки инвентаря/Ячейка 2/Area2D Ячейка 2"]
+position = Vector2(646, 884.5)
+shape = SubResource("RectangleShape2D_4yvp8")
+
+[node name="Ячейка 3" type="StaticBody2D" parent="Ячейки инвентаря"]
+
+[node name="Area2D Ячейка 3" type="Area2D" parent="Ячейки инвентаря/Ячейка 3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ячейки инвентаря/Ячейка 3/Area2D Ячейка 3"]
+position = Vector2(750.5, 884)
+shape = SubResource("RectangleShape2D_moqeu")
+
+[node name="Ячейка 4" type="StaticBody2D" parent="Ячейки инвентаря"]
+
+[node name="Area2D Ячейка 4" type="Area2D" parent="Ячейки инвентаря/Ячейка 4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ячейки инвентаря/Ячейка 4/Area2D Ячейка 4"]
+position = Vector2(856, 884.5)
+shape = SubResource("RectangleShape2D_0cvjr")
+
+[node name="Ячейка 5" type="StaticBody2D" parent="Ячейки инвентаря"]
+
+[node name="Area2D Ячейка 5" type="Area2D" parent="Ячейки инвентаря/Ячейка 5"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ячейки инвентаря/Ячейка 5/Area2D Ячейка 5"]
+position = Vector2(961, 884.5)
+shape = SubResource("RectangleShape2D_umpsx")
+
+[node name="Ячейка 6" type="StaticBody2D" parent="Ячейки инвентаря"]
+
+[node name="Area2D Ячейка 6" type="Area2D" parent="Ячейки инвентаря/Ячейка 6"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ячейки инвентаря/Ячейка 6/Area2D Ячейка 6"]
+position = Vector2(541, 994.5)
+shape = SubResource("RectangleShape2D_yrxw5")
+
+[node name="Ячейка 7" type="StaticBody2D" parent="Ячейки инвентаря"]
+
+[node name="Area2D Ячейка 7" type="Area2D" parent="Ячейки инвентаря/Ячейка 7"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ячейки инвентаря/Ячейка 7/Area2D Ячейка 7"]
+position = Vector2(646, 994.5)
+shape = SubResource("RectangleShape2D_nld6r")
+
+[node name="Ячейка 8" type="StaticBody2D" parent="Ячейки инвентаря"]
+
+[node name="Area2D Ячейка 8" type="Area2D" parent="Ячейки инвентаря/Ячейка 8"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ячейки инвентаря/Ячейка 8/Area2D Ячейка 8"]
+position = Vector2(751, 994.5)
+shape = SubResource("RectangleShape2D_lnrly")
+
+[node name="Ячейка 9" type="StaticBody2D" parent="Ячейки инвентаря"]
+
+[node name="Area2D Ячейка 9" type="Area2D" parent="Ячейки инвентаря/Ячейка 9"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ячейки инвентаря/Ячейка 9/Area2D Ячейка 9"]
+position = Vector2(856, 994.5)
+shape = SubResource("RectangleShape2D_j2u46")
+
+[node name="Ячейка 10" type="StaticBody2D" parent="Ячейки инвентаря"]
+
+[node name="Area2D Ячейка 10" type="Area2D" parent="Ячейки инвентаря/Ячейка 10"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ячейки инвентаря/Ячейка 10/Area2D Ячейка 10"]
+position = Vector2(961, 994.5)
+shape = SubResource("RectangleShape2D_3oofw")
+
+[node name="Главное меню" parent="." instance=ExtResource("5_vr18x")]
+visible = false
+
+[node name="Карта" parent="." instance=ExtResource("6_6jaip")]
+visible = false
+
+[node name="1" type="Sprite2D" parent="Карта"]
+visible = false
+z_index = 5
+position = Vector2(2880, 950)
+texture = ExtResource("7_qyiu3")
+centered = false
+
+[node name="2" type="Sprite2D" parent="Карта"]
+visible = false
+z_index = 5
+position = Vector2(2880, 1105)
+texture = ExtResource("8_x8p64")
+centered = false
+
+[node name="3" type="Sprite2D" parent="Карта"]
+visible = false
+z_index = 5
+position = Vector2(2857, 1260)
+texture = ExtResource("9_m2fo0")
+centered = false
+
+[node name="4" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(2526, 1260)
+texture = ExtResource("16_c6j0n")
+centered = false
+
+[node name="5" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(2218, 1237)
+texture = ExtResource("17_ihhus")
+centered = false
+
+[node name="6" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(2195, 1105)
+texture = ExtResource("18_vo3wa")
+centered = false
+
+[node name="7" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(1887, 1105)
+texture = ExtResource("19_vwtvc")
+centered = false
+
+[node name="8" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(3211, 1260)
+texture = ExtResource("20_i2v67")
+centered = false
+
+[node name="9" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(3542, 1260)
+texture = ExtResource("21_8jrg0")
+centered = false
+
+[node name="10" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(3873, 1237)
+texture = ExtResource("22_ye572")
+centered = false
+
+[node name="11" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(3850, 1105)
+texture = ExtResource("23_juys0")
+centered = false
+
+[node name="12" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(4204, 1105)
+texture = ExtResource("24_0so04")
+centered = false
+
+[node name="13" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(4535, 1105)
+texture = ExtResource("25_kw7wo")
+centered = false
+
+[node name="14" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(3542, 1105)
+texture = ExtResource("26_2jebj")
+centered = false
+
+[node name="15" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(3873, 1415)
+texture = ExtResource("27_fppx6")
+centered = false
+
+[node name="16" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(3850, 1570)
+texture = ExtResource("28_fgr4q")
+centered = false
+
+[node name="17" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(3519, 1570)
+texture = ExtResource("29_kairl")
+centered = false
+
+[node name="18" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(2857, 950)
+texture = ExtResource("30_t03cv")
+centered = false
+
+[node name="19" type="Sprite2D" parent="Карта"]
+visible = false
+position = Vector2(2526, 950)
+texture = ExtResource("31_kk83k")
+centered = false
+
+[node name="Итемы" type="Node2D" parent="."]
+
+[node name="Записка Брин" type="StaticBody2D" parent="Итемы"]
+z_index = 3
+position = Vector2(1117, 395)
+
+[node name="Sprite2D" type="Sprite2D" parent="Итемы/Записка Брин"]
+centered = false
+
+[node name="Area2D" type="Area2D" parent="Итемы/Записка Брин"]
+position = Vector2(1117, 430)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Итемы/Записка Брин/Area2D"]
+position = Vector2(-1074.5, -383)
+shape = SubResource("RectangleShape2D_mk7kv")
+
+[node name="Гранат" type="StaticBody2D" parent="Итемы"]
+z_index = 3
+position = Vector2(1259, 367)
+
+[node name="Sprite2D" type="Sprite2D" parent="Итемы/Гранат"]
+texture = ExtResource("15_u6ngv")
+centered = false
+
+[node name="Area2D Гранат" type="Area2D" parent="Итемы/Гранат"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Итемы/Гранат/Area2D Гранат"]
+position = Vector2(40, 57.5)
+shape = SubResource("RectangleShape2D_yu6br")
+
+[node name="Пила" type="StaticBody2D" parent="Итемы"]
+z_index = 3
+position = Vector2(1320, 505)
+
+[node name="Sprite2D" type="Sprite2D" parent="Итемы/Пила"]
+centered = false
+
+[node name="Area2D Пила" type="Area2D" parent="Итемы/Пила"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Итемы/Пила/Area2D Пила"]
+position = Vector2(39.5, 42)
+shape = SubResource("RectangleShape2D_ov33n")
+
+[node name="Яблоко" type="StaticBody2D" parent="Итемы"]
+z_index = 3
+position = Vector2(185, 530)
+
+[node name="Sprite2D" type="Sprite2D" parent="Итемы/Яблоко"]
+centered = false
+
+[node name="Area2D Яблоко" type="Area2D" parent="Итемы/Яблоко"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Итемы/Яблоко/Area2D Яблоко"]
+position = Vector2(40, 50)
+shape = SubResource("RectangleShape2D_ymrpn")
+
+[node name="Текстовое поле под игровым окном" type="Label" parent="."]
+z_index = 2
+offset_left = 47.0
+offset_top = 756.0
+offset_right = 1638.0
+offset_bottom = 799.0
+theme_override_fonts/font = ExtResource("5_albnq")
+theme_override_font_sizes/font_size = 36
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(42, 42)
+centered = false
+
+[connection signal="pressed" from="TouchScreenButton" to="." method="_on_touch_screen_button_pressed"]
+[connection signal="timeout" from="player/Текст Брэндона/Timer" to="." method="_on_timer_timeout"]
+[connection signal="body_entered" from="Area2D_Left" to="." method="_on_area_2d_left_body_entered"]
+[connection signal="body_exited" from="Area2D_Left" to="." method="_on_area_2d_left_body_exited"]
+[connection signal="mouse_entered" from="Area2D_Left" to="." method="_on_area_2d_left_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D_Left" to="." method="_on_area_2d_left_mouse_exited"]
+[connection signal="body_entered" from="Area2D_Right" to="." method="_on_area_2d_right_body_entered"]
+[connection signal="body_exited" from="Area2D_Right" to="." method="_on_area_2d_right_body_exited"]
+[connection signal="mouse_entered" from="Area2D_Right" to="." method="_on_area_2d_right_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D_Right" to="." method="_on_area_2d_right_mouse_exited"]
+[connection signal="body_entered" from="Area2D_Up" to="." method="_on_area_2d_up_body_entered"]
+[connection signal="body_exited" from="Area2D_Up" to="." method="_on_area_2d_up_body_exited"]
+[connection signal="mouse_entered" from="Area2D_Up" to="." method="_on_area_2d_up_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D_Up" to="." method="_on_area_2d_up_mouse_exited"]
+[connection signal="body_entered" from="Area2D_Down" to="." method="_on_area_2d_down_body_entered"]
+[connection signal="body_exited" from="Area2D_Down" to="." method="_on_area_2d_down_body_exited"]
+[connection signal="input_event" from="Area2D_Down" to="." method="_on_area_2d_down_input_event"]
+[connection signal="mouse_entered" from="Area2D_Down" to="." method="_on_area_2d_down_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D_Down" to="." method="_on_area_2d_down_mouse_exited"]
+[connection signal="pressed" from="CanvasLayer Закрыть карту/Кнопка закрыть карту" to="." method="_on_кнопка_закрыть_карту_pressed"]
+[connection signal="pressed" from="CanvasLayer Закрыть карту/Кнопка карта влево" to="." method="_on_кнопка_карта_влево_pressed"]
+[connection signal="pressed" from="CanvasLayer Закрыть карту/Кнопка карта вправо" to="." method="_on_кнопка_карта_вправо_pressed"]
+[connection signal="pressed" from="Ячейки инвентаря/Кнопка инвентаря" to="." method="_on_кнопка_инвентаря_pressed"]
+[connection signal="mouse_entered" from="Ячейки инвентаря/Ячейка 1/Area2D Ячейка 1" to="." method="_on_area_2d_ячейка_1_mouse_entered"]
+[connection signal="mouse_exited" from="Ячейки инвентаря/Ячейка 1/Area2D Ячейка 1" to="." method="_on_area_2d_ячейка_1_mouse_exited"]
+[connection signal="mouse_entered" from="Ячейки инвентаря/Ячейка 2/Area2D Ячейка 2" to="." method="_on_area_2d_ячейка_2_mouse_entered"]
+[connection signal="mouse_exited" from="Ячейки инвентаря/Ячейка 2/Area2D Ячейка 2" to="." method="_on_area_2d_ячейка_2_mouse_exited"]
+[connection signal="mouse_entered" from="Ячейки инвентаря/Ячейка 3/Area2D Ячейка 3" to="." method="_on_area_2d_ячейка_3_mouse_entered"]
+[connection signal="mouse_exited" from="Ячейки инвентаря/Ячейка 3/Area2D Ячейка 3" to="." method="_on_area_2d_ячейка_3_mouse_exited"]
+[connection signal="mouse_entered" from="Ячейки инвентаря/Ячейка 4/Area2D Ячейка 4" to="." method="_on_area_2d_ячейка_4_mouse_entered"]
+[connection signal="mouse_exited" from="Ячейки инвентаря/Ячейка 4/Area2D Ячейка 4" to="." method="_on_area_2d_ячейка_4_mouse_exited"]
+[connection signal="mouse_entered" from="Ячейки инвентаря/Ячейка 5/Area2D Ячейка 5" to="." method="_on_area_2d_ячейка_5_mouse_entered"]
+[connection signal="mouse_exited" from="Ячейки инвентаря/Ячейка 5/Area2D Ячейка 5" to="." method="_on_area_2d_ячейка_5_mouse_exited"]
+[connection signal="mouse_entered" from="Ячейки инвентаря/Ячейка 6/Area2D Ячейка 6" to="." method="_on_area_2d_ячейка_6_mouse_entered"]
+[connection signal="mouse_exited" from="Ячейки инвентаря/Ячейка 6/Area2D Ячейка 6" to="." method="_on_area_2d_ячейка_6_mouse_exited"]
+[connection signal="mouse_entered" from="Ячейки инвентаря/Ячейка 7/Area2D Ячейка 7" to="." method="_on_area_2d_ячейка_7_mouse_entered"]
+[connection signal="mouse_exited" from="Ячейки инвентаря/Ячейка 7/Area2D Ячейка 7" to="." method="_on_area_2d_ячейка_7_mouse_exited"]
+[connection signal="mouse_entered" from="Ячейки инвентаря/Ячейка 8/Area2D Ячейка 8" to="." method="_on_area_2d_ячейка_8_mouse_entered"]
+[connection signal="mouse_exited" from="Ячейки инвентаря/Ячейка 8/Area2D Ячейка 8" to="." method="_on_area_2d_ячейка_8_mouse_exited"]
+[connection signal="mouse_entered" from="Ячейки инвентаря/Ячейка 9/Area2D Ячейка 9" to="." method="_on_area_2d_ячейка_9_mouse_entered"]
+[connection signal="mouse_exited" from="Ячейки инвентаря/Ячейка 9/Area2D Ячейка 9" to="." method="_on_area_2d_ячейка_9_mouse_exited"]
+[connection signal="mouse_entered" from="Ячейки инвентаря/Ячейка 10/Area2D Ячейка 10" to="." method="_on_area_2d_ячейка_10_mouse_entered"]
+[connection signal="mouse_exited" from="Ячейки инвентаря/Ячейка 10/Area2D Ячейка 10" to="." method="_on_area_2d_ячейка_10_mouse_exited"]
+[connection signal="input_event" from="Итемы/Записка Брин/Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="input_event" from="Итемы/Гранат/Area2D Гранат" to="." method="_on_area_2d_гранат_input_event"]
+[connection signal="input_event" from="Итемы/Пила/Area2D Пила" to="." method="_on_area_2d_пила_input_event"]
+[connection signal="input_event" from="Итемы/Яблоко/Area2D Яблоко" to="." method="_on_area_2d_яблоко_input_event"]

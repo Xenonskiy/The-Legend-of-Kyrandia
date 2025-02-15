@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bmhj6opk0j0gp"
+path="res://.godot/imported/07 Оригинал The Temple of Kyrandia.mp3-bdefde98898598b0aae82e15390f0dde.mp3str"
+
+[deps]
+
+source_file="res://Assets/Музыка/07 Оригинал The Temple of Kyrandia.mp3"
+dest_files=["res://.godot/imported/07 Оригинал The Temple of Kyrandia.mp3-bdefde98898598b0aae82e15390f0dde.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

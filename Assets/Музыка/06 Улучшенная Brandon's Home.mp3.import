@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cl2x31arxqkkf"
+path="res://.godot/imported/06 Улучшенная Brandon's Home.mp3-571452f2121d85df3458f80afa055b42.mp3str"
+
+[deps]
+
+source_file="res://Assets/Музыка/06 Улучшенная Brandon's Home.mp3"
+dest_files=["res://.godot/imported/06 Улучшенная Brandon's Home.mp3-571452f2121d85df3458f80afa055b42.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

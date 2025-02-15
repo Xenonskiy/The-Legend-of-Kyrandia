@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cakkv1umn3lyi"
+path="res://.godot/imported/09 Оригинал Pool of Sorrow.mp3-8e2f49f713f014e1ad43a9e110b6f317.mp3str"
+
+[deps]
+
+source_file="res://Assets/Музыка/09 Оригинал Pool of Sorrow.mp3"
+dest_files=["res://.godot/imported/09 Оригинал Pool of Sorrow.mp3-8e2f49f713f014e1ad43a9e110b6f317.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

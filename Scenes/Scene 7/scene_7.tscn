@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=3 uid="uid://djd3tgi67xbdd"]
+
+[ext_resource type="Script" path="res://Scenes/Scene 7/scene_7.gd" id="1_wpsvc"]
+[ext_resource type="VideoStream" path="res://Scenes/Scene 7/Брин выходит первый раз.ogv" id="2_3405n"]
+[ext_resource type="Texture2D" uid="uid://dr8mmey5fs4h2" path="res://Scenes/Scene 7/Брин.png" id="4_7lotl"]
+[ext_resource type="Script" path="res://Scenes/Scene 7/текст_брин.gd" id="4_e2ena"]
+[ext_resource type="FontFile" uid="uid://bxlq43i6a6tk3" path="res://Assets/Шрифты/PressStart2P-Regular.ttf" id="4_kvx4n"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_radul"]
+load_path = "res://.godot/imported/7 Оригинал.png-a7be05b480ff6da502864d1399c436ab.ctex"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3ghp1"]
+size = Vector2(68, 233)
+
+[node name="Scene 7" type="Sprite2D"]
+position = Vector2(42, 42)
+texture = SubResource("CompressedTexture2D_radul")
+centered = false
+script = ExtResource("1_wpsvc")
+
+[node name="Брин" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(185, 466)
+texture = ExtResource("4_7lotl")
+
+[node name="Текст Брин" type="Label" parent="Брин"]
+z_index = 1
+offset_left = -108.0
+offset_top = -403.0
+offset_right = 741.0
+offset_bottom = -255.0
+theme_override_fonts/font = ExtResource("4_kvx4n")
+theme_override_font_sizes/font_size = 36
+script = ExtResource("4_e2ena")
+
+[node name="Timer" type="Timer" parent="Брин/Текст Брин"]
+wait_time = 3.0
+
+[node name="Area2D Брин" type="Area2D" parent="Брин"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Брин/Area2D Брин"]
+position = Vector2(3, -77.5)
+shape = SubResource("RectangleShape2D_3ghp1")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_top = 240.0
+offset_right = 256.0
+offset_bottom = 672.0
+stream = ExtResource("2_3405n")
+autoplay = true
+
+[connection signal="timeout" from="Брин/Текст Брин/Timer" to="." method="_on_timer_timeout"]
+[connection signal="input_event" from="Брин/Area2D Брин" to="." method="_on_area_2d_брин_input_event"]
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

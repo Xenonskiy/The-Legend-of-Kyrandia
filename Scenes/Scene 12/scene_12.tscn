@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://da60fqyw1bjs"]
+
+[ext_resource type="Script" path="res://Scenes/Scene 12/scene_12.gd" id="1_vudrr"]
+
+[node name="Scene 12" type="Sprite2D"]
+position = Vector2(42, 42)
+centered = false
+script = ExtResource("1_vudrr")
