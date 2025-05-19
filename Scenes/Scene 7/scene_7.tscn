@@ -1,0 +1,3352 @@
+[gd_scene load_steps=808 format=3 uid="uid://djd3tgi67xbdd"]
+
+[ext_resource type="Texture2D" uid="uid://cd1mn0r5nftu7" path="res://Scenes/Scene 7/7 Оригинал.png" id="1_65r5f"]
+[ext_resource type="Script" uid="uid://c7mwc0vcoytff" path="res://Scenes/Scene 7/scene_7.gd" id="1_wpsvc"]
+[ext_resource type="Texture2D" uid="uid://bn006nu6vfmrs" path="res://Scenes/Scene 7/Брин.png" id="4_7lotl"]
+[ext_resource type="Script" uid="uid://dt7ia261cn282" path="res://Scenes/Scene 7/текст_брин.gd" id="4_e2ena"]
+[ext_resource type="FontFile" uid="uid://bxlq43i6a6tk3" path="res://Assets/Шрифты/PressStart2P-Regular.ttf" id="4_kvx4n"]
+[ext_resource type="Texture2D" uid="uid://b1tjmoawv0u7k" path="res://Scenes/Scene 7/Огонь 1.png" id="7_px10w"]
+[ext_resource type="Texture2D" uid="uid://bsc2cat0xn32k" path="res://Scenes/Scene 7/Огонь 2.png" id="8_msylo"]
+[ext_resource type="Texture2D" uid="uid://b1v8kwlpxs4uy" path="res://Scenes/Scene 7/Огонь 3.png" id="9_5ojp3"]
+[ext_resource type="Texture2D" uid="uid://haj5778std3c" path="res://Scenes/Scene 7/Брин 1.png" id="9_t44rv"]
+[ext_resource type="Texture2D" uid="uid://bp4hengymg5sw" path="res://Scenes/Scene 7/Брин 2.png" id="10_1c70f"]
+[ext_resource type="Texture2D" uid="uid://c1it13imjl7jf" path="res://Scenes/Scene 7/Брин 3.png" id="11_3gkdu"]
+[ext_resource type="Texture2D" uid="uid://vi4qx6h8yenf" path="res://Scenes/Scene 7/Брин 4.png" id="12_t0m4r"]
+[ext_resource type="Texture2D" uid="uid://bb62eysl8bgts" path="res://Scenes/Scene 7/Брин 5.png" id="13_dbeyi"]
+[ext_resource type="Texture2D" uid="uid://c5qdjwte47ohb" path="res://Scenes/Scene 7/Брин 6.png" id="14_d65nc"]
+[ext_resource type="Texture2D" uid="uid://w3uw4ovh8lwj" path="res://Scenes/Scene 7/Брин 7.png" id="15_yymp1"]
+[ext_resource type="Texture2D" uid="uid://qyqf0qd03e52" path="res://Scenes/Scene 7/Брин 8.png" id="16_wp7q8"]
+[ext_resource type="Texture2D" uid="uid://csxdvnad70dpq" path="res://Scenes/Scene 7/Брин 9.png" id="17_51xim"]
+[ext_resource type="Texture2D" uid="uid://dp4q5qijxbap6" path="res://Scenes/Scene 7/Брин 10.png" id="18_58rx0"]
+[ext_resource type="Texture2D" uid="uid://db2kiada5jhon" path="res://Scenes/Scene 7/Брин 11.png" id="19_evbmv"]
+[ext_resource type="Texture2D" uid="uid://bgl37mfmkt1s2" path="res://Scenes/Scene 7/Брин 12.png" id="20_27aem"]
+[ext_resource type="Texture2D" uid="uid://ckg1wosxn4u" path="res://Scenes/Scene 7/Брин 13.png" id="21_v5bb7"]
+[ext_resource type="Texture2D" uid="uid://dyi2w1e2jnk0k" path="res://Scenes/Scene 7/Брин 14.png" id="22_oevph"]
+[ext_resource type="Texture2D" uid="uid://delnlp0e2smrl" path="res://Scenes/Scene 7/Брин 15.png" id="23_jlfxw"]
+[ext_resource type="Texture2D" uid="uid://0or238o1pa3a" path="res://Scenes/Scene 7/Брин 16.png" id="24_mpjhn"]
+[ext_resource type="Texture2D" uid="uid://hkkwn4xejfp5" path="res://Scenes/Scene 7/Брин 17.png" id="25_r31ii"]
+[ext_resource type="Texture2D" uid="uid://div8mx6x013cx" path="res://Scenes/Scene 7/Брин 18.png" id="26_u7i5o"]
+[ext_resource type="Texture2D" uid="uid://djoyocxhdwrou" path="res://Scenes/Scene 7/Брин 19.png" id="27_up00b"]
+[ext_resource type="Texture2D" uid="uid://chaj3r4ckpkkr" path="res://Scenes/Scene 7/Брин 20.png" id="28_0or6q"]
+[ext_resource type="Texture2D" uid="uid://dfe60a1c223rk" path="res://Scenes/Scene 7/Брин 21.png" id="29_16of7"]
+[ext_resource type="Texture2D" uid="uid://trc8ddsjpxx8" path="res://Scenes/Scene 7/Брин 22.png" id="30_2vw55"]
+[ext_resource type="Texture2D" uid="uid://cjqcpcy653xn5" path="res://Scenes/Scene 7/Брин 23.png" id="31_kq0s3"]
+[ext_resource type="Texture2D" uid="uid://bo1waf3npvvme" path="res://Scenes/Scene 7/Брин 24.png" id="32_1lape"]
+[ext_resource type="Texture2D" uid="uid://bfyqb3l0pfcm" path="res://Scenes/Scene 7/Брин 25.png" id="33_s3ba6"]
+[ext_resource type="Texture2D" uid="uid://dpp2d14knjqba" path="res://Scenes/Scene 7/Брин 26.png" id="34_us0lb"]
+[ext_resource type="Texture2D" uid="uid://caavh0t18wie3" path="res://Scenes/Scene 7/Брин 27.png" id="35_h2mpt"]
+[ext_resource type="Texture2D" uid="uid://bmvgfxivwy0yp" path="res://Scenes/Scene 7/Брин 28.png" id="36_ip64a"]
+[ext_resource type="Texture2D" uid="uid://hsxdg2ahm08n" path="res://Scenes/Scene 7/Брин 29.png" id="37_isimq"]
+[ext_resource type="Texture2D" uid="uid://5eyjd4pq6jy3" path="res://Scenes/Scene 7/Брин 30.png" id="38_sxnsk"]
+[ext_resource type="Texture2D" uid="uid://bugwebiagxuoj" path="res://Scenes/Scene 7/Брин 31.png" id="39_8cxon"]
+[ext_resource type="Texture2D" uid="uid://dbuxh2rce6oia" path="res://Scenes/Scene 7/Брин 32.png" id="40_roax4"]
+[ext_resource type="Texture2D" uid="uid://ce8ifaa50bshv" path="res://Scenes/Scene 7/Брин 33.png" id="41_w12bn"]
+[ext_resource type="Texture2D" uid="uid://cdnss33lqrc8s" path="res://Scenes/Scene 7/Брин 34.png" id="42_n18tr"]
+[ext_resource type="Texture2D" uid="uid://dvq0vu5rw2kgi" path="res://Scenes/Scene 7/Брин 35.png" id="43_xl80g"]
+[ext_resource type="Texture2D" uid="uid://ssmmthvq50ui" path="res://Scenes/Scene 7/Брин 36.png" id="44_0x1sk"]
+[ext_resource type="Texture2D" uid="uid://ctgjj40bm5aq6" path="res://Scenes/Scene 7/Брин 37.png" id="45_onvgj"]
+[ext_resource type="Texture2D" uid="uid://dtxwhsvg008tu" path="res://Scenes/Scene 7/Брин 38.png" id="46_45jgq"]
+[ext_resource type="Texture2D" uid="uid://db61363iycrkv" path="res://Scenes/Scene 7/Брин 39.png" id="47_66yrb"]
+[ext_resource type="Texture2D" uid="uid://cf70w4b4qr7bt" path="res://Scenes/Scene 7/Брин 40.png" id="48_5smfe"]
+[ext_resource type="Texture2D" uid="uid://cv0dbw424jwg1" path="res://Scenes/Scene 7/Брин 41.png" id="49_l4e0i"]
+[ext_resource type="Texture2D" uid="uid://cwnkksswhfh6a" path="res://Scenes/Scene 7/Брин 42.png" id="50_s31ag"]
+[ext_resource type="Texture2D" uid="uid://dba3ab3vn1wsg" path="res://Scenes/Scene 7/Брин 43.png" id="51_cycp1"]
+[ext_resource type="Texture2D" uid="uid://cuiygsxgmjjii" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 1.png" id="51_u0e5i"]
+[ext_resource type="Texture2D" uid="uid://b4uu7fa5a40os" path="res://Scenes/Scene 7/Брин 44.png" id="52_7ui48"]
+[ext_resource type="Texture2D" uid="uid://bi6eu6wtxw6de" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 2.png" id="52_jnkyc"]
+[ext_resource type="Texture2D" uid="uid://bdl66uxf1a2ce" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 3.png" id="53_pxil5"]
+[ext_resource type="Texture2D" uid="uid://bb7wi0npwlk3g" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 4.png" id="54_5785i"]
+[ext_resource type="Texture2D" uid="uid://b88vfvcgxs3so" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 5.png" id="55_7d1fc"]
+[ext_resource type="Texture2D" uid="uid://22fxmc43nx0x" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 6.png" id="56_e4nsk"]
+[ext_resource type="Texture2D" uid="uid://bm3k6vs1u6u4w" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 7.png" id="57_lracd"]
+[ext_resource type="Texture2D" uid="uid://dlxedm46nf7rb" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 8.png" id="58_ikum7"]
+[ext_resource type="Texture2D" uid="uid://c1hvrv25hevfa" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 9.png" id="59_hi328"]
+[ext_resource type="Texture2D" uid="uid://800bffs5f83b" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 10.png" id="60_yuces"]
+[ext_resource type="Texture2D" uid="uid://cljedit6q34t6" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 11.png" id="61_nd0i5"]
+[ext_resource type="Texture2D" uid="uid://k8rf0uwpo6rs" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 12.png" id="62_hg3hd"]
+[ext_resource type="Texture2D" uid="uid://baqang0y5q2l6" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 13.png" id="63_ifxcj"]
+[ext_resource type="Texture2D" uid="uid://b5ig4p7ue13fa" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 14.png" id="64_oc2na"]
+[ext_resource type="Texture2D" uid="uid://baf8e02mlfgvp" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 15.png" id="65_eeafk"]
+[ext_resource type="Texture2D" uid="uid://bdxryb6lgsi7b" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 16.png" id="66_fgv30"]
+[ext_resource type="Texture2D" uid="uid://dillr5brgi4xo" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 17.png" id="67_3nyap"]
+[ext_resource type="Texture2D" uid="uid://lmfey2cc6s1w" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 18.png" id="68_umxm7"]
+[ext_resource type="Texture2D" uid="uid://c4g3yubktxgbw" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 19.png" id="69_cdgac"]
+[ext_resource type="Texture2D" uid="uid://dg05eal8lgbws" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 20.png" id="70_oypre"]
+[ext_resource type="Texture2D" uid="uid://dfyd2xdas3q4l" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 21.png" id="71_favdj"]
+[ext_resource type="Texture2D" uid="uid://dy1kx4b2gyt5c" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 22.png" id="72_2ng7u"]
+[ext_resource type="Texture2D" uid="uid://dj4bbko6mrvh1" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 23.png" id="73_bomnd"]
+[ext_resource type="Texture2D" uid="uid://caof73gk3s2gs" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 24.png" id="74_vhkhf"]
+[ext_resource type="Texture2D" uid="uid://bbppvwk7ei05d" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 25.png" id="75_cxfua"]
+[ext_resource type="Texture2D" uid="uid://323v62f5llhi" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 26.png" id="76_hpvl5"]
+[ext_resource type="Texture2D" uid="uid://05duru5ckkis" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 27.png" id="77_1gpky"]
+[ext_resource type="Texture2D" uid="uid://g0oxrlqlwnev" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 28.png" id="78_6x1ik"]
+[ext_resource type="Texture2D" uid="uid://cvytudkvxc2am" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 29.png" id="79_2c7mq"]
+[ext_resource type="Texture2D" uid="uid://dbgrk1p0ate45" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 30.png" id="80_kqlwh"]
+[ext_resource type="Texture2D" uid="uid://eemo2b8wa36r" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 31.png" id="81_ct56l"]
+[ext_resource type="Texture2D" uid="uid://bqhltlgpaimjh" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 32.png" id="82_dswsx"]
+[ext_resource type="Texture2D" uid="uid://bn26plkre42oq" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 33.png" id="83_rowkx"]
+[ext_resource type="Texture2D" uid="uid://0sbqi67457ar" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 34.png" id="84_rct1d"]
+[ext_resource type="Texture2D" uid="uid://c7drbcdndewrg" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 35.png" id="85_pq3cy"]
+[ext_resource type="Texture2D" uid="uid://crdks5qj6ttnl" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 36.png" id="86_khtd0"]
+[ext_resource type="Texture2D" uid="uid://sp8d8fkrf6kc" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 37.png" id="87_r7a6h"]
+[ext_resource type="Texture2D" uid="uid://cdup0fm0c2tc6" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 38.png" id="88_q5eoc"]
+[ext_resource type="Texture2D" uid="uid://cyqu6klmlcd3r" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 39.png" id="89_clsky"]
+[ext_resource type="Texture2D" uid="uid://j50mpjmk0cmp" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 40.png" id="90_ovj3s"]
+[ext_resource type="Texture2D" uid="uid://bteajq3fjslm2" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 41.png" id="91_xvdd3"]
+[ext_resource type="Texture2D" uid="uid://ddpyu2huqrt1u" path="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon_номер_1 42.png" id="92_5q2cb"]
+[ext_resource type="Texture2D" uid="uid://x23gtdkuj5tt" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 1.png" id="93_0n2kh"]
+[ext_resource type="Texture2D" uid="uid://bsryn8tccn0p6" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 1.png" id="93_rquqp"]
+[ext_resource type="Texture2D" uid="uid://r3urrvmlrxal" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 2.png" id="94_4eqp0"]
+[ext_resource type="Texture2D" uid="uid://cl4edtas0ws7o" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 2.png" id="94_cbv6p"]
+[ext_resource type="Texture2D" uid="uid://bxletq7my1dlm" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 3.png" id="95_0p7s5"]
+[ext_resource type="Texture2D" uid="uid://dsxvponj53phj" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 3.png" id="95_w7gel"]
+[ext_resource type="Texture2D" uid="uid://bj6yamaorf51j" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 4.png" id="96_bbxbs"]
+[ext_resource type="Texture2D" uid="uid://laxuhj21kib" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 4.png" id="96_fp005"]
+[ext_resource type="Texture2D" uid="uid://bn3q7q14usact" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 5.png" id="97_157qx"]
+[ext_resource type="Texture2D" uid="uid://cohqa1vi11n2a" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 5.png" id="97_xsbir"]
+[ext_resource type="Texture2D" uid="uid://xm3igbbj7uan" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 6.png" id="98_jasi5"]
+[ext_resource type="Texture2D" uid="uid://c8eksqmwkgd0u" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 6.png" id="98_lqfvb"]
+[ext_resource type="Texture2D" uid="uid://vrtv4njh17hx" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 7.png" id="99_ofrt6"]
+[ext_resource type="Texture2D" uid="uid://2f1kllsfh8tp" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 7.png" id="99_w03n7"]
+[ext_resource type="Texture2D" uid="uid://cxfwx3uyam4sg" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 8.png" id="100_mhej6"]
+[ext_resource type="Texture2D" uid="uid://cid2ga81m52g8" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 8.png" id="100_n87uf"]
+[ext_resource type="Texture2D" uid="uid://cyf1m65t72482" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 9.png" id="101_4d8cp"]
+[ext_resource type="Texture2D" uid="uid://che6kigryeuda" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 9.png" id="101_xqgt4"]
+[ext_resource type="Texture2D" uid="uid://de302kl4x6g6u" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 10.png" id="102_efnk6"]
+[ext_resource type="Texture2D" uid="uid://2un7lrisiejo" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 10.png" id="102_ua0m2"]
+[ext_resource type="Texture2D" uid="uid://gikx3cw23gqi" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 11.png" id="103_5ajt3"]
+[ext_resource type="Texture2D" uid="uid://bpgr7cjjghr24" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 11.png" id="103_r3bbe"]
+[ext_resource type="Texture2D" uid="uid://de7be10p1gmvt" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 12.png" id="104_be64o"]
+[ext_resource type="Texture2D" uid="uid://dihhv740a1r23" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 12.png" id="104_y623o"]
+[ext_resource type="Texture2D" uid="uid://c3y2a7xvoefo4" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 13.png" id="105_7eamd"]
+[ext_resource type="Texture2D" uid="uid://b4pqhytdpcpqb" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 13.png" id="105_uo232"]
+[ext_resource type="Texture2D" uid="uid://b5g5563vipb7c" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 14.png" id="106_2n2ne"]
+[ext_resource type="Texture2D" uid="uid://bah6oah3xdbww" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 14.png" id="106_5rrs0"]
+[ext_resource type="Texture2D" uid="uid://cf13378wtv3a4" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 15.png" id="107_htyf2"]
+[ext_resource type="Texture2D" uid="uid://dssi7kayfwxdb" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 15.png" id="107_xn5i1"]
+[ext_resource type="Texture2D" uid="uid://do3nwarajj3yk" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 16.png" id="108_bq5yu"]
+[ext_resource type="Texture2D" uid="uid://cot2qns7xkgqr" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 16.png" id="108_vd77o"]
+[ext_resource type="Texture2D" uid="uid://c454pyyutihgf" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 17.png" id="109_h38jo"]
+[ext_resource type="Texture2D" uid="uid://ccqdmx4375t53" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 17.png" id="109_se0go"]
+[ext_resource type="Texture2D" uid="uid://c20d6a1723ml7" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 18.png" id="110_qyyc8"]
+[ext_resource type="Texture2D" uid="uid://cojpgbyg8ble3" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 18.png" id="110_uarh2"]
+[ext_resource type="Texture2D" uid="uid://c245nnjvanrsp" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 19.png" id="111_3p4cd"]
+[ext_resource type="Texture2D" uid="uid://d3w8cto0dejpp" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 19.png" id="111_wfdap"]
+[ext_resource type="Texture2D" uid="uid://chwlxy250f6ky" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 20.png" id="112_6p3fv"]
+[ext_resource type="Texture2D" uid="uid://db6jsa20sq3k8" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 20.png" id="112_yj32y"]
+[ext_resource type="Texture2D" uid="uid://wtdoupjhgacp" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 21.png" id="113_fibo8"]
+[ext_resource type="Texture2D" uid="uid://biwm7wbtgl05l" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 21.png" id="113_pa0om"]
+[ext_resource type="Texture2D" uid="uid://dr4gqop03pvqa" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 22.png" id="114_ul2qh"]
+[ext_resource type="Texture2D" uid="uid://cf1tj6wjbbskl" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 22.png" id="114_yusqn"]
+[ext_resource type="Texture2D" uid="uid://byhcww714sgng" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 23.png" id="115_qd2ie"]
+[ext_resource type="Texture2D" uid="uid://fwjxwngqjc7t" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 23.png" id="115_vbba3"]
+[ext_resource type="Texture2D" uid="uid://bxgstok4mhlk7" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 24.png" id="116_0attn"]
+[ext_resource type="Texture2D" uid="uid://4hpbyspwk1kq" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 24.png" id="116_a6dcb"]
+[ext_resource type="Texture2D" uid="uid://l0nnr57gtfcl" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 25.png" id="117_7hxl3"]
+[ext_resource type="Texture2D" uid="uid://ciuvonka0l8oo" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 25.png" id="117_q7tbv"]
+[ext_resource type="Texture2D" uid="uid://bt01kkvr3rube" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 26.png" id="118_7u7at"]
+[ext_resource type="Texture2D" uid="uid://bpgpbvkfq8smr" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 26.png" id="118_k2t2n"]
+[ext_resource type="Texture2D" uid="uid://drw05xm3rdymh" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 27.png" id="119_ai68q"]
+[ext_resource type="Texture2D" uid="uid://hk5w5vhnwj7g" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 27.png" id="119_ldsio"]
+[ext_resource type="Texture2D" uid="uid://v5070xh6dno2" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 28.png" id="120_o2obl"]
+[ext_resource type="Texture2D" uid="uid://d22utqefktrj4" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 28.png" id="120_xr6ya"]
+[ext_resource type="Texture2D" uid="uid://doywv0ijfr26c" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 29.png" id="121_ghcpq"]
+[ext_resource type="Script" uid="uid://baekkunu6v6ct" path="res://Scenes/Scene 7/текст_брэндона_в_сцене_с_брин.gd" id="121_m0e1f"]
+[ext_resource type="Texture2D" uid="uid://dowqarrfjsbnm" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 29.png" id="121_v4cep"]
+[ext_resource type="Texture2D" uid="uid://bscf7jhdawlxq" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 30.png" id="122_5qcwn"]
+[ext_resource type="Texture2D" uid="uid://brkstlqvuohmf" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 30.png" id="122_y02wd"]
+[ext_resource type="Texture2D" uid="uid://3f8h81lg18rx" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 31.png" id="123_s7jq0"]
+[ext_resource type="Texture2D" uid="uid://ehc6yiy6fw8g" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 31.png" id="123_vwafy"]
+[ext_resource type="Texture2D" uid="uid://ba4t1iqkbgruq" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 32.png" id="124_4glhv"]
+[ext_resource type="Texture2D" uid="uid://dg1hvvgyaema3" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 32.png" id="124_vhsyl"]
+[ext_resource type="Texture2D" uid="uid://dsrubby81rikt" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 33.png" id="125_e6lxq"]
+[ext_resource type="Texture2D" uid="uid://bss28ocambkxp" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 33.png" id="125_ovbcj"]
+[ext_resource type="Texture2D" uid="uid://cibeu4gjnrstj" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 34.png" id="126_hkvef"]
+[ext_resource type="Texture2D" uid="uid://4ba2mbjocuqu" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 34.png" id="126_hqigy"]
+[ext_resource type="Texture2D" uid="uid://ds1ts6dilxxnn" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 35.png" id="127_323tl"]
+[ext_resource type="Texture2D" uid="uid://bam0kmtk5iya0" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 35.png" id="127_spbqu"]
+[ext_resource type="Texture2D" uid="uid://ddboi0ukuxekc" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 36.png" id="128_c6clk"]
+[ext_resource type="Texture2D" uid="uid://cbox6e3kfkh67" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 36.png" id="128_ht6ir"]
+[ext_resource type="Texture2D" uid="uid://1xs6405mbd3c" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 37.png" id="129_6423t"]
+[ext_resource type="Texture2D" uid="uid://e4eryrs02x11" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 37.png" id="129_jm8al"]
+[ext_resource type="Texture2D" uid="uid://cxxola72283mb" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 38.png" id="130_b6jwu"]
+[ext_resource type="Texture2D" uid="uid://cfjgs6g8f2a45" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 38.png" id="130_cjqie"]
+[ext_resource type="Texture2D" uid="uid://cs2d8m5uum243" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 39.png" id="131_0p5bx"]
+[ext_resource type="Texture2D" uid="uid://dtvduyudwe2i1" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 39.png" id="131_lhlg5"]
+[ext_resource type="Texture2D" uid="uid://ra5utycdpoi4" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 40.png" id="132_jdva0"]
+[ext_resource type="Texture2D" uid="uid://bcaaalm7ldjrf" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 40.png" id="132_lby61"]
+[ext_resource type="Texture2D" uid="uid://c4h2xq4ph87yk" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 41.png" id="133_h7hen"]
+[ext_resource type="Texture2D" uid="uid://ce8qsfqdrfm7m" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 41.png" id="133_iv3sr"]
+[ext_resource type="Texture2D" uid="uid://33qn17p8bdo4" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 42.png" id="134_mv8q6"]
+[ext_resource type="Texture2D" uid="uid://uc5h0w6py4d0" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 42.png" id="134_wksyq"]
+[ext_resource type="Texture2D" uid="uid://j15jtn5n1shf" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 43.png" id="135_t7xpi"]
+[ext_resource type="Texture2D" uid="uid://83crb026gwlo" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 43.png" id="135_yxqbv"]
+[ext_resource type="Texture2D" uid="uid://bddv11mxvlw1p" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 44.png" id="136_jxhsd"]
+[ext_resource type="Texture2D" uid="uid://bn1qwlciq4hoj" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 44.png" id="136_xvoit"]
+[ext_resource type="Texture2D" uid="uid://b8foiyf52adyq" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 45.png" id="137_gelys"]
+[ext_resource type="Texture2D" uid="uid://bftu0wvic2s1" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 45.png" id="137_t6ejv"]
+[ext_resource type="Texture2D" uid="uid://bdo6a44a6iv0c" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 46.png" id="138_0kh6o"]
+[ext_resource type="Texture2D" uid="uid://brr8hdfvkd0r0" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 46.png" id="138_ofv5i"]
+[ext_resource type="Texture2D" uid="uid://4ukh0egenr58" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 47.png" id="139_jf8i4"]
+[ext_resource type="Texture2D" uid="uid://iuca7xb8dhdw" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 47.png" id="139_jkmmw"]
+[ext_resource type="Texture2D" uid="uid://hcyo04cn1ld1" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 48.png" id="140_dbff8"]
+[ext_resource type="Texture2D" uid="uid://cpmr6dus05fsi" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 48.png" id="140_o0shy"]
+[ext_resource type="Texture2D" uid="uid://dysxjmav72rqu" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 49.png" id="141_e63n5"]
+[ext_resource type="Texture2D" uid="uid://bqpjmii5uqx6m" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 49.png" id="141_m7rsa"]
+[ext_resource type="Texture2D" uid="uid://c47186u0p5lej" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 50.png" id="142_1e7do"]
+[ext_resource type="Texture2D" uid="uid://b4ftnnihvdh8c" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 50.png" id="142_cir8r"]
+[ext_resource type="Texture2D" uid="uid://c3gfnfyntlbtq" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 51.png" id="143_665dw"]
+[ext_resource type="Texture2D" uid="uid://dv3e1a4ev2uxl" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 51.png" id="143_o58ju"]
+[ext_resource type="Texture2D" uid="uid://gds0wjjrqjjm" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 52.png" id="144_2vkod"]
+[ext_resource type="Texture2D" uid="uid://brq05if6xxr6k" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 52.png" id="144_fbomq"]
+[ext_resource type="Texture2D" uid="uid://bx6pqgsbvfjqk" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 53.png" id="145_f7bpq"]
+[ext_resource type="Texture2D" uid="uid://bd6udvw717p7w" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 53.png" id="145_kj83a"]
+[ext_resource type="Texture2D" uid="uid://bjjbpao4ymysh" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 54.png" id="146_1a741"]
+[ext_resource type="Texture2D" uid="uid://bix8so47v5i74" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 54.png" id="146_eugbo"]
+[ext_resource type="Texture2D" uid="uid://rrsg55jq4t2u" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 55.png" id="147_8v317"]
+[ext_resource type="Texture2D" uid="uid://cyc4a6xd1tbms" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 55.png" id="147_iipvj"]
+[ext_resource type="Texture2D" uid="uid://mx4crmy11867" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 56.png" id="148_4r05d"]
+[ext_resource type="Texture2D" uid="uid://x1vi743x0imb" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 56.png" id="148_mramy"]
+[ext_resource type="Texture2D" uid="uid://bmfgj46py7h7v" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 57.png" id="149_5nclq"]
+[ext_resource type="Texture2D" uid="uid://bx1lgn4pvbp34" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 57.png" id="149_ck3xx"]
+[ext_resource type="Texture2D" uid="uid://cnqn06lorvtkk" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 58.png" id="150_djvp0"]
+[ext_resource type="Texture2D" uid="uid://cdlgfm37my22v" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 58.png" id="150_yahe6"]
+[ext_resource type="Texture2D" uid="uid://c6k24h6egsg40" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 59.png" id="151_ws6hu"]
+[ext_resource type="Texture2D" uid="uid://bhiln5lvh4hai" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 59.png" id="151_xefh0"]
+[ext_resource type="Texture2D" uid="uid://cbtu7tflb3wqp" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 60.png" id="152_bmo26"]
+[ext_resource type="Texture2D" uid="uid://bjy5jh24677qv" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 60.png" id="152_oiiea"]
+[ext_resource type="Texture2D" uid="uid://cahhxeec87n7x" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 61.png" id="153_csiy0"]
+[ext_resource type="Texture2D" uid="uid://of1ua8220y16" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 61.png" id="153_mcbh0"]
+[ext_resource type="Texture2D" uid="uid://cgkkajdb1dmo2" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 62.png" id="154_lhxbq"]
+[ext_resource type="Texture2D" uid="uid://dsv3tcjv7b70h" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 62.png" id="154_rrkog"]
+[ext_resource type="Texture2D" uid="uid://dva63f1650kqo" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 63.png" id="155_187wx"]
+[ext_resource type="Texture2D" uid="uid://b62rtfavj51g7" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 63.png" id="155_risdu"]
+[ext_resource type="Texture2D" uid="uid://cat0ssf06q8d0" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 64.png" id="156_0x63o"]
+[ext_resource type="Texture2D" uid="uid://blg0bbo08tnbh" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 64.png" id="156_p8ry6"]
+[ext_resource type="Texture2D" uid="uid://dlrrrt08pw383" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 65.png" id="157_ai7co"]
+[ext_resource type="Texture2D" uid="uid://6hqfhbe8srdw" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 65.png" id="157_o6jsv"]
+[ext_resource type="Texture2D" uid="uid://bl602pqtcvn0k" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 66.png" id="158_i5i0c"]
+[ext_resource type="Texture2D" uid="uid://dei1eh42v7c6m" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 66.png" id="158_ug3jf"]
+[ext_resource type="Texture2D" uid="uid://btjqm7o6xhwjk" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 67.png" id="159_5ximc"]
+[ext_resource type="Texture2D" uid="uid://boau3kc0o5gft" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 67.png" id="159_vo2dh"]
+[ext_resource type="Texture2D" uid="uid://50aqoh23pi65" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 68.png" id="160_8jkdc"]
+[ext_resource type="Texture2D" uid="uid://cq6r6cl565amy" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 68.png" id="160_33s06"]
+[ext_resource type="Texture2D" uid="uid://dwatbkghceqq4" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 69.png" id="161_i1j85"]
+[ext_resource type="Texture2D" uid="uid://cvd05wq6mwc1b" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 69.png" id="161_yfdlb"]
+[ext_resource type="Texture2D" uid="uid://ck67vh7hp6jc4" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 70.png" id="162_63xy0"]
+[ext_resource type="Texture2D" uid="uid://b8cno8sqojgby" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 70.png" id="162_el8vt"]
+[ext_resource type="Texture2D" uid="uid://b5ovynqtmmq5i" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 71.png" id="163_5l1j0"]
+[ext_resource type="Texture2D" uid="uid://cja0ribr11ysg" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 71.png" id="163_oqsgk"]
+[ext_resource type="Texture2D" uid="uid://t6a5g5mfjj3x" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 72.png" id="164_us4nl"]
+[ext_resource type="Texture2D" uid="uid://copvplcyt1lvo" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 72.png" id="164_vnnro"]
+[ext_resource type="Texture2D" uid="uid://1cibac2isifs" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 73.png" id="165_owr80"]
+[ext_resource type="Texture2D" uid="uid://c8aw67ij3l5ch" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 73.png" id="165_qjbp6"]
+[ext_resource type="Texture2D" uid="uid://6oauqxa3rmwt" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 74.png" id="166_8eap5"]
+[ext_resource type="Texture2D" uid="uid://bkf5g0dhdx56l" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 74.png" id="166_xsoh2"]
+[ext_resource type="Texture2D" uid="uid://5qtwcn3jxgiu" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 75.png" id="167_cdi53"]
+[ext_resource type="Texture2D" uid="uid://1prwgwcj16e1" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 75.png" id="167_qgfo7"]
+[ext_resource type="Texture2D" uid="uid://dkcv0vk1ogkkc" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 76.png" id="168_4aond"]
+[ext_resource type="Texture2D" uid="uid://b8tkybf0jty67" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 76.png" id="168_xm0tx"]
+[ext_resource type="Texture2D" uid="uid://c71sodnjw6cen" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 77.png" id="169_kpfcn"]
+[ext_resource type="Texture2D" uid="uid://bqbqe2u3ejyp0" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 90.png" id="169_xuq2f"]
+[ext_resource type="Texture2D" uid="uid://mobsb3if1dt4" path="res://Scenes/Scene 7/Анимация второй разговор, взял записку Брин. Перед этим записка Брин не была взята/Анимация второй разговор 78.png" id="170_3duqj"]
+[ext_resource type="Texture2D" uid="uid://cobn3gvtnpq8c" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 91.png" id="170_8oxcs"]
+[ext_resource type="Texture2D" uid="uid://br4lg0xcrxfb6" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 92.png" id="171_j6j1r"]
+[ext_resource type="Texture2D" uid="uid://dcfmleru3162h" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 93.png" id="172_vqpd8"]
+[ext_resource type="Texture2D" uid="uid://b7u0bjweostug" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 94.png" id="173_6ekrf"]
+[ext_resource type="Texture2D" uid="uid://t6udojbcggms" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 95.png" id="174_0k4xl"]
+[ext_resource type="Texture2D" uid="uid://cnppa4vr7y0n5" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 96.png" id="175_xyusc"]
+[ext_resource type="Texture2D" uid="uid://bn1tmbpojjccl" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 97.png" id="176_iiihj"]
+[ext_resource type="Texture2D" uid="uid://wpqoxb6l8gh5" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 98.png" id="177_i53mb"]
+[ext_resource type="Texture2D" uid="uid://cttga27jxf4hf" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 99.png" id="178_8ox2u"]
+[ext_resource type="Texture2D" uid="uid://cgf14dnawksvr" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 100.png" id="179_ke1a1"]
+[ext_resource type="Texture2D" uid="uid://b8ds40eebpux2" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 1.png" id="179_ml0k8"]
+[ext_resource type="Texture2D" uid="uid://cho7vglpf40pl" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 2.png" id="180_70x28"]
+[ext_resource type="Texture2D" uid="uid://crcnytjby3kis" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 101.png" id="180_lmjlu"]
+[ext_resource type="Texture2D" uid="uid://b6i7flr6dkdqx" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 3.png" id="181_7l67a"]
+[ext_resource type="Texture2D" uid="uid://df3ndmj5py2n3" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 102.png" id="181_svflb"]
+[ext_resource type="Texture2D" uid="uid://cvwdhpceo3fno" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 103.png" id="182_74e8t"]
+[ext_resource type="Texture2D" uid="uid://bhsx6jroaqtex" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 4.png" id="182_uduif"]
+[ext_resource type="Texture2D" uid="uid://bum7ns1j2ratw" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 5.png" id="183_b78u8"]
+[ext_resource type="Texture2D" uid="uid://dijn0l2c820yu" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 104.png" id="183_hakt6"]
+[ext_resource type="Texture2D" uid="uid://bxen80bgnmlx4" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 6.png" id="184_ult4r"]
+[ext_resource type="Texture2D" uid="uid://cvog4ihwy3mc1" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 105.png" id="184_v3vw3"]
+[ext_resource type="Texture2D" uid="uid://7oog1cnumrod" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 106.png" id="185_8xsxf"]
+[ext_resource type="Texture2D" uid="uid://14bthd0whede" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 7.png" id="185_axxjk"]
+[ext_resource type="Texture2D" uid="uid://crsp8nflmwun7" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 8.png" id="186_3j1dp"]
+[ext_resource type="Texture2D" uid="uid://cvawspjvjvci3" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 107.png" id="186_uvlmm"]
+[ext_resource type="Texture2D" uid="uid://cyx2q63bhtdrp" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 108.png" id="187_lxsbb"]
+[ext_resource type="Texture2D" uid="uid://c61wyjbua58x3" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 9.png" id="187_tynr8"]
+[ext_resource type="Texture2D" uid="uid://s61ngjccfhjw" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 10.png" id="188_4ci3w"]
+[ext_resource type="Texture2D" uid="uid://dtia1knfujqgx" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 109.png" id="188_cqp7s"]
+[ext_resource type="Texture2D" uid="uid://bf7wurfq0a3ep" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 110.png" id="189_edyil"]
+[ext_resource type="Texture2D" uid="uid://djxi0jrqsolr" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 11.png" id="189_lcnro"]
+[ext_resource type="Texture2D" uid="uid://bc3wo56m21gmy" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 12.png" id="190_orhiu"]
+[ext_resource type="Texture2D" uid="uid://u2ponwugjwa5" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 111.png" id="190_pvmky"]
+[ext_resource type="Texture2D" uid="uid://juhpb6d18yq7" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 13.png" id="191_bvver"]
+[ext_resource type="Texture2D" uid="uid://b4kro0ovtm2hi" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 112.png" id="191_ryd2x"]
+[ext_resource type="Texture2D" uid="uid://cbx4s6852nrdq" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 113.png" id="192_cdndl"]
+[ext_resource type="Texture2D" uid="uid://cwn62g14u5q53" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 14.png" id="192_vfi1e"]
+[ext_resource type="Texture2D" uid="uid://c57cu2npul0hl" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 114.png" id="193_8b5kw"]
+[ext_resource type="Texture2D" uid="uid://bh1eaoe3jpyxm" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 15.png" id="193_qnppf"]
+[ext_resource type="Texture2D" uid="uid://cmrvp56nlkpdu" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 115.png" id="194_13avd"]
+[ext_resource type="Texture2D" uid="uid://gqv38il1hkd5" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 16.png" id="194_mdat0"]
+[ext_resource type="Texture2D" uid="uid://bdlac4tmiouq1" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 17.png" id="195_i4xmx"]
+[ext_resource type="Texture2D" uid="uid://dvj5v3qnf1ogg" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 116.png" id="195_vou7c"]
+[ext_resource type="Texture2D" uid="uid://c1haqt2sn7h0d" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 117.png" id="196_6mqfq"]
+[ext_resource type="Texture2D" uid="uid://bf520wkpw0xho" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 18.png" id="196_6vobe"]
+[ext_resource type="Texture2D" uid="uid://cy43gj67wu7r2" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 118.png" id="197_ax1v2"]
+[ext_resource type="Texture2D" uid="uid://b6bu4qe5ajyi4" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 19.png" id="197_s3dvd"]
+[ext_resource type="Texture2D" uid="uid://876fy5b7kyxs" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 119.png" id="198_cr08a"]
+[ext_resource type="Texture2D" uid="uid://bisim6f3e0d6p" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 20.png" id="198_p44qp"]
+[ext_resource type="Texture2D" uid="uid://cusvbornxtjbt" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 21.png" id="199_01eht"]
+[ext_resource type="Texture2D" uid="uid://ccnoreg5003s2" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 120.png" id="199_btq2c"]
+[ext_resource type="Texture2D" uid="uid://c3n71pn5nyi4x" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 22.png" id="200_me1ae"]
+[ext_resource type="Texture2D" uid="uid://d52r0m1lpggo" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 121.png" id="200_ojw5h"]
+[ext_resource type="Texture2D" uid="uid://bahp4sachb5ch" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 23.png" id="201_4kkcy"]
+[ext_resource type="Texture2D" uid="uid://q8x2oeou0t3j" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 122.png" id="201_aibtb"]
+[ext_resource type="Texture2D" uid="uid://gk1nbxybj5wa" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 24.png" id="202_12txi"]
+[ext_resource type="Texture2D" uid="uid://cgl0naifmjywf" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 123.png" id="202_m43xv"]
+[ext_resource type="Texture2D" uid="uid://csfbre1tmkqfp" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 25.png" id="203_j5fhk"]
+[ext_resource type="Texture2D" uid="uid://dad6e4a45clbx" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 124.png" id="203_obyh1"]
+[ext_resource type="Texture2D" uid="uid://bh8as27e6ufnv" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 26.png" id="204_bet7g"]
+[ext_resource type="Texture2D" uid="uid://dk8543xd5w37o" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 125.png" id="204_vx16b"]
+[ext_resource type="Texture2D" uid="uid://dyvbm62aubylt" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 27.png" id="205_d80jr"]
+[ext_resource type="Texture2D" uid="uid://cmv5hf3enhdf2" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 126.png" id="205_m7vnw"]
+[ext_resource type="Texture2D" uid="uid://clbdguyrofpks" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 28.png" id="206_1stb3"]
+[ext_resource type="Texture2D" uid="uid://42c3ae7n55cn" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 127.png" id="206_ctotw"]
+[ext_resource type="Texture2D" uid="uid://c5l463my5dos0" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 29.png" id="207_2ndcc"]
+[ext_resource type="Texture2D" uid="uid://cas0wb2l1gjm" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 128.png" id="207_w2hqu"]
+[ext_resource type="Texture2D" uid="uid://tllolinnen6h" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 129.png" id="208_1k7r0"]
+[ext_resource type="Texture2D" uid="uid://b6b5xcd5kyrph" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 30.png" id="208_nllxs"]
+[ext_resource type="Texture2D" uid="uid://bc1oqlowem1v0" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 130.png" id="209_c2tou"]
+[ext_resource type="Texture2D" uid="uid://c663w6d43wy1a" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 31.png" id="209_mjds6"]
+[ext_resource type="Texture2D" uid="uid://dxnjw3alrt8pp" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 131.png" id="210_djke5"]
+[ext_resource type="Texture2D" uid="uid://sraqxtdnntvi" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 32.png" id="210_qrnnx"]
+[ext_resource type="Texture2D" uid="uid://bl2stn8yoq87s" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 132.png" id="211_ds042"]
+[ext_resource type="Texture2D" uid="uid://bwa7p8lkp3lfx" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 33.png" id="211_u8qth"]
+[ext_resource type="Texture2D" uid="uid://lc36vjxwa3wx" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 34.png" id="212_0rk12"]
+[ext_resource type="Texture2D" uid="uid://bcnm72ikavo3v" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 133.png" id="212_lqjv2"]
+[ext_resource type="Texture2D" uid="uid://efqibi03x28q" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 134.png" id="213_b8ue4"]
+[ext_resource type="Texture2D" uid="uid://cpjo7kilxlk3i" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 35.png" id="213_hc2bn"]
+[ext_resource type="Texture2D" uid="uid://duiak27hrc340" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 36.png" id="214_r0wwv"]
+[ext_resource type="Texture2D" uid="uid://d2yl665wmikfr" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 135.png" id="214_xa3r3"]
+[ext_resource type="Texture2D" uid="uid://dggvgum1toogj" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 37.png" id="215_154et"]
+[ext_resource type="Texture2D" uid="uid://cvodfu5bq7kev" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 136.png" id="215_pcaje"]
+[ext_resource type="Texture2D" uid="uid://bt5x3cg2uj30h" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 137.png" id="216_o4xi1"]
+[ext_resource type="Texture2D" uid="uid://bjksft58k7rnl" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 38.png" id="216_qu7id"]
+[ext_resource type="Texture2D" uid="uid://dcfr0p4y5xn3r" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 138.png" id="217_2v1c2"]
+[ext_resource type="Texture2D" uid="uid://bq8r7n06s8wve" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 39.png" id="217_fl4n2"]
+[ext_resource type="Texture2D" uid="uid://ch2078yey6ipc" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 40.png" id="218_anc08"]
+[ext_resource type="Texture2D" uid="uid://bkasqqp8adk6l" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 139.png" id="218_prq2b"]
+[ext_resource type="Texture2D" uid="uid://bmcmuxavs6sns" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 41.png" id="219_flfi5"]
+[ext_resource type="Texture2D" uid="uid://dqwmqn1tw673t" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 140.png" id="219_oxtfe"]
+[ext_resource type="Texture2D" uid="uid://b0vfx567pqndd" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 42.png" id="220_26ix1"]
+[ext_resource type="Texture2D" uid="uid://cvlp54ods65s6" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 141.png" id="220_dfntt"]
+[ext_resource type="Texture2D" uid="uid://c0i32om35r6cy" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 43.png" id="221_imrvr"]
+[ext_resource type="Texture2D" uid="uid://josyyfet50sf" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 142.png" id="221_xyuex"]
+[ext_resource type="Texture2D" uid="uid://bkkjev7tlkxrn" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 143.png" id="222_anqrg"]
+[ext_resource type="Texture2D" uid="uid://bl03fxgjrlyy4" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 44.png" id="222_k88sb"]
+[ext_resource type="Texture2D" uid="uid://d2x58oprokj3j" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 45.png" id="223_eg5fx"]
+[ext_resource type="Texture2D" uid="uid://xkbrbq6pf2bn" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 144.png" id="223_pv8ik"]
+[ext_resource type="Texture2D" uid="uid://ctji88js00j1e" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 46.png" id="224_33obd"]
+[ext_resource type="Texture2D" uid="uid://bsud3jdvkdovt" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 145.png" id="224_r6t3b"]
+[ext_resource type="Texture2D" uid="uid://qs8uii1g6adu" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 47.png" id="225_448wx"]
+[ext_resource type="Texture2D" uid="uid://ct71m6idcrwr" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 146.png" id="225_l1jxs"]
+[ext_resource type="Texture2D" uid="uid://hm2ejcrvmg5h" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 147.png" id="226_4afpk"]
+[ext_resource type="Texture2D" uid="uid://caht5iksnl3eg" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 48.png" id="226_qkxnw"]
+[ext_resource type="Texture2D" uid="uid://cbgggo7t8e5hd" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 148.png" id="227_ghd8v"]
+[ext_resource type="Texture2D" uid="uid://dq4ts85gnpeym" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 49.png" id="227_mvdkd"]
+[ext_resource type="Texture2D" uid="uid://cagletbuxhqxl" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 149.png" id="228_2ljg5"]
+[ext_resource type="Texture2D" uid="uid://dr2qfsve1aykh" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 50.png" id="228_csx17"]
+[ext_resource type="Texture2D" uid="uid://dxkfolwcvkmcr" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 150.png" id="229_dujev"]
+[ext_resource type="Texture2D" uid="uid://jug7vmookovw" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 51.png" id="229_gx1m7"]
+[ext_resource type="Texture2D" uid="uid://cnsxh7xcytgfs" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 151.png" id="230_femng"]
+[ext_resource type="Texture2D" uid="uid://f1v5t7s013ab" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 52.png" id="230_swhlh"]
+[ext_resource type="Texture2D" uid="uid://221uc5oljo7" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 152.png" id="231_8reeb"]
+[ext_resource type="Texture2D" uid="uid://6hpomi6075ax" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 53.png" id="231_hkjip"]
+[ext_resource type="Texture2D" uid="uid://dun47ncg3bh55" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 54.png" id="232_1fuxd"]
+[ext_resource type="Texture2D" uid="uid://cchwfvihtc7u8" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 153.png" id="232_w4vix"]
+[ext_resource type="Texture2D" uid="uid://cygh5vj32kkqy" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 154.png" id="233_3hjir"]
+[ext_resource type="Texture2D" uid="uid://bl5bvayosyvhb" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 55.png" id="233_hdh0f"]
+[ext_resource type="Texture2D" uid="uid://d1mat2wa5kgjc" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 155.png" id="234_1pt8s"]
+[ext_resource type="Texture2D" uid="uid://bydo72mfmskxl" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 56.png" id="234_4cxwa"]
+[ext_resource type="Texture2D" uid="uid://k8wdqgydr4q6" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 57.png" id="235_gr0aa"]
+[ext_resource type="Texture2D" uid="uid://c1tiqtgqj8u8v" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 156.png" id="235_h3dh1"]
+[ext_resource type="Texture2D" uid="uid://dp8qv1pqvdwjj" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 58.png" id="236_8hja4"]
+[ext_resource type="Texture2D" uid="uid://b23b7sjlhlxgo" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 157.png" id="236_be3el"]
+[ext_resource type="Texture2D" uid="uid://504c66g4mepx" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 59.png" id="237_3ru85"]
+[ext_resource type="Texture2D" uid="uid://b2u2xhbqki3ss" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 158.png" id="237_flvvi"]
+[ext_resource type="Texture2D" uid="uid://dspvyk6ut4mq5" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 159.png" id="238_7v5kl"]
+[ext_resource type="Texture2D" uid="uid://fpxmuan08fg3" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 60.png" id="238_75cfd"]
+[ext_resource type="Texture2D" uid="uid://b3paw52nw12qv" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 61.png" id="239_21gde"]
+[ext_resource type="Texture2D" uid="uid://ca8ehf3gugvse" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 160.png" id="239_wk0ik"]
+[ext_resource type="Texture2D" uid="uid://cqtouaxgd4lbs" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 161.png" id="240_n3bgi"]
+[ext_resource type="Texture2D" uid="uid://bcob0skd2h0nh" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 62.png" id="240_veybc"]
+[ext_resource type="Texture2D" uid="uid://dobwpt7vlvdu5" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 63.png" id="241_esj5r"]
+[ext_resource type="Texture2D" uid="uid://b7f0up71kwjh0" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 162.png" id="241_lb7k0"]
+[ext_resource type="Texture2D" uid="uid://dfnxisg71rew6" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 64.png" id="242_76cmm"]
+[ext_resource type="Texture2D" uid="uid://7pjd863gs5qy" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 163.png" id="242_x8gs6"]
+[ext_resource type="Texture2D" uid="uid://b4usu5qavto5c" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 65.png" id="243_6uen5"]
+[ext_resource type="Texture2D" uid="uid://dxsmrbnnqcgc1" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 164.png" id="243_n85oc"]
+[ext_resource type="Texture2D" uid="uid://ds4njw26h7p5e" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 165.png" id="244_pq738"]
+[ext_resource type="Texture2D" uid="uid://cmtlwaw4l0cya" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 66.png" id="244_ts0m0"]
+[ext_resource type="Texture2D" uid="uid://cj22yvkodsumx" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 67.png" id="245_0uod7"]
+[ext_resource type="Texture2D" uid="uid://cvb1le6ivhcuh" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 166.png" id="245_tcp6a"]
+[ext_resource type="Texture2D" uid="uid://cwwiq5jek5k56" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 167.png" id="246_d4tt7"]
+[ext_resource type="Texture2D" uid="uid://bi3tcxx007doy" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 68.png" id="246_p1sn5"]
+[ext_resource type="Texture2D" uid="uid://cblbl5k36yjy2" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 168.png" id="247_0h8oa"]
+[ext_resource type="Texture2D" uid="uid://dhgpvx6h6vni2" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 69.png" id="247_mwrnn"]
+[ext_resource type="Texture2D" uid="uid://bxxkb3p8p4fse" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 70.png" id="248_cmk30"]
+[ext_resource type="Texture2D" uid="uid://jeun1djhfhsc" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 169.png" id="248_drfb2"]
+[ext_resource type="Texture2D" uid="uid://qwykvg84cp8k" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 71.png" id="249_5pgv7"]
+[ext_resource type="Texture2D" uid="uid://ccrjln6tifu53" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 170.png" id="249_8ha8i"]
+[ext_resource type="Texture2D" uid="uid://df2mcr1o8cq6b" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 171.png" id="250_pup1e"]
+[ext_resource type="Texture2D" uid="uid://ciaoj82vby33j" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 72.png" id="250_rucn4"]
+[ext_resource type="Texture2D" uid="uid://d35qbvqel7khs" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 73.png" id="251_by3pr"]
+[ext_resource type="Texture2D" uid="uid://ciodw8ndv8a67" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 172.png" id="251_ivyeu"]
+[ext_resource type="Texture2D" uid="uid://frbt0fny8c0q" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 173.png" id="252_655ro"]
+[ext_resource type="Texture2D" uid="uid://cgs4fig622a7h" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 74.png" id="252_dl38n"]
+[ext_resource type="Texture2D" uid="uid://b3e5xt7xfj6xu" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 75.png" id="253_sduog"]
+[ext_resource type="Texture2D" uid="uid://bftancdqpjii" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 174.png" id="253_vlwq7"]
+[ext_resource type="Texture2D" uid="uid://1320vr50gva6" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 76.png" id="254_1aemj"]
+[ext_resource type="Texture2D" uid="uid://lrccue50mdhp" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 175.png" id="254_8wgnt"]
+[ext_resource type="Texture2D" uid="uid://cjpjw83mw5ans" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 176.png" id="255_lwv4n"]
+[ext_resource type="Texture2D" uid="uid://4kv5xpdxis0e" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 177.png" id="256_86uw3"]
+[ext_resource type="Texture2D" uid="uid://bd13itlpwtry3" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 178.png" id="257_a1w8f"]
+[ext_resource type="Texture2D" uid="uid://bqfj3oj5b4i0r" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 179.png" id="258_44s02"]
+[ext_resource type="Texture2D" uid="uid://bji05gf5ftp5f" path="res://Scenes/Scene 7/Анимация 3 Изначально взял записку/Анимация 3 Изначально взял записку 180.png" id="259_ehank"]
+[ext_resource type="Texture2D" uid="uid://dhx4m1ciww6e4" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 90.png" id="268_mxglw"]
+[ext_resource type="Texture2D" uid="uid://cfu58rvc2nhm3" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 91.png" id="269_y4r6h"]
+[ext_resource type="Texture2D" uid="uid://bf13bpdapsrik" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 92.png" id="270_casyx"]
+[ext_resource type="Texture2D" uid="uid://bierlplqmwkkm" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 93.png" id="271_20b61"]
+[ext_resource type="Texture2D" uid="uid://cnonfgsrl08rl" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 94.png" id="272_muduw"]
+[ext_resource type="Texture2D" uid="uid://7h78ay6jlsbc" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 95.png" id="273_shovs"]
+[ext_resource type="Texture2D" uid="uid://dx64b8x74e6a2" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 96.png" id="274_jpef6"]
+[ext_resource type="Texture2D" uid="uid://bsyee33kn2npf" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 97.png" id="275_0iigk"]
+[ext_resource type="Texture2D" uid="uid://drnfbm4rd71db" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 98.png" id="276_ir1gs"]
+[ext_resource type="Texture2D" uid="uid://fm6wel16acr" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 99.png" id="277_gdvgt"]
+[ext_resource type="Texture2D" uid="uid://d4aolxjmaxisi" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 100.png" id="278_s2yar"]
+[ext_resource type="Texture2D" uid="uid://whe737yvvcno" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 101.png" id="279_b27a1"]
+[ext_resource type="Texture2D" uid="uid://ctly3yq53yg0k" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 102.png" id="280_lx805"]
+[ext_resource type="Texture2D" uid="uid://xe1d33unn343" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 103.png" id="281_w5lkc"]
+[ext_resource type="Texture2D" uid="uid://cufgr1hj31dae" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 104.png" id="282_vp8vd"]
+[ext_resource type="Texture2D" uid="uid://dwrlbi5hhp6dj" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 105.png" id="283_1u0r7"]
+[ext_resource type="Texture2D" uid="uid://b67qekuipotpn" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 106.png" id="284_js2o5"]
+[ext_resource type="Texture2D" uid="uid://bg50mhhb4h5gu" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 107.png" id="285_gcfeb"]
+[ext_resource type="Texture2D" uid="uid://b2fkc30hv4njc" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 108.png" id="286_7i8ed"]
+[ext_resource type="Texture2D" uid="uid://b8wm22iyswql5" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 109.png" id="287_dy1c4"]
+[ext_resource type="Texture2D" uid="uid://lktdomim6ljf" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 110.png" id="288_awbrf"]
+[ext_resource type="Texture2D" uid="uid://ewswh4sxl1ca" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 111.png" id="289_fn38v"]
+[ext_resource type="Texture2D" uid="uid://70f2xdjwrh63" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 112.png" id="290_24chy"]
+[ext_resource type="Texture2D" uid="uid://dwpiua66wbm3e" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 113.png" id="291_inkyh"]
+[ext_resource type="Texture2D" uid="uid://b8dba1b8puo8h" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 114.png" id="292_x7kw6"]
+[ext_resource type="Texture2D" uid="uid://bkifpj67fawfp" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 115.png" id="293_p1vm7"]
+[ext_resource type="Texture2D" uid="uid://bx010v7wn8ifa" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 116.png" id="294_c1i56"]
+[ext_resource type="Texture2D" uid="uid://br3y5qx0cy3vi" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 117.png" id="295_rf8fn"]
+[ext_resource type="Texture2D" uid="uid://d3ug728fcf02d" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 118.png" id="296_xegff"]
+[ext_resource type="Texture2D" uid="uid://dau1gianc7c8f" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 119.png" id="297_yyyhg"]
+[ext_resource type="Texture2D" uid="uid://pl3sl06gve5f" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 120.png" id="298_hs35e"]
+[ext_resource type="Texture2D" uid="uid://jr6y4txlle03" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 121.png" id="299_spl1r"]
+[ext_resource type="Texture2D" uid="uid://cuy1xsu73dfcp" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 122.png" id="300_00xxv"]
+[ext_resource type="Texture2D" uid="uid://d3ddrrwn8t6tb" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 123.png" id="301_quym7"]
+[ext_resource type="Texture2D" uid="uid://dva51qtvi1b04" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 124.png" id="302_npnry"]
+[ext_resource type="Texture2D" uid="uid://dautiq1kyw7go" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 125.png" id="303_50620"]
+[ext_resource type="Texture2D" uid="uid://dr6ut5pkqg2p8" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 126.png" id="304_rhh03"]
+[ext_resource type="Texture2D" uid="uid://drhemoodmxa1r" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 127.png" id="305_wsy13"]
+[ext_resource type="Texture2D" uid="uid://b17ml3q4u71pe" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 128.png" id="306_2har4"]
+[ext_resource type="Texture2D" uid="uid://ds14nexg3a5uk" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 129.png" id="307_46o04"]
+[ext_resource type="Texture2D" uid="uid://2lufjq58yk8i" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 130.png" id="308_57x13"]
+[ext_resource type="Texture2D" uid="uid://bb02fl8at4ud5" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 131.png" id="309_5ooep"]
+[ext_resource type="Texture2D" uid="uid://c78a062ct3ww2" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 132.png" id="310_fk1jt"]
+[ext_resource type="Texture2D" uid="uid://dhkldescje8b8" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 133.png" id="311_5ubq0"]
+[ext_resource type="Texture2D" uid="uid://b36gc2yp7wdmi" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 134.png" id="312_cmd6r"]
+[ext_resource type="Texture2D" uid="uid://bh48h01mmur1i" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 135.png" id="313_c2uv2"]
+[ext_resource type="Texture2D" uid="uid://kbty20lec12g" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 136.png" id="314_mbut6"]
+[ext_resource type="Texture2D" uid="uid://bt1hr76n3c1s0" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 137.png" id="315_0go15"]
+[ext_resource type="Texture2D" uid="uid://crpyikdb74k7v" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 138.png" id="316_nnacn"]
+[ext_resource type="Texture2D" uid="uid://c6wmibfkfe1bo" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 139.png" id="317_6aui6"]
+[ext_resource type="Texture2D" uid="uid://d0ue4i3aufrh6" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 140.png" id="318_v6uhg"]
+[ext_resource type="Texture2D" uid="uid://ccfpv3x4mt26q" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 141.png" id="319_t6a01"]
+[ext_resource type="Texture2D" uid="uid://dn4fwrimojsgy" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 142.png" id="320_p1w00"]
+[ext_resource type="Texture2D" uid="uid://b01onyhokwddj" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 143.png" id="321_je63k"]
+[ext_resource type="Texture2D" uid="uid://ghr7wyso4xu5" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 144.png" id="322_6eq46"]
+[ext_resource type="Texture2D" uid="uid://bhd4kas2pg1ke" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 145.png" id="323_yqkfe"]
+[ext_resource type="Texture2D" uid="uid://b0db3kspxt7pu" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 146.png" id="324_8n74y"]
+[ext_resource type="Texture2D" uid="uid://bb5cus3151xm6" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 147.png" id="325_3jyi2"]
+[ext_resource type="Texture2D" uid="uid://cpacg4nyl5sx8" path="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/Первый разговор с Брин записка не взята 148.png" id="326_cfps4"]
+[ext_resource type="VideoStream" uid="uid://bmov2xhu3kls3" path="res://Scenes/Scene 7/Видео 6 Сцена 7.ogv" id="1142_gjqhc"]
+[ext_resource type="Texture2D" uid="uid://ck3jrvu3ylyof" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 78.png" id="1390_0vwxr"]
+[ext_resource type="Texture2D" uid="uid://dkrk814f3tcas" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 79.png" id="1391_r1a0y"]
+[ext_resource type="Texture2D" uid="uid://cka7eva3mctqd" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 80.png" id="1392_il8ws"]
+[ext_resource type="Texture2D" uid="uid://bhx1mn6b1uuxv" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 81.png" id="1393_2vkl8"]
+[ext_resource type="Texture2D" uid="uid://dd0jxw1m8ujfu" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 82.png" id="1394_1iiai"]
+[ext_resource type="Texture2D" uid="uid://clw5no0716tdo" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 83.png" id="1395_sabqr"]
+[ext_resource type="Texture2D" uid="uid://bfaus7epmrrhl" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 84.png" id="1396_8xh8a"]
+[ext_resource type="Texture2D" uid="uid://c6dsfj2fmc1u3" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 85.png" id="1397_te7sl"]
+[ext_resource type="Texture2D" uid="uid://bdj3j52567wsb" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 86.png" id="1398_uimqr"]
+[ext_resource type="Texture2D" uid="uid://bauifra28wmu" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 87.png" id="1399_wjkoo"]
+[ext_resource type="Texture2D" uid="uid://b5fjxvn5j6feh" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 88.png" id="1400_qrjwq"]
+[ext_resource type="Texture2D" uid="uid://dy87piae5wlvg" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 89.png" id="1401_qu7q8"]
+[ext_resource type="Texture2D" uid="uid://bvxj1go6be8se" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 90.png" id="1402_sgski"]
+[ext_resource type="Texture2D" uid="uid://w5rr3gorc5kk" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 91.png" id="1403_66urn"]
+[ext_resource type="Texture2D" uid="uid://uqamcsxnoopg" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 92.png" id="1404_7mfq4"]
+[ext_resource type="Texture2D" uid="uid://ps4v3wlt62h2" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 93.png" id="1405_vj4w6"]
+[ext_resource type="Texture2D" uid="uid://b0gglqbmi85ky" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 94.png" id="1406_pwvb2"]
+[ext_resource type="Texture2D" uid="uid://clcqkap78h036" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 95.png" id="1407_j3386"]
+[ext_resource type="Texture2D" uid="uid://drjjpgmwwcks" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 96.png" id="1408_08tew"]
+[ext_resource type="Texture2D" uid="uid://buwmf5w2wgxp7" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 97.png" id="1409_pg6y1"]
+[ext_resource type="Texture2D" uid="uid://3nahow6ff7gn" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 98.png" id="1410_ran5h"]
+[ext_resource type="Texture2D" uid="uid://clfe8wkstqlad" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 99.png" id="1411_in1fc"]
+[ext_resource type="Texture2D" uid="uid://k5il7bq2uul1" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 100.png" id="1412_og5xp"]
+[ext_resource type="Texture2D" uid="uid://dhwsf06u37cxl" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 101.png" id="1413_1j1ht"]
+[ext_resource type="Texture2D" uid="uid://11ak2b1tinfm" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 102.png" id="1414_nvvy0"]
+[ext_resource type="Texture2D" uid="uid://ocbl6bstpt35" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 103.png" id="1415_4vm51"]
+[ext_resource type="Texture2D" uid="uid://d3nbsg73iuk01" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 104.png" id="1416_xhu4v"]
+[ext_resource type="Texture2D" uid="uid://t0ankkjxk1qy" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 105.png" id="1417_udgk3"]
+[ext_resource type="Texture2D" uid="uid://b7yje6rj0a85c" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 106.png" id="1418_a2jbv"]
+[ext_resource type="Texture2D" uid="uid://ldci3f37qbi1" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 107.png" id="1419_g73kj"]
+[ext_resource type="Texture2D" uid="uid://dcolqiqqci6w3" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 108.png" id="1420_6rcb8"]
+[ext_resource type="Texture2D" uid="uid://di1tkhwnyj56d" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 109.png" id="1421_xmp1g"]
+[ext_resource type="Texture2D" uid="uid://dxaclacvi4tsd" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 110.png" id="1422_uf2tt"]
+[ext_resource type="Texture2D" uid="uid://ck2a7k375625t" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 111.png" id="1423_q77cg"]
+[ext_resource type="Texture2D" uid="uid://6fg7mfbjrvhi" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 112.png" id="1424_e4xj2"]
+[ext_resource type="Texture2D" uid="uid://b5r1jubpx00wh" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 113.png" id="1425_745dk"]
+[ext_resource type="Texture2D" uid="uid://cbiqft23spftm" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 114.png" id="1426_hrh3l"]
+[ext_resource type="Texture2D" uid="uid://n8y4qxbqg815" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 115.png" id="1427_7c0ga"]
+[ext_resource type="Texture2D" uid="uid://dnncul7orumww" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 116.png" id="1428_w0x2e"]
+[ext_resource type="Texture2D" uid="uid://df6rrtgx2p8os" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 117.png" id="1429_mxt6l"]
+[ext_resource type="Texture2D" uid="uid://gx1jk2dwk55y" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 118.png" id="1430_sfwsd"]
+[ext_resource type="Texture2D" uid="uid://c3bn5qfyd2cg2" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 119.png" id="1431_rg4lc"]
+[ext_resource type="Texture2D" uid="uid://5n2d3golknfv" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 120.png" id="1432_4ht6e"]
+[ext_resource type="Texture2D" uid="uid://d07bkq4xj80t8" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 121.png" id="1433_mpv31"]
+[ext_resource type="Texture2D" uid="uid://daj3swyq8s0ob" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 122.png" id="1434_dduey"]
+[ext_resource type="Texture2D" uid="uid://c6xt5g45ndeod" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 123.png" id="1435_bv50p"]
+[ext_resource type="Texture2D" uid="uid://dr2r5cay2qcxc" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 124.png" id="1436_08x8a"]
+[ext_resource type="Texture2D" uid="uid://djbbay27fa5e3" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 125.png" id="1437_w8ktt"]
+[ext_resource type="Texture2D" uid="uid://douqia2duginu" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 126.png" id="1438_reks4"]
+[ext_resource type="Texture2D" uid="uid://c5jtyppfatlrg" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 127.png" id="1439_corf5"]
+[ext_resource type="Texture2D" uid="uid://2rwx4dhfje0x" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 128.png" id="1440_agme6"]
+[ext_resource type="Texture2D" uid="uid://ihjlvcghsb8q" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 129.png" id="1441_5gtaf"]
+[ext_resource type="Texture2D" uid="uid://dmd1jvbybjmll" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 130.png" id="1442_aub1o"]
+[ext_resource type="Texture2D" uid="uid://d1acrsi1ntlxg" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 131.png" id="1443_m7hb6"]
+[ext_resource type="Texture2D" uid="uid://c8kh055e04x7y" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 132.png" id="1444_e0isc"]
+[ext_resource type="Texture2D" uid="uid://dvu5q5c7qpgj0" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 133.png" id="1445_k3dsm"]
+[ext_resource type="Texture2D" uid="uid://bic65m8qtk8ay" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 134.png" id="1446_perqd"]
+[ext_resource type="Texture2D" uid="uid://cd7r3y2udy77t" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 135.png" id="1447_f0nkv"]
+[ext_resource type="Texture2D" uid="uid://br76em2xxfrwm" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 136.png" id="1448_cv7aq"]
+[ext_resource type="Texture2D" uid="uid://dchyd33fto0n8" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 137.png" id="1449_8ipmj"]
+[ext_resource type="Texture2D" uid="uid://bvp7fdicgx68m" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 138.png" id="1450_pkguo"]
+[ext_resource type="Texture2D" uid="uid://hm1o5kkaacwm" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 139.png" id="1451_15suf"]
+[ext_resource type="Texture2D" uid="uid://c7gcp8b08lou7" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 140.png" id="1452_5poa4"]
+[ext_resource type="Texture2D" uid="uid://2ybu5kc2h67p" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 141.png" id="1453_qx87i"]
+[ext_resource type="Texture2D" uid="uid://bhl1b3r2dtfgf" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 142.png" id="1454_edbc0"]
+[ext_resource type="Texture2D" uid="uid://dt8hmwy6nfsn7" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 143.png" id="1455_an45p"]
+[ext_resource type="Texture2D" uid="uid://c6yt6urk5kyq" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 144.png" id="1456_13awt"]
+[ext_resource type="Texture2D" uid="uid://c6ojvjuuothj" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 145.png" id="1457_vrbrf"]
+[ext_resource type="Texture2D" uid="uid://eme25ce8od2j" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 146.png" id="1458_sql5h"]
+[ext_resource type="Texture2D" uid="uid://b23aiu3qvp5gf" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 147.png" id="1459_afh6a"]
+[ext_resource type="Texture2D" uid="uid://06prx10r1mey" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 148.png" id="1460_tvluq"]
+[ext_resource type="Texture2D" uid="uid://bvoswtbiqt1v4" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 149.png" id="1461_qjrs5"]
+[ext_resource type="Texture2D" uid="uid://m35mj3u366cd" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 150.png" id="1462_xnpp5"]
+[ext_resource type="Texture2D" uid="uid://cjdaxkxkg7pwb" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 151.png" id="1463_44hrm"]
+[ext_resource type="Texture2D" uid="uid://c3x60gaax6oix" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 152.png" id="1464_sibpl"]
+[ext_resource type="Texture2D" uid="uid://gkysiysa6f63" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 153.png" id="1465_hs8d3"]
+[ext_resource type="Texture2D" uid="uid://d0dm4f5h43m6i" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 154.png" id="1466_ktpqd"]
+[ext_resource type="Texture2D" uid="uid://cu3ckxvwrdhj4" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 155.png" id="1467_wtnab"]
+[ext_resource type="Texture2D" uid="uid://gno1fjqbu18s" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 156.png" id="1468_g208s"]
+[ext_resource type="Texture2D" uid="uid://cx55ku83fqhj6" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 157.png" id="1469_5gn4q"]
+[ext_resource type="Texture2D" uid="uid://cr4fo3enwx5e" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 158.png" id="1470_pqhoi"]
+[ext_resource type="Texture2D" uid="uid://dmuouhat5x2ne" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 159.png" id="1471_j5b3q"]
+[ext_resource type="Texture2D" uid="uid://mlpln0cpb88v" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 160.png" id="1472_cvebc"]
+[ext_resource type="Texture2D" uid="uid://bjk2ek246iy3c" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 161.png" id="1473_j3n8m"]
+[ext_resource type="Texture2D" uid="uid://bc2jgd8s0avp4" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 162.png" id="1474_yqe53"]
+[ext_resource type="Texture2D" uid="uid://hgh17vru213x" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 163.png" id="1475_ggyx7"]
+[ext_resource type="Texture2D" uid="uid://s1iq1xejit7x" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 164.png" id="1476_h1yxt"]
+[ext_resource type="Texture2D" uid="uid://bceowry4aosng" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 165.png" id="1477_g2j7k"]
+[ext_resource type="Texture2D" uid="uid://7ettwf7ldmv" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 166.png" id="1478_nd3uw"]
+[ext_resource type="Texture2D" uid="uid://d1abjehgyr856" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 167.png" id="1479_v5rsj"]
+[ext_resource type="Texture2D" uid="uid://rls8un5d31rd" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 168.png" id="1480_n6vxb"]
+[ext_resource type="Texture2D" uid="uid://bbqwnyohijtqc" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 169.png" id="1481_vwvcr"]
+[ext_resource type="Texture2D" uid="uid://pxtick67doc1" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 170.png" id="1482_bka4c"]
+[ext_resource type="Texture2D" uid="uid://bif8uqqtks8nd" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 171.png" id="1483_ulmbg"]
+[ext_resource type="Texture2D" uid="uid://bky5p4nydpmb4" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 172.png" id="1484_r0yy5"]
+[ext_resource type="Texture2D" uid="uid://cn7hy8ujilqqq" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 173.png" id="1485_0crra"]
+[ext_resource type="Texture2D" uid="uid://bqmmbd52ewrvv" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 174.png" id="1486_uxaqf"]
+[ext_resource type="Texture2D" uid="uid://bqj08de7jk247" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 175.png" id="1487_8iast"]
+[ext_resource type="Texture2D" uid="uid://dmrl23fkwicy4" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 176.png" id="1488_36w1t"]
+[ext_resource type="Texture2D" uid="uid://squlq1aamgld" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 177.png" id="1489_0nkld"]
+[ext_resource type="Texture2D" uid="uid://de6tykmx0ktm1" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 178.png" id="1490_3wbof"]
+[ext_resource type="Texture2D" uid="uid://bx8ny7f6r2xk3" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 179.png" id="1491_vkj1a"]
+[ext_resource type="Texture2D" uid="uid://de2jdeyp6sy28" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 180.png" id="1492_lhb0l"]
+[ext_resource type="Texture2D" uid="uid://cb2ubqgb1txi2" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 181.png" id="1493_ua5at"]
+[ext_resource type="Texture2D" uid="uid://do8478rmqdlr8" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 182.png" id="1494_fxc7j"]
+[ext_resource type="Texture2D" uid="uid://cmnvnnp2rwime" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 183.png" id="1495_fljc7"]
+[ext_resource type="Texture2D" uid="uid://4pvnfm6aqvj8" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 184.png" id="1496_fekto"]
+[ext_resource type="Texture2D" uid="uid://dldtmvybjhp3i" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 185.png" id="1497_g7juv"]
+[ext_resource type="Texture2D" uid="uid://cr741sfb7qdf7" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 186.png" id="1498_gdx66"]
+[ext_resource type="Texture2D" uid="uid://c6tqcaujmaslt" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 187.png" id="1499_bb24d"]
+[ext_resource type="Texture2D" uid="uid://brx0vp83xjgcb" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 188.png" id="1500_pdmhu"]
+[ext_resource type="Texture2D" uid="uid://dhh2kebqgodyy" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 189.png" id="1501_p22lp"]
+[ext_resource type="Texture2D" uid="uid://bdse48eyr8fd4" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 190.png" id="1502_80l6h"]
+[ext_resource type="Texture2D" uid="uid://egtoqsw1fkis" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 191.png" id="1503_jssee"]
+[ext_resource type="Texture2D" uid="uid://do8u2wi7605bm" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 192.png" id="1504_ldwoo"]
+[ext_resource type="Texture2D" uid="uid://bv7jnfdu2nn5t" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 193.png" id="1505_svw15"]
+[ext_resource type="Texture2D" uid="uid://bled0a4jbifwx" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 194.png" id="1506_5sqx2"]
+[ext_resource type="Texture2D" uid="uid://dja48xin6ipl6" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 195.png" id="1507_6u3v4"]
+[ext_resource type="Texture2D" uid="uid://5bo8axit487u" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 196.png" id="1508_kslj6"]
+[ext_resource type="Texture2D" uid="uid://cylseuvj6fp1p" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 197.png" id="1509_yqons"]
+[ext_resource type="Texture2D" uid="uid://s6lm1275i68n" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 198.png" id="1510_8jduk"]
+[ext_resource type="Texture2D" uid="uid://dkh0qnoda66up" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 199.png" id="1511_clcak"]
+[ext_resource type="Texture2D" uid="uid://cw1lfvdhb32dn" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 200.png" id="1512_ulme4"]
+[ext_resource type="Texture2D" uid="uid://ohk6ajrbh6ka" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 201.png" id="1513_8xwmn"]
+[ext_resource type="Texture2D" uid="uid://075mloeu1e5g" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 202.png" id="1514_ajxik"]
+[ext_resource type="Texture2D" uid="uid://c6w6n74vn5vc2" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 203.png" id="1515_oenx2"]
+[ext_resource type="Texture2D" uid="uid://dss3imkn2q2bo" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 204.png" id="1516_60gic"]
+[ext_resource type="Texture2D" uid="uid://bi6w8xkwr1jj6" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 205.png" id="1517_tyxkw"]
+[ext_resource type="Texture2D" uid="uid://dj2dl5max2xas" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 206.png" id="1518_rcumj"]
+[ext_resource type="Texture2D" uid="uid://chcaeia8nyw8c" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 207.png" id="1519_d2weo"]
+[ext_resource type="Texture2D" uid="uid://dhc36r55rvhuw" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 208.png" id="1520_og2dc"]
+[ext_resource type="Texture2D" uid="uid://c8mafmbo88g1m" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 209.png" id="1521_mg30m"]
+[ext_resource type="Texture2D" uid="uid://w3dbxlj05ewh" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 210.png" id="1522_tscsw"]
+[ext_resource type="Texture2D" uid="uid://cwtvxk5asnktw" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 211.png" id="1523_t4xqa"]
+[ext_resource type="Texture2D" uid="uid://c48yt8rcnufc8" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 212.png" id="1524_3g845"]
+[ext_resource type="Texture2D" uid="uid://tqsv3nkjfylf" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 213.png" id="1525_2ohbw"]
+[ext_resource type="Texture2D" uid="uid://c1ir7upw0ouqe" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 214.png" id="1526_ux0tn"]
+[ext_resource type="Texture2D" uid="uid://bf24iac5ej2nc" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 215.png" id="1527_55xse"]
+[ext_resource type="Texture2D" uid="uid://hla5h604ers7" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 216.png" id="1528_x57mr"]
+[ext_resource type="Texture2D" uid="uid://drnq5oar6rjt0" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 217.png" id="1529_e6fae"]
+[ext_resource type="Texture2D" uid="uid://d358pscrgrshf" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 218.png" id="1530_7ldp1"]
+[ext_resource type="Texture2D" uid="uid://b3c8y1ej5ncvl" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 219.png" id="1531_8jhg8"]
+[ext_resource type="Texture2D" uid="uid://caihcfcqqa5si" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 220.png" id="1532_21uch"]
+[ext_resource type="Texture2D" uid="uid://cy0ilxvscibss" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 221.png" id="1533_5spuw"]
+[ext_resource type="Texture2D" uid="uid://dfamfo1137v5" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 222.png" id="1534_is6kd"]
+[ext_resource type="Texture2D" uid="uid://dgvnxiblch8oq" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 223.png" id="1535_t8f0v"]
+[ext_resource type="Texture2D" uid="uid://c3l8aicds0f3d" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 224.png" id="1536_aqlan"]
+[ext_resource type="Texture2D" uid="uid://cfoupfun3t4ki" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 225.png" id="1537_d0c1c"]
+[ext_resource type="Texture2D" uid="uid://dhgn1ntkbgo3x" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 226.png" id="1538_ey1yi"]
+[ext_resource type="Texture2D" uid="uid://bhg3urr57inc2" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 227.png" id="1539_bwpry"]
+[ext_resource type="Texture2D" uid="uid://to3vnr5dgp3a" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 228.png" id="1540_m0nn0"]
+[ext_resource type="Texture2D" uid="uid://cqatvj8ysgs3f" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 229.png" id="1541_du1p0"]
+[ext_resource type="Texture2D" uid="uid://d22ue03om7517" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 230.png" id="1542_gqg8t"]
+[ext_resource type="Texture2D" uid="uid://dycbuqsnmmkvw" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 231.png" id="1543_2mxu6"]
+[ext_resource type="Texture2D" uid="uid://cle2ieejqor3a" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 232.png" id="1544_nm68m"]
+[ext_resource type="Texture2D" uid="uid://dm0tr1ei4x8iv" path="res://Scenes/Scene 7/Анимация брин исчезла/Брин исчезла 233.png" id="1545_nhytb"]
+[ext_resource type="VideoStream" uid="uid://b8ej6v8tjdy63" path="res://Scenes/Scene 7/Видео 4 Сцена 7.ogv" id="1763_lmvrg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3ghp1"]
+size = Vector2(140, 348)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o43en"]
+atlas = ExtResource("7_px10w")
+region = Rect2(0, 0, 108, 108)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mvvhr"]
+atlas = ExtResource("8_msylo")
+region = Rect2(0, 0, 108, 108)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n85f3"]
+atlas = ExtResource("9_5ojp3")
+region = Rect2(0, 0, 108, 108)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pf5gs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o43en")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mvvhr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n85f3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_um6tv"]
+atlas = ExtResource("9_t44rv")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5oely"]
+atlas = ExtResource("9_t44rv")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pgygn"]
+atlas = ExtResource("9_t44rv")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5lox8"]
+atlas = ExtResource("10_1c70f")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_82n8w"]
+atlas = ExtResource("11_3gkdu")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_64r3a"]
+atlas = ExtResource("12_t0m4r")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r8lbs"]
+atlas = ExtResource("13_dbeyi")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j740w"]
+atlas = ExtResource("14_d65nc")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vmv4q"]
+atlas = ExtResource("15_yymp1")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u7ep7"]
+atlas = ExtResource("16_wp7q8")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ux0w4"]
+atlas = ExtResource("17_51xim")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iwysm"]
+atlas = ExtResource("18_58rx0")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q8oxf"]
+atlas = ExtResource("19_evbmv")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_78uf3"]
+atlas = ExtResource("20_27aem")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_avwgw"]
+atlas = ExtResource("21_v5bb7")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ekdv1"]
+atlas = ExtResource("22_oevph")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lowv4"]
+atlas = ExtResource("23_jlfxw")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_grldf"]
+atlas = ExtResource("24_mpjhn")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ny51"]
+atlas = ExtResource("25_r31ii")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_limme"]
+atlas = ExtResource("26_u7i5o")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_24eho"]
+atlas = ExtResource("27_up00b")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jbx1b"]
+atlas = ExtResource("28_0or6q")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_86621"]
+atlas = ExtResource("29_16of7")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_08oc7"]
+atlas = ExtResource("30_2vw55")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bctra"]
+atlas = ExtResource("31_kq0s3")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dr0ri"]
+atlas = ExtResource("32_1lape")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ih0qk"]
+atlas = ExtResource("33_s3ba6")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ldlui"]
+atlas = ExtResource("34_us0lb")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ahrq"]
+atlas = ExtResource("35_h2mpt")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2e4im"]
+atlas = ExtResource("36_ip64a")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w05g6"]
+atlas = ExtResource("37_isimq")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_660pa"]
+atlas = ExtResource("38_sxnsk")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k7xvo"]
+atlas = ExtResource("39_8cxon")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q5218"]
+atlas = ExtResource("40_roax4")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_852hh"]
+atlas = ExtResource("41_w12bn")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_swajy"]
+atlas = ExtResource("42_n18tr")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6s1b"]
+atlas = ExtResource("43_xl80g")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ns38k"]
+atlas = ExtResource("44_0x1sk")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_txyg0"]
+atlas = ExtResource("45_onvgj")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b0g0e"]
+atlas = ExtResource("46_45jgq")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d486v"]
+atlas = ExtResource("47_66yrb")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w5wfo"]
+atlas = ExtResource("48_5smfe")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8c67f"]
+atlas = ExtResource("49_l4e0i")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tfbr3"]
+atlas = ExtResource("50_s31ag")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g8ain"]
+atlas = ExtResource("51_cycp1")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jgbam"]
+atlas = ExtResource("52_7ui48")
+region = Rect2(0, 0, 336, 498)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7lpgd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_um6tv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5oely")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pgygn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5lox8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_82n8w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_64r3a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r8lbs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j740w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vmv4q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u7ep7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ux0w4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iwysm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q8oxf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_78uf3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_avwgw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ekdv1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lowv4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_grldf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ny51")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_limme")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_24eho")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jbx1b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_86621")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_08oc7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bctra")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dr0ri")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ih0qk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ldlui")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ahrq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2e4im")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w05g6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_660pa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k7xvo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q5218")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_852hh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_swajy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6s1b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ns38k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_txyg0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b0g0e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d486v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w5wfo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8c67f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tfbr3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g8ain")
+}, {
+"duration": 10.0,
+"texture": SubResource("AtlasTexture_jgbam")
+}],
+"loop": false,
+"name": &"default",
+"speed": 6.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s8vww"]
+atlas = ExtResource("51_u0e5i")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_el105"]
+atlas = ExtResource("52_jnkyc")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f6r24"]
+atlas = ExtResource("53_pxil5")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_llgw6"]
+atlas = ExtResource("54_5785i")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v7rnm"]
+atlas = ExtResource("55_7d1fc")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5vtcd"]
+atlas = ExtResource("56_e4nsk")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iva8r"]
+atlas = ExtResource("57_lracd")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_01ajk"]
+atlas = ExtResource("58_ikum7")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i4kad"]
+atlas = ExtResource("59_hi328")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xoemh"]
+atlas = ExtResource("60_yuces")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_82nm8"]
+atlas = ExtResource("61_nd0i5")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bwfi"]
+atlas = ExtResource("62_hg3hd")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hs3p5"]
+atlas = ExtResource("63_ifxcj")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ewxt0"]
+atlas = ExtResource("64_oc2na")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f525v"]
+atlas = ExtResource("65_eeafk")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bky3k"]
+atlas = ExtResource("66_fgv30")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w5fwp"]
+atlas = ExtResource("67_3nyap")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6vyyh"]
+atlas = ExtResource("68_umxm7")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_in40s"]
+atlas = ExtResource("69_cdgac")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b6wfp"]
+atlas = ExtResource("70_oypre")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lr63s"]
+atlas = ExtResource("71_favdj")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_muuya"]
+atlas = ExtResource("72_2ng7u")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_olrxx"]
+atlas = ExtResource("73_bomnd")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rk1vy"]
+atlas = ExtResource("74_vhkhf")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ncliw"]
+atlas = ExtResource("75_cxfua")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xbbhy"]
+atlas = ExtResource("76_hpvl5")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f3ccm"]
+atlas = ExtResource("77_1gpky")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7k0ny"]
+atlas = ExtResource("78_6x1ik")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a50jt"]
+atlas = ExtResource("79_2c7mq")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fubff"]
+atlas = ExtResource("80_kqlwh")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y3uod"]
+atlas = ExtResource("81_ct56l")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8f5a1"]
+atlas = ExtResource("82_dswsx")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kpfgj"]
+atlas = ExtResource("83_rowkx")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wx5xf"]
+atlas = ExtResource("84_rct1d")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gscol"]
+atlas = ExtResource("85_pq3cy")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dx0pm"]
+atlas = ExtResource("86_khtd0")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3710l"]
+atlas = ExtResource("87_r7a6h")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jcst6"]
+atlas = ExtResource("88_q5eoc")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u8jpx"]
+atlas = ExtResource("89_clsky")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5jxmh"]
+atlas = ExtResource("90_ovj3s")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_igimk"]
+atlas = ExtResource("91_xvdd3")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ecqid"]
+atlas = ExtResource("92_5q2cb")
+region = Rect2(0, 0, 96, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hglvp"]
+atlas = ExtResource("93_0n2kh")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qpsgf"]
+atlas = ExtResource("94_4eqp0")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_02fd4"]
+atlas = ExtResource("95_0p7s5")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_00w5q"]
+atlas = ExtResource("96_fp005")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vwfrd"]
+atlas = ExtResource("97_157qx")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ep7yv"]
+atlas = ExtResource("98_lqfvb")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6a8b8"]
+atlas = ExtResource("99_ofrt6")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2stdl"]
+atlas = ExtResource("100_mhej6")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_52lvr"]
+atlas = ExtResource("101_4d8cp")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1lco2"]
+atlas = ExtResource("102_efnk6")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eq6e3"]
+atlas = ExtResource("103_r3bbe")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7xjxk"]
+atlas = ExtResource("104_y623o")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kwxmq"]
+atlas = ExtResource("105_7eamd")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vum4y"]
+atlas = ExtResource("106_5rrs0")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_11i01"]
+atlas = ExtResource("107_htyf2")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kowyc"]
+atlas = ExtResource("108_vd77o")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s7gkb"]
+atlas = ExtResource("109_se0go")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t4ke4"]
+atlas = ExtResource("110_qyyc8")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d62j5"]
+atlas = ExtResource("111_wfdap")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_px37f"]
+atlas = ExtResource("112_6p3fv")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tg17k"]
+atlas = ExtResource("113_pa0om")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c1qq8"]
+atlas = ExtResource("114_ul2qh")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i14t2"]
+atlas = ExtResource("115_vbba3")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c5ta1"]
+atlas = ExtResource("116_0attn")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s4424"]
+atlas = ExtResource("117_q7tbv")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xne8f"]
+atlas = ExtResource("118_7u7at")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aw8vd"]
+atlas = ExtResource("119_ldsio")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lsigo"]
+atlas = ExtResource("120_o2obl")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1k5pk"]
+atlas = ExtResource("121_ghcpq")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1vidr"]
+atlas = ExtResource("122_5qcwn")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jrb06"]
+atlas = ExtResource("123_s7jq0")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2u8wg"]
+atlas = ExtResource("124_4glhv")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_swnqa"]
+atlas = ExtResource("125_ovbcj")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ovrl"]
+atlas = ExtResource("126_hkvef")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ikk00"]
+atlas = ExtResource("127_spbqu")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m8utn"]
+atlas = ExtResource("128_c6clk")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gpe3i"]
+atlas = ExtResource("129_6423t")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5taq"]
+atlas = ExtResource("130_cjqie")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wj2t1"]
+atlas = ExtResource("131_0p5bx")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v8g70"]
+atlas = ExtResource("132_jdva0")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_elxmr"]
+atlas = ExtResource("133_h7hen")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8vxws"]
+atlas = ExtResource("134_wksyq")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_opm06"]
+atlas = ExtResource("135_yxqbv")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g1v72"]
+atlas = ExtResource("136_jxhsd")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_esn12"]
+atlas = ExtResource("137_gelys")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s1x55"]
+atlas = ExtResource("138_0kh6o")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u4e8a"]
+atlas = ExtResource("139_jf8i4")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wlbv0"]
+atlas = ExtResource("140_dbff8")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sojj8"]
+atlas = ExtResource("141_m7rsa")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f70wu"]
+atlas = ExtResource("142_1e7do")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xyswi"]
+atlas = ExtResource("143_o58ju")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qsap5"]
+atlas = ExtResource("144_2vkod")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ixq8x"]
+atlas = ExtResource("145_f7bpq")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_khd7f"]
+atlas = ExtResource("146_eugbo")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_doe1r"]
+atlas = ExtResource("147_iipvj")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c8bou"]
+atlas = ExtResource("148_4r05d")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f0uv0"]
+atlas = ExtResource("149_5nclq")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7tg6r"]
+atlas = ExtResource("150_yahe6")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yxnbv"]
+atlas = ExtResource("151_xefh0")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxope"]
+atlas = ExtResource("152_bmo26")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2cgm3"]
+atlas = ExtResource("153_mcbh0")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_us6s2"]
+atlas = ExtResource("154_lhxbq")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_36kwr"]
+atlas = ExtResource("155_risdu")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r5d67"]
+atlas = ExtResource("156_0x63o")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rpl2y"]
+atlas = ExtResource("157_o6jsv")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_30ok6"]
+atlas = ExtResource("158_i5i0c")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ead7m"]
+atlas = ExtResource("159_vo2dh")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a1h72"]
+atlas = ExtResource("160_33s06")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7jmh2"]
+atlas = ExtResource("161_i1j85")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w81hf"]
+atlas = ExtResource("162_el8vt")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bbmlw"]
+atlas = ExtResource("163_5l1j0")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_04rhi"]
+atlas = ExtResource("164_vnnro")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3g3cf"]
+atlas = ExtResource("165_owr80")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ushid"]
+atlas = ExtResource("166_xsoh2")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wfmxv"]
+atlas = ExtResource("167_cdi53")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_alpb1"]
+atlas = ExtResource("168_4aond")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5rpjm"]
+atlas = ExtResource("169_kpfcn")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_umcga"]
+atlas = ExtResource("170_3duqj")
+region = Rect2(0, 0, 456, 354)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ccd7t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s8vww")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_el105")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f6r24")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_llgw6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v7rnm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5vtcd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iva8r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_01ajk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i4kad")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xoemh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_82nm8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bwfi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hs3p5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ewxt0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f525v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bky3k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w5fwp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6vyyh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_in40s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b6wfp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lr63s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_muuya")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_olrxx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rk1vy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ncliw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xbbhy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f3ccm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7k0ny")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a50jt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fubff")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y3uod")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8f5a1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kpfgj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wx5xf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gscol")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dx0pm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3710l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jcst6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u8jpx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5jxmh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_igimk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ecqid")
+}],
+"loop": false,
+"name": &"Did_you_find_a_clue_Brandon_номер_1",
+"speed": 11.53
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("93_rquqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_cbv6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_w7gel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_bbxbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_xsbir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_jasi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_w03n7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_n87uf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_xqgt4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_ua0m2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_5ajt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_be64o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_uo232")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_2n2ne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_xn5i1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_bq5yu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_h38jo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_uarh2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_3p4cd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_yj32y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_fibo8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_yusqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_qd2ie")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_a6dcb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_7hxl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_k2t2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_ai68q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_xr6ya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_v4cep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_y02wd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_vwafy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_vhsyl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_e6lxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_hqigy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_323tl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_ht6ir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_jm8al")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_b6jwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_lhlg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_lby61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_iv3sr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_mv8q6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_t7xpi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_xvoit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_t6ejv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_ofv5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_jkmmw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_o0shy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_e63n5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_cir8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_665dw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_fbomq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_kj83a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_1a741")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_8v317")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_mramy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_ck3xx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_djvp0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_ws6hu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_oiiea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_csiy0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_rrkog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_187wx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_p8ry6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_ai7co")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_ug3jf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_5ximc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_8jkdc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_yfdlb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_63xy0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_oqsgk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_us4nl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_qjbp6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_8eap5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_qgfo7")
+}, {
+"duration": 6.0,
+"texture": ExtResource("168_xm0tx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_xuq2f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_8oxcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_j6j1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_vqpd8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_6ekrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_0k4xl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_xyusc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_iiihj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_i53mb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_8ox2u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_ke1a1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_lmjlu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_svflb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_74e8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_hakt6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_v3vw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_8xsxf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_uvlmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_lxsbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_cqp7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_edyil")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_pvmky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_ryd2x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_cdndl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_8b5kw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_13avd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_vou7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_6mqfq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_ax1v2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_cr08a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_btq2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_ojw5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_aibtb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_m43xv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_obyh1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_vx16b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_m7vnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_ctotw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_w2hqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_1k7r0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_c2tou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_djke5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_ds042")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_lqjv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_b8ue4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_xa3r3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_pcaje")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_o4xi1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_2v1c2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_prq2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_oxtfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_dfntt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_xyuex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_anqrg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_pv8ik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_r6t3b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_l1jxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_4afpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_ghd8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_2ljg5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_dujev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_femng")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_8reeb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_w4vix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_3hjir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_1pt8s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_h3dh1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_be3el")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_flvvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_7v5kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_wk0ik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_n3bgi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_lb7k0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_x8gs6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_n85oc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_pq738")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_tcp6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_d4tt7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_0h8oa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_drfb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_8ha8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_pup1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_ivyeu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_655ro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_vlwq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_8wgnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_lwv4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_86uw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_a1w8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_44s02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_ehank")
+}],
+"loop": false,
+"name": &"Анимация_3_изначально_взял_записку",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1390_0vwxr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1391_r1a0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1392_il8ws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1393_2vkl8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1394_1iiai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1395_sabqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1396_8xh8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1397_te7sl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1398_uimqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1399_wjkoo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1400_qrjwq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1401_qu7q8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1402_sgski")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1403_66urn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1404_7mfq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1405_vj4w6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1406_pwvb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1407_j3386")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1408_08tew")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1409_pg6y1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1410_ran5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1411_in1fc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1412_og5xp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1413_1j1ht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1414_nvvy0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1415_4vm51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1416_xhu4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1417_udgk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1418_a2jbv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1419_g73kj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1420_6rcb8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1421_xmp1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1422_uf2tt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1423_q77cg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1424_e4xj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1425_745dk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1426_hrh3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1427_7c0ga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1428_w0x2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1429_mxt6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1430_sfwsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1431_rg4lc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1432_4ht6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1433_mpv31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1434_dduey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1435_bv50p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1436_08x8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1437_w8ktt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1438_reks4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1439_corf5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1440_agme6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1441_5gtaf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1442_aub1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1443_m7hb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1444_e0isc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1445_k3dsm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1446_perqd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1447_f0nkv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1448_cv7aq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1449_8ipmj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1450_pkguo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1451_15suf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1452_5poa4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1453_qx87i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1454_edbc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1455_an45p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1456_13awt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1457_vrbrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1458_sql5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1459_afh6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1460_tvluq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1461_qjrs5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1462_xnpp5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1463_44hrm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1464_sibpl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1465_hs8d3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1466_ktpqd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1467_wtnab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1468_g208s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1469_5gn4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1470_pqhoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1471_j5b3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1472_cvebc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1473_j3n8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1474_yqe53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1475_ggyx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1476_h1yxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1477_g2j7k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1478_nd3uw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1479_v5rsj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1480_n6vxb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1481_vwvcr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1482_bka4c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1483_ulmbg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1484_r0yy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1485_0crra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1486_uxaqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1487_8iast")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1488_36w1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1489_0nkld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1490_3wbof")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1491_vkj1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1492_lhb0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1493_ua5at")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1494_fxc7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1495_fljc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1496_fekto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1497_g7juv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1498_gdx66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1499_bb24d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1500_pdmhu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1501_p22lp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1502_80l6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1503_jssee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1504_ldwoo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1505_svw15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1506_5sqx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1507_6u3v4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1508_kslj6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1509_yqons")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1510_8jduk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1511_clcak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1512_ulme4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1513_8xwmn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1514_ajxik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1515_oenx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1516_60gic")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1517_tyxkw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1518_rcumj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1519_d2weo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1520_og2dc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1521_mg30m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1522_tscsw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1523_t4xqa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1524_3g845")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1525_2ohbw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1526_ux0tn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1527_55xse")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1528_x57mr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1529_e6fae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1530_7ldp1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1531_8jhg8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1532_21uch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1533_5spuw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1534_is6kd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1535_t8f0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1536_aqlan")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1537_d0c1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1538_ey1yi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1539_bwpry")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1540_m0nn0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1541_du1p0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1542_gqg8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1543_2mxu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1544_nm68m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1545_nhytb")
+}],
+"loop": false,
+"name": &"Анимация_брин_исчезла",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hglvp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qpsgf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_02fd4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_00w5q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vwfrd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ep7yv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6a8b8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2stdl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_52lvr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1lco2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eq6e3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7xjxk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kwxmq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vum4y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_11i01")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kowyc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s7gkb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t4ke4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d62j5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_px37f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tg17k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c1qq8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i14t2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c5ta1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s4424")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xne8f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aw8vd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lsigo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1k5pk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1vidr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jrb06")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2u8wg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_swnqa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ovrl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ikk00")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m8utn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gpe3i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n5taq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wj2t1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v8g70")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_elxmr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8vxws")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_opm06")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g1v72")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_esn12")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s1x55")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u4e8a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wlbv0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sojj8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f70wu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xyswi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qsap5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ixq8x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_khd7f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_doe1r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c8bou")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f0uv0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7tg6r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yxnbv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cxope")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2cgm3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_us6s2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_36kwr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r5d67")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rpl2y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_30ok6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ead7m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a1h72")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7jmh2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w81hf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bbmlw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_04rhi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3g3cf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ushid")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wfmxv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_alpb1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5rpjm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_umcga")
+}],
+"loop": false,
+"name": &"Анимация_второй_разговор",
+"speed": 11.53
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("179_ml0k8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_70x28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_7l67a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_uduif")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_b78u8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_ult4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_axxjk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_3j1dp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_tynr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_4ci3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_lcnro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_orhiu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_bvver")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_vfi1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_qnppf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_mdat0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_i4xmx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_6vobe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_s3dvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_p44qp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_01eht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_me1ae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_4kkcy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_12txi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_j5fhk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_bet7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_d80jr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_1stb3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_2ndcc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_nllxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_mjds6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_qrnnx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_u8qth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_0rk12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_hc2bn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_r0wwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_154et")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_qu7id")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_fl4n2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_anc08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_flfi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_26ix1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_imrvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_k88sb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_eg5fx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_33obd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_448wx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_qkxnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_mvdkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_csx17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_gx1m7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_swhlh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_hkjip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_1fuxd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_hdh0f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_4cxwa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_gr0aa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_8hja4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_3ru85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_75cfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_21gde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_veybc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_esj5r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_76cmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_6uen5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_ts0m0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_0uod7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_p1sn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_mwrnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_cmk30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_5pgv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_rucn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_by3pr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_dl38n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_sduog")
+}, {
+"duration": 6.0,
+"texture": ExtResource("254_1aemj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_mxglw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_y4r6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_casyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_20b61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_muduw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_shovs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274_jpef6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_0iigk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_ir1gs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_gdvgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278_s2yar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_b27a1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_lx805")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_w5lkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282_vp8vd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_1u0r7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_js2o5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_gcfeb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_7i8ed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287_dy1c4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288_awbrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289_fn38v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290_24chy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291_inkyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292_x7kw6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293_p1vm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294_c1i56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295_rf8fn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296_xegff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297_yyyhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298_hs35e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299_spl1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300_00xxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_quym7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302_npnry")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303_50620")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_rhh03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_wsy13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306_2har4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_46o04")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308_57x13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309_5ooep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310_fk1jt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311_5ubq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312_cmd6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313_c2uv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("314_mbut6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315_0go15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316_nnacn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317_6aui6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318_v6uhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319_t6a01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320_p1w00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321_je63k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322_6eq46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323_yqkfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324_8n74y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325_3jyi2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326_cfps4")
+}],
+"loop": false,
+"name": &"Анимация_первый_разговор_с_Брин_записка_не_взята",
+"speed": 12.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_26j4t"]
+size = Vector2(1709, 78)
+
+[node name="Scene 7" type="Sprite2D"]
+position = Vector2(48, 48)
+texture = ExtResource("1_65r5f")
+centered = false
+script = ExtResource("1_wpsvc")
+
+[node name="Брин" type="Sprite2D" parent="."]
+position = Vector2(168, 519)
+
+[node name="Брин" type="Sprite2D" parent="Брин"]
+visible = false
+position = Vector2(-168, -249)
+texture = ExtResource("4_7lotl")
+centered = false
+
+[node name="Area2D Брин" type="Area2D" parent="Брин"]
+z_index = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Брин/Area2D Брин"]
+z_index = 1
+position = Vector2(48, -77)
+shape = SubResource("RectangleShape2D_3ghp1")
+
+[node name="Timer" type="Timer" parent="Брин"]
+wait_time = 5.2
+one_shot = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Брин"]
+volume_db = 5.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(804, 252)
+sprite_frames = SubResource("SpriteFrames_pf5gs")
+autoplay = "default"
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(168, 519)
+sprite_frames = SubResource("SpriteFrames_7lpgd")
+autoplay = "default"
+
+[node name="Анимация разговор с Брин" type="AnimatedSprite2D" parent="."]
+visible = false
+z_index = 2
+position = Vector2(912, 603)
+sprite_frames = SubResource("SpriteFrames_ccd7t")
+animation = &"Did_you_find_a_clue_Brandon_номер_1"
+
+[node name="Timer время до появления сообщения" type="Timer" parent="Анимация разговор с Брин"]
+
+[node name="Timer длительность отображения сообщения" type="Timer" parent="Анимация разговор с Брин"]
+
+[node name="Текст Брэндона в сцене с Брин" type="Label" parent="Анимация разговор с Брин"]
+z_index = 1
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("4_kvx4n")
+theme_override_font_sizes/font_size = 36
+script = ExtResource("121_m0e1f")
+
+[node name="Текст Брин" type="Label" parent="."]
+z_index = 1
+offset_left = 60.0
+offset_top = 68.0
+offset_right = 691.0
+offset_bottom = 206.0
+theme_override_fonts/font = ExtResource("4_kvx4n")
+theme_override_font_sizes/font_size = 36
+script = ExtResource("4_e2ena")
+
+[node name="AudioStreamPlayer разговор с Брин" type="AudioStreamPlayer" parent="."]
+
+[node name="Timer после него запустится анимация когда исчезла брин" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[node name="VideoStreamPlayer Видео 4" type="VideoStreamPlayer" parent="."]
+visible = false
+z_index = 4
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(3, 3)
+stream = ExtResource("1763_lmvrg")
+volume_db = 10.0
+
+[node name="VideoStreamPlayer Видео 6" type="VideoStreamPlayer" parent="."]
+visible = false
+z_index = 2
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(3, 3)
+stream = ExtResource("1142_gjqhc")
+volume_db = 10.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(926.5, 143)
+shape = SubResource("RectangleShape2D_26j4t")
+
+[connection signal="input_event" from="Брин/Area2D Брин" to="." method="_on_area_2d_брин_input_event"]
+[connection signal="timeout" from="Брин/Timer" to="." method="_on_timer_timeout"]
+[connection signal="animation_finished" from="AnimatedSprite2D2" to="." method="_on_animated_sprite_2d_2_animation_finished"]
+[connection signal="animation_finished" from="Анимация разговор с Брин" to="." method="_on_анимация_разговор_с_брин_animation_finished"]
+[connection signal="timeout" from="Анимация разговор с Брин/Timer время до появления сообщения" to="." method="_on_timer_время_до_появления_сообщения_timeout"]
+[connection signal="timeout" from="Анимация разговор с Брин/Timer длительность отображения сообщения" to="." method="_on_timer_длительность_отображения_сообщения_timeout"]
+[connection signal="finished" from="AudioStreamPlayer разговор с Брин" to="." method="_on_audio_stream_player_разговор_с_брин_finished"]
+[connection signal="timeout" from="Timer после него запустится анимация когда исчезла брин" to="." method="_on_timer_после_него_запустится_анимация_когда_исчезла_брин_timeout"]
+[connection signal="finished" from="VideoStreamPlayer Видео 4" to="." method="_on_video_stream_player_видео_4_finished"]
+[connection signal="finished" from="VideoStreamPlayer Видео 6" to="." method="_on_video_stream_player_видео_6_finished"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dbtft3vlmemah"
+path="res://.godot/imported/120 Forest Altar (real FM SB16 OPL3) The Legend of Kyrandia I Soundtrack OST BGM.ogg-b9ea68eccaa74169994092e02554537d.oggvorbisstr"
+
+[deps]
+
+source_file="res://Scenes/Scene 12/120 Forest Altar (real FM SB16 OPL3) The Legend of Kyrandia I Soundtrack OST BGM.ogg"
+dest_files=["res://.godot/imported/120 Forest Altar (real FM SB16 OPL3) The Legend of Kyrandia I Soundtrack OST BGM.ogg-b9ea68eccaa74169994092e02554537d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

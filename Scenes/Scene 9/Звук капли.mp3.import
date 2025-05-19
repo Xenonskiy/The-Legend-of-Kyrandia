@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c6e0q7hsik8pi"
+path="res://.godot/imported/Звук капли.mp3-118aa023972165a968332f3ca8e59ab1.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 9/Звук капли.mp3"
+dest_files=["res://.godot/imported/Звук капли.mp3-118aa023972165a968332f3ca8e59ab1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://6ll8b4ft438o"
+path="res://.godot/imported/Брин исчезла.mp3-d65d69589ec2b1dab19a0d3c0d736c9a.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/Брин исчезла.mp3"
+dest_files=["res://.godot/imported/Брин исчезла.mp3-d65d69589ec2b1dab19a0d3c0d736c9a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

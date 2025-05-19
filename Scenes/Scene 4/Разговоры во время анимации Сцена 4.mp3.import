@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dpjdc3p7s2hqw"
+path="res://.godot/imported/Разговоры во время анимации Сцена 4.mp3-16fd81038d99e2369090370fce1a810f.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 4/Разговоры во время анимации Сцена 4.mp3"
+dest_files=["res://.godot/imported/Разговоры во время анимации Сцена 4.mp3-16fd81038d99e2369090370fce1a810f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

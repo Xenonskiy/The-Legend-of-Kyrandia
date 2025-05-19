@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://boycy10vdy5ow"
+path="res://.godot/imported/Превращение розы в амулет.mp3-431a98277597117677efc2b96f9b675b.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 12/Превращение розы в амулет.mp3"
+dest_files=["res://.godot/imported/Превращение розы в амулет.mp3-431a98277597117677efc2b96f9b675b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

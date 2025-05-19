@@ -1,0 +1,858 @@
+[gd_scene load_steps=203 format=3 uid="uid://hqobxgn12i4w"]
+
+[ext_resource type="Script" uid="uid://ddk5syrtpoerb" path="res://Scenes/Scene 15/scene_15.gd" id="1_41gqw"]
+[ext_resource type="Texture2D" uid="uid://dc5lp0f7bwxal" path="res://Scenes/Scene 15/15 Оригинал.png" id="1_r58ut"]
+[ext_resource type="Texture2D" uid="uid://bo4lynwfeniwf" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 95.png" id="2_dra7a"]
+[ext_resource type="Texture2D" uid="uid://dhfihtqs0te03" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 96.png" id="3_l57lb"]
+[ext_resource type="Texture2D" uid="uid://de7svnghjea2e" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 97.png" id="4_8q0a6"]
+[ext_resource type="Texture2D" uid="uid://u2xjgwqyiiuk" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 98.png" id="5_h1nuf"]
+[ext_resource type="Texture2D" uid="uid://bm3evvs5lsew0" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 99.png" id="6_qqwfg"]
+[ext_resource type="Texture2D" uid="uid://cr5ftw65o07e5" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 100.png" id="7_if4w3"]
+[ext_resource type="Texture2D" uid="uid://cv2luufbyjes" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 101.png" id="8_43mt8"]
+[ext_resource type="Texture2D" uid="uid://sxfw0n3mrpqy" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 102.png" id="9_0m62d"]
+[ext_resource type="Texture2D" uid="uid://eded61qh44rq" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 103.png" id="10_3cb2c"]
+[ext_resource type="Texture2D" uid="uid://dfdeilfab2bq4" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 104.png" id="11_uxhh7"]
+[ext_resource type="Texture2D" uid="uid://cc07yaayhdqau" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 105.png" id="12_xolhv"]
+[ext_resource type="Texture2D" uid="uid://bay2d0nqn28sj" path="res://Scenes/Scene 15/Херман пилит дерево/Херман пилит дерево 106.png" id="13_fh8g6"]
+[ext_resource type="AudioStream" uid="uid://bh0albc2lpmv0" path="res://Scenes/Scene 15/Звук пилы.mp3" id="15_3cy1k"]
+[ext_resource type="Texture2D" uid="uid://d3jgxey6tq6wo" path="res://Scenes/Scene 15/Херман вытирает лоб/Херман пилит дерево 238.png" id="16_uoy46"]
+[ext_resource type="Texture2D" uid="uid://b4n8ilgsbn3bq" path="res://Scenes/Scene 15/Херман вытирает лоб/Херман пилит дерево 239.png" id="17_da81x"]
+[ext_resource type="Texture2D" uid="uid://dfpihyw5wvpsq" path="res://Scenes/Scene 15/Херман вытирает лоб/Херман пилит дерево 240.png" id="18_yx2iw"]
+[ext_resource type="Texture2D" uid="uid://dgccveqscscyx" path="res://Scenes/Scene 15/Херман вытирает лоб/Херман пилит дерево 241.png" id="19_ffc2g"]
+[ext_resource type="Texture2D" uid="uid://t86ldvwm7c7c" path="res://Scenes/Scene 15/Херман вытирает лоб/Херман пилит дерево 242.png" id="20_nugk0"]
+[ext_resource type="Texture2D" uid="uid://d08titdyoiu4v" path="res://Scenes/Scene 15/Херман вытирает лоб/Херман пилит дерево 243.png" id="21_hsqu8"]
+[ext_resource type="Texture2D" uid="uid://cw1xqhekduvpo" path="res://Scenes/Scene 15/Херман вытирает лоб/Херман пилит дерево 244.png" id="22_a3m23"]
+[ext_resource type="Texture2D" uid="uid://dljdes6n00aqk" path="res://Scenes/Scene 15/Херман вытирает лоб/Херман пилит дерево 245.png" id="23_gtk0t"]
+[ext_resource type="Texture2D" uid="uid://c62a3ex570wn2" path="res://Scenes/Scene 15/Херман вытирает лоб/Херман пилит дерево 246.png" id="24_ls0yy"]
+[ext_resource type="Texture2D" uid="uid://cvcuim6fe21gm" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 85.png" id="25_djwda"]
+[ext_resource type="Texture2D" uid="uid://kbkt7b2lyaiv" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 86.png" id="26_xpp05"]
+[ext_resource type="Texture2D" uid="uid://ctnjep7rfcpnp" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 87.png" id="27_0iskw"]
+[ext_resource type="Texture2D" uid="uid://db7lvqwqw0k6m" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 88.png" id="28_12x4a"]
+[ext_resource type="Texture2D" uid="uid://dtosonrjtylj2" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 89.png" id="29_5waue"]
+[ext_resource type="Texture2D" uid="uid://dkemslfel3id3" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 90.png" id="30_ypum1"]
+[ext_resource type="Texture2D" uid="uid://dp8ysq2l3lke0" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 91.png" id="31_nr8w1"]
+[ext_resource type="Texture2D" uid="uid://cnuxx1f5pjicu" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 92.png" id="32_tjic1"]
+[ext_resource type="Texture2D" uid="uid://bacoir0ngywlr" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 93.png" id="33_dhdbd"]
+[ext_resource type="Texture2D" uid="uid://p83237b0osv0" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 94.png" id="34_w84s8"]
+[ext_resource type="Texture2D" uid="uid://nn4qe6ju4ct6" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 95.png" id="35_lycvv"]
+[ext_resource type="Texture2D" uid="uid://tgbkniwn61mf" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 96.png" id="36_sxo45"]
+[ext_resource type="Texture2D" uid="uid://cpqa5xqgxkgoq" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 97.png" id="37_ienw1"]
+[ext_resource type="Texture2D" uid="uid://ccanfsmebx5ax" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 98.png" id="38_x13n5"]
+[ext_resource type="Texture2D" uid="uid://dcxk2jo813dkp" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 99.png" id="39_m50qk"]
+[ext_resource type="Texture2D" uid="uid://ca2na6lq8sqhi" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 100.png" id="40_bc1o8"]
+[ext_resource type="Texture2D" uid="uid://cvhwbb0nda3cm" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 101.png" id="41_oxu8w"]
+[ext_resource type="Texture2D" uid="uid://bjw7a7ftbruwm" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 102.png" id="42_6fm4q"]
+[ext_resource type="Texture2D" uid="uid://bj0ej712b4dvi" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 103.png" id="43_fihf2"]
+[ext_resource type="Texture2D" uid="uid://ci8f4sie2bfuy" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 104.png" id="44_13xqr"]
+[ext_resource type="Texture2D" uid="uid://bupd7l4c00pnp" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 105.png" id="45_rh01g"]
+[ext_resource type="Texture2D" uid="uid://676e7hf6q5yn" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 106.png" id="46_clul0"]
+[ext_resource type="Texture2D" uid="uid://mot4y4737myj" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 107.png" id="47_jk5qf"]
+[ext_resource type="Texture2D" uid="uid://brooi2b6atyc8" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 108.png" id="48_kqvxq"]
+[ext_resource type="Texture2D" uid="uid://epviv7bttxf1" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 109.png" id="49_i8vq2"]
+[ext_resource type="Texture2D" uid="uid://bhgpe6lejopjf" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 110.png" id="50_ayeck"]
+[ext_resource type="Texture2D" uid="uid://wx7tvfjiphif" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 111.png" id="51_1thod"]
+[ext_resource type="Texture2D" uid="uid://x7vo4coeodc1" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 112.png" id="52_76t5i"]
+[ext_resource type="Texture2D" uid="uid://bn8n8mvr47nsg" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 113.png" id="53_bwao8"]
+[ext_resource type="Texture2D" uid="uid://cc2je0qegym5u" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 114.png" id="54_jphbu"]
+[ext_resource type="Texture2D" uid="uid://dti6xhel4x2x4" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 115.png" id="55_kdfl0"]
+[ext_resource type="Texture2D" uid="uid://bpekrp1y0hufs" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 116.png" id="56_4fieh"]
+[ext_resource type="Texture2D" uid="uid://cxhsiaecu5vlo" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 117.png" id="57_u33as"]
+[ext_resource type="Texture2D" uid="uid://dunervr1n3evo" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 118.png" id="58_5dtba"]
+[ext_resource type="Texture2D" uid="uid://ctwhlx85xlux1" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 119.png" id="59_1bwwi"]
+[ext_resource type="Texture2D" uid="uid://o4jlh8yqqken" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 120.png" id="60_d7d5m"]
+[ext_resource type="Texture2D" uid="uid://cusjw8ctu5y01" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 121.png" id="61_4n7yc"]
+[ext_resource type="Texture2D" uid="uid://bqkjg4wsoncxx" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 122.png" id="62_1j2y3"]
+[ext_resource type="Texture2D" uid="uid://dlt0psq4scbr5" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 123.png" id="63_8ui37"]
+[ext_resource type="Texture2D" uid="uid://deq6n1w4mcpqx" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 124.png" id="64_e5lpl"]
+[ext_resource type="Texture2D" uid="uid://24dpd1hkg2s8" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 125.png" id="65_o4m6w"]
+[ext_resource type="Texture2D" uid="uid://d1sxud6qo240q" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 126.png" id="66_60wr8"]
+[ext_resource type="Texture2D" uid="uid://d0ttmgimlbirh" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 127.png" id="67_kd0ld"]
+[ext_resource type="Texture2D" uid="uid://h0l6d8aw5yhk" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 128.png" id="68_3e3rv"]
+[ext_resource type="Texture2D" uid="uid://qhg43o4rebn7" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 129.png" id="69_a1qlc"]
+[ext_resource type="Texture2D" uid="uid://d2k6cn8l60xdn" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 130.png" id="70_21uha"]
+[ext_resource type="Texture2D" uid="uid://t1hci6q4gxg0" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 131.png" id="71_o6w66"]
+[ext_resource type="Texture2D" uid="uid://ck7ko066rw3gc" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 132.png" id="72_ye0hv"]
+[ext_resource type="Texture2D" uid="uid://dv0ovun2ldbfs" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 133.png" id="73_wqmn1"]
+[ext_resource type="Texture2D" uid="uid://db5blj7jikfdc" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 134.png" id="74_qkyww"]
+[ext_resource type="Texture2D" uid="uid://bmu0ks6ya5hft" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 135.png" id="75_e5cwe"]
+[ext_resource type="Texture2D" uid="uid://d14f8smnv7454" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 136.png" id="76_ut6y4"]
+[ext_resource type="Texture2D" uid="uid://druft2codgwuf" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 137.png" id="77_k75so"]
+[ext_resource type="Texture2D" uid="uid://c7qkqtuhbb3ri" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 138.png" id="78_axabv"]
+[ext_resource type="Texture2D" uid="uid://cbsqkqmreeo42" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 139.png" id="79_pwxgi"]
+[ext_resource type="Texture2D" uid="uid://er7541bpkova" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 140.png" id="80_e0ld5"]
+[ext_resource type="Texture2D" uid="uid://c548jrt8l120t" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 141.png" id="81_mtglm"]
+[ext_resource type="Texture2D" uid="uid://c3hldev3xpxrp" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 142.png" id="82_nv3pm"]
+[ext_resource type="Texture2D" uid="uid://bg8yd51m1slq1" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 143.png" id="83_qmepp"]
+[ext_resource type="Texture2D" uid="uid://3w4ssbww54sw" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 144.png" id="84_bhcei"]
+[ext_resource type="Texture2D" uid="uid://b5jijilgf6agg" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 145.png" id="85_p161b"]
+[ext_resource type="Texture2D" uid="uid://xx7tpf04mv0o" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 146.png" id="86_3ogih"]
+[ext_resource type="Texture2D" uid="uid://dx0effovdasj2" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 147.png" id="87_08i64"]
+[ext_resource type="Texture2D" uid="uid://duoiudkl5fwv2" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 148.png" id="88_aqq0m"]
+[ext_resource type="Texture2D" uid="uid://gnefx36fq1l" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 149.png" id="89_war86"]
+[ext_resource type="Texture2D" uid="uid://dwjhd5bvr1ck4" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 150.png" id="90_ggqvl"]
+[ext_resource type="Texture2D" uid="uid://bgjtoi7n4fyvb" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 151.png" id="91_8ruu3"]
+[ext_resource type="Texture2D" uid="uid://bctqpi3kdxkc0" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 152.png" id="92_ia77x"]
+[ext_resource type="Texture2D" uid="uid://bwjd6oteq23s5" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 153.png" id="93_xh7h4"]
+[ext_resource type="Texture2D" uid="uid://ckepehc1eacet" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 154.png" id="94_t66hj"]
+[ext_resource type="Texture2D" uid="uid://3wp3l6e7uv24" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 155.png" id="95_xxdpk"]
+[ext_resource type="Texture2D" uid="uid://8vf8tybyapcx" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 156.png" id="96_f3r72"]
+[ext_resource type="Texture2D" uid="uid://bygat3ioqhdx5" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 157.png" id="97_6g7y7"]
+[ext_resource type="Texture2D" uid="uid://g2j6v7erb4kf" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 158.png" id="98_odllh"]
+[ext_resource type="Texture2D" uid="uid://dnktdvttg82wm" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 159.png" id="99_w8dtn"]
+[ext_resource type="Texture2D" uid="uid://btavnydjf6wug" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 160.png" id="100_7khd4"]
+[ext_resource type="Texture2D" uid="uid://764sfhwawpic" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 161.png" id="101_b21tf"]
+[ext_resource type="Texture2D" uid="uid://dvcl20rxfc2ga" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 162.png" id="102_dusoh"]
+[ext_resource type="Texture2D" uid="uid://djpmoonpp5bcy" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 163.png" id="103_i4850"]
+[ext_resource type="Texture2D" uid="uid://bm117fsrf10yb" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 164.png" id="104_wmuwb"]
+[ext_resource type="Texture2D" uid="uid://bg31ntxptjbq5" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 165.png" id="105_i4qsk"]
+[ext_resource type="Texture2D" uid="uid://c6kjf5huxwm5p" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 166.png" id="106_ayqar"]
+[ext_resource type="Texture2D" uid="uid://de5cxlgsukn84" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 167.png" id="107_5o371"]
+[ext_resource type="Texture2D" uid="uid://crl6dfn673u7o" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 168.png" id="108_flt6d"]
+[ext_resource type="Texture2D" uid="uid://b7i66toqmawoo" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 169.png" id="109_n7fpf"]
+[ext_resource type="Texture2D" uid="uid://i3g6sny2fjia" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 170.png" id="110_5im54"]
+[ext_resource type="Texture2D" uid="uid://dt85bygvq6e2v" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 171.png" id="111_y50k3"]
+[ext_resource type="Texture2D" uid="uid://bwnu8kvro66p" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 172.png" id="112_gl3hm"]
+[ext_resource type="Texture2D" uid="uid://cl7h1uqaqjet7" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 173.png" id="113_tcth2"]
+[ext_resource type="Texture2D" uid="uid://dftnnccbnv7sp" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 174.png" id="114_q7egx"]
+[ext_resource type="Texture2D" uid="uid://bfslket40qt8r" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 175.png" id="115_jy1tp"]
+[ext_resource type="Texture2D" uid="uid://bdneo0o7eu00x" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 176.png" id="116_qewhx"]
+[ext_resource type="Texture2D" uid="uid://bwcfr6n4gqejm" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 177.png" id="117_u4ixk"]
+[ext_resource type="Texture2D" uid="uid://dcp5nlcnre6ty" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 178.png" id="118_scnyo"]
+[ext_resource type="Texture2D" uid="uid://cepyu3gx5d3up" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 179.png" id="119_tngr5"]
+[ext_resource type="Texture2D" uid="uid://7m3xtiyu8jxi" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 180.png" id="120_o23ip"]
+[ext_resource type="Texture2D" uid="uid://dxclcuelgs2li" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 181.png" id="121_obq40"]
+[ext_resource type="Texture2D" uid="uid://baa726umjggti" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 182.png" id="122_3kg0d"]
+[ext_resource type="Texture2D" uid="uid://brbgsphwairol" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 183.png" id="123_0w236"]
+[ext_resource type="Texture2D" uid="uid://bpj2cmdvbefjp" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 184.png" id="124_ahl0h"]
+[ext_resource type="Texture2D" uid="uid://bk6ttxrs8i0o3" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 185.png" id="125_33qds"]
+[ext_resource type="Texture2D" uid="uid://b1esdh02nuolj" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 186.png" id="126_k1tia"]
+[ext_resource type="Texture2D" uid="uid://dncr2o5whb8qm" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 187.png" id="127_rplf7"]
+[ext_resource type="Texture2D" uid="uid://cb2xkrhg6i75" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 188.png" id="128_5frvb"]
+[ext_resource type="Texture2D" uid="uid://shshloghiv7o" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 189.png" id="129_jauca"]
+[ext_resource type="Texture2D" uid="uid://bk3fd8l34i40u" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 190.png" id="130_86mr8"]
+[ext_resource type="Texture2D" uid="uid://dc2mm0t4b1mrw" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 191.png" id="131_lrptm"]
+[ext_resource type="Texture2D" uid="uid://cr2nuql71pu47" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 192.png" id="132_74ehe"]
+[ext_resource type="Texture2D" uid="uid://b2ub3driksfqp" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 193.png" id="133_eqs0w"]
+[ext_resource type="Texture2D" uid="uid://dmwvk4rejf1s5" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 194.png" id="134_42881"]
+[ext_resource type="Texture2D" uid="uid://dco4wkjowj0iw" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 195.png" id="135_2lrft"]
+[ext_resource type="Texture2D" uid="uid://bsb1gqnc5pw6n" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 196.png" id="136_ldbja"]
+[ext_resource type="Texture2D" uid="uid://dvuhrumu1qwix" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 197.png" id="137_udjip"]
+[ext_resource type="Texture2D" uid="uid://bmvyqso8tqjnw" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 198.png" id="138_3oonn"]
+[ext_resource type="Texture2D" uid="uid://cur37cd3jgivr" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 199.png" id="139_dbr0m"]
+[ext_resource type="Texture2D" uid="uid://bvccnc6oqsddd" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 200.png" id="140_0trpw"]
+[ext_resource type="Texture2D" uid="uid://bdbv4fi8nyt70" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 201.png" id="141_8acch"]
+[ext_resource type="Texture2D" uid="uid://ddffawhdku267" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 202.png" id="142_tvsov"]
+[ext_resource type="Texture2D" uid="uid://l25obwk5dw55" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 203.png" id="143_1ok6t"]
+[ext_resource type="Texture2D" uid="uid://bk7sw4ipt6f56" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 204.png" id="144_luc7f"]
+[ext_resource type="Texture2D" uid="uid://b3ster7yd0hhr" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 205.png" id="145_c06mq"]
+[ext_resource type="Texture2D" uid="uid://dg40bv2wg4vtc" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 206.png" id="146_da7q0"]
+[ext_resource type="Texture2D" uid="uid://cbmv62uh6hjd7" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 207.png" id="147_lb0gy"]
+[ext_resource type="Texture2D" uid="uid://qg8wr32jwrgx" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 208.png" id="148_wiwoj"]
+[ext_resource type="Texture2D" uid="uid://5vse584gm7ov" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 209.png" id="149_0uhl3"]
+[ext_resource type="Texture2D" uid="uid://c2x17xa3onp3n" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 210.png" id="150_r1i8h"]
+[ext_resource type="Texture2D" uid="uid://dq1icm76ex1ig" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 211.png" id="151_nolad"]
+[ext_resource type="Texture2D" uid="uid://b01sfcrlwq16k" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 212.png" id="152_6jlhh"]
+[ext_resource type="Texture2D" uid="uid://cdhgm2tafnl8a" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 213.png" id="153_duvdu"]
+[ext_resource type="Texture2D" uid="uid://b3acympoocbtx" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 214.png" id="154_6ubse"]
+[ext_resource type="Texture2D" uid="uid://domseihjf1wxh" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 215.png" id="155_deuwi"]
+[ext_resource type="Texture2D" uid="uid://cx8qn05e74dgn" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 216.png" id="156_wgta6"]
+[ext_resource type="Texture2D" uid="uid://bpfpcbcme2lbh" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 217.png" id="157_l7rmp"]
+[ext_resource type="Texture2D" uid="uid://bmofwvckfr671" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 218.png" id="158_ll7k7"]
+[ext_resource type="Texture2D" uid="uid://e3nhsdf68itu" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 219.png" id="159_2p7gx"]
+[ext_resource type="Texture2D" uid="uid://cprcfpscnjakg" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 220.png" id="160_jrwwb"]
+[ext_resource type="Texture2D" uid="uid://qtvfjoowsyf5" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 221.png" id="161_hran7"]
+[ext_resource type="Texture2D" uid="uid://de2o706kylvod" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 222.png" id="162_es4f2"]
+[ext_resource type="Texture2D" uid="uid://cpltrarv5bt6e" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 223.png" id="163_rfxmm"]
+[ext_resource type="Texture2D" uid="uid://b4qg6dyl6cxve" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 224.png" id="164_63wls"]
+[ext_resource type="Texture2D" uid="uid://dom1qlay5guk2" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 225.png" id="165_lkvum"]
+[ext_resource type="Texture2D" uid="uid://btm76pn2glxtj" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 226.png" id="166_jydw1"]
+[ext_resource type="Texture2D" uid="uid://dbcv6vp2ktryl" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 227.png" id="167_c6nho"]
+[ext_resource type="Texture2D" uid="uid://bii4kwqldv5ax" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 228.png" id="168_cbqi0"]
+[ext_resource type="Texture2D" uid="uid://bflsw15s37fcn" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 229.png" id="169_d3473"]
+[ext_resource type="Texture2D" uid="uid://dupeuv03pqto1" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 230.png" id="170_qywvg"]
+[ext_resource type="Texture2D" uid="uid://pueyjdk6gluc" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 231.png" id="171_frl5k"]
+[ext_resource type="Texture2D" uid="uid://i0o2nmi0y4i3" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 232.png" id="172_pddbm"]
+[ext_resource type="Texture2D" uid="uid://cbtngyrjq7q7q" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 233.png" id="173_ws68c"]
+[ext_resource type="Texture2D" uid="uid://38os78yxfhfr" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 234.png" id="174_y0wgy"]
+[ext_resource type="Texture2D" uid="uid://chtp6d60v4lb" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 235.png" id="175_bo3yc"]
+[ext_resource type="Texture2D" uid="uid://du3lo8o2e50wj" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 236.png" id="176_nriob"]
+[ext_resource type="Texture2D" uid="uid://c03y8el3dubea" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 237.png" id="177_865ty"]
+[ext_resource type="Texture2D" uid="uid://bk0ivdwgreclj" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 238.png" id="178_ljm3m"]
+[ext_resource type="Texture2D" uid="uid://doosr123niigj" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 239.png" id="179_dgn0u"]
+[ext_resource type="Texture2D" uid="uid://bpsatjct1rman" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 240.png" id="180_1prys"]
+[ext_resource type="Texture2D" uid="uid://cqldy6qeabj55" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 241.png" id="181_2a0oh"]
+[ext_resource type="Texture2D" uid="uid://v3o00j7r0ve8" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 242.png" id="182_m6c36"]
+[ext_resource type="Texture2D" uid="uid://dspcq3aw0hijj" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 243.png" id="183_ydlmo"]
+[ext_resource type="Texture2D" uid="uid://cpd6pvpqkmwt2" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 244.png" id="184_xudlm"]
+[ext_resource type="Texture2D" uid="uid://o7g45qtkafyv" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 245.png" id="185_n1e0f"]
+[ext_resource type="Texture2D" uid="uid://dmwus0ot0nsnc" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 246.png" id="186_5qyuj"]
+[ext_resource type="Texture2D" uid="uid://yd2a2shrsaf5" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 247.png" id="187_sv75c"]
+[ext_resource type="Texture2D" uid="uid://bvqbp3q6x240s" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 248.png" id="188_d38wm"]
+[ext_resource type="Texture2D" uid="uid://dftcj45fxo3dp" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 249.png" id="189_lk00w"]
+[ext_resource type="Texture2D" uid="uid://ctmn2cqqxf20v" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 250.png" id="190_ajct5"]
+[ext_resource type="Texture2D" uid="uid://bgqlir6gy0woy" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 251.png" id="191_avmpt"]
+[ext_resource type="Texture2D" uid="uid://bnfhlp86oq0ds" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 252.png" id="192_wpthh"]
+[ext_resource type="Texture2D" uid="uid://5om02cxb7gs8" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 253.png" id="193_fboi5"]
+[ext_resource type="Texture2D" uid="uid://djln188alo7i5" path="res://Scenes/Scene 15/Отвлекаю Хермана когда он пилит дерево/Отвлекаю Хермана когда он пилит дерево 254.png" id="194_js8s4"]
+[ext_resource type="FontFile" uid="uid://bxlq43i6a6tk3" path="res://Assets/Шрифты/PressStart2P-Regular.ttf" id="195_hr1pc"]
+[ext_resource type="Script" uid="uid://bpowcaxenwboi" path="res://Scenes/Scene 15/текст_хермана сцена 15.gd" id="195_t2jgs"]
+[ext_resource type="AudioStream" uid="uid://cwvs82eciucwf" path="res://Scenes/Scene 15/Almost finished.mp3" id="197_bjdy6"]
+[ext_resource type="AudioStream" uid="uid://8s4gegc45ny5" path="res://Scenes/Scene 15/Вторая часть диалога.mp3" id="198_owte8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_l5aow"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_dra7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_l57lb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_8q0a6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_h1nuf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qqwfg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_if4w3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_43mt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_0m62d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_3cb2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_uxhh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_xolhv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_fh8g6")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3dx16"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_uoy46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_da81x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_yx2iw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ffc2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_nugk0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_hsqu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_a3m23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_gtk0t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ls0yy")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ch2y0"]
+size = Vector2(106.5, 223.5)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_f7ivb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_djwda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_xpp05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_0iskw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_12x4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_5waue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ypum1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_nr8w1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_tjic1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_dhdbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_w84s8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_lycvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_sxo45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_ienw1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_x13n5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_m50qk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_bc1o8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_oxu8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_6fm4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_fihf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_13xqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_rh01g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_clul0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_jk5qf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_kqvxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_i8vq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ayeck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_1thod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_76t5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_bwao8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_jphbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_kdfl0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_4fieh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_u33as")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_5dtba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_1bwwi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_d7d5m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_4n7yc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_1j2y3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_8ui37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_e5lpl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_o4m6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_60wr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_kd0ld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_3e3rv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_a1qlc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_21uha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_o6w66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_ye0hv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_wqmn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_qkyww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_e5cwe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_ut6y4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_k75so")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_axabv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_pwxgi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_e0ld5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_mtglm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_nv3pm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_qmepp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_bhcei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_p161b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_3ogih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_08i64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_aqq0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_war86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_ggqvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_8ruu3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_ia77x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_xh7h4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_t66hj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_xxdpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_f3r72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_6g7y7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_odllh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_w8dtn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_7khd4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_b21tf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_dusoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_i4850")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_wmuwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_i4qsk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_ayqar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_5o371")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_flt6d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_n7fpf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_5im54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_y50k3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_gl3hm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_tcth2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_q7egx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_jy1tp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_qewhx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_u4ixk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_scnyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_tngr5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_o23ip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_obq40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_3kg0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_0w236")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_ahl0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_33qds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_k1tia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_rplf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_5frvb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_jauca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_86mr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_lrptm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_74ehe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_eqs0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_42881")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_2lrft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_ldbja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_udjip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_3oonn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_dbr0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_0trpw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_8acch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_tvsov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_1ok6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_luc7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_c06mq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_da7q0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_lb0gy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_wiwoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_0uhl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_r1i8h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_nolad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_6jlhh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_duvdu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_6ubse")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_deuwi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_wgta6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_l7rmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_ll7k7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_2p7gx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_jrwwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_hran7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_es4f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_rfxmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_63wls")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_lkvum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_jydw1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_c6nho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_cbqi0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_d3473")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_qywvg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_frl5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_pddbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_ws68c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_y0wgy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_bo3yc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_nriob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_865ty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_ljm3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_dgn0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_1prys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_2a0oh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_m6c36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_ydlmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_xudlm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_n1e0f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_5qyuj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_sv75c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_d38wm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_lk00w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_ajct5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_avmpt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_wpthh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_fboi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_js8s4")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="Scene 15" type="Sprite2D"]
+position = Vector2(48, 48)
+texture = ExtResource("1_r58ut")
+centered = false
+script = ExtResource("1_41gqw")
+
+[node name="Херман пилит дерево" type="AnimatedSprite2D" parent="."]
+position = Vector2(435, 489)
+sprite_frames = SubResource("SpriteFrames_l5aow")
+frame = 11
+frame_progress = 1.0
+
+[node name="AudioStreamPlayer Херман пилит дерево аудио" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_3cy1k")
+volume_db = 16.0
+
+[node name="Херман пилит дерево короткая анимация" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(435, 489)
+sprite_frames = SubResource("SpriteFrames_3dx16")
+
+[node name="Area2D Херман" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D Херман"]
+position = Vector2(525.75, 451.75)
+shape = SubResource("RectangleShape2D_ch2y0")
+
+[node name="Отвлекаю Хермана когда он пилит дерево" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(597, 444)
+sprite_frames = SubResource("SpriteFrames_f7ivb")
+
+[node name="Timer время до появления сообщения" type="Timer" parent="."]
+
+[node name="Timer длительность отображения сообщения" type="Timer" parent="."]
+
+[node name="Текст Хермана" type="Label" parent="."]
+offset_right = 800.0
+offset_bottom = 200.0
+theme_override_fonts/font = ExtResource("195_hr1pc")
+theme_override_font_sizes/font_size = 36
+script = ExtResource("195_t2jgs")
+
+[node name="AudioStreamPlayer Almost finished" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("197_bjdy6")
+volume_db = 10.0
+
+[node name="AudioStreamPlayer Вторая часть диалога" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("198_owte8")
+volume_db = 10.0
+
+[connection signal="animation_finished" from="Херман пилит дерево" to="." method="_on_херман_пилит_дерево_animation_finished"]
+[connection signal="animation_finished" from="Херман пилит дерево короткая анимация" to="." method="_on_херман_пилит_дерево_короткая_анимация_animation_finished"]
+[connection signal="input_event" from="Area2D Херман" to="." method="_on_area_2d_херман_input_event"]
+[connection signal="animation_finished" from="Отвлекаю Хермана когда он пилит дерево" to="." method="_on_отвлекаю_хермана_когда_он_пилит_дерево_animation_finished"]
+[connection signal="timeout" from="Timer время до появления сообщения" to="." method="_on_timer_время_до_появления_сообщения_timeout"]
+[connection signal="timeout" from="Timer длительность отображения сообщения" to="." method="_on_timer_длительность_отображения_сообщения_timeout"]

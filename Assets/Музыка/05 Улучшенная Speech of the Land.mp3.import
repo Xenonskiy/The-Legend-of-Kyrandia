@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dt6m0g74f3ae1"
+path="res://.godot/imported/05 Улучшенная Speech of the Land.mp3-720fa71e0a0add053dc304afba943cd6.mp3str"
+
+[deps]
+
+source_file="res://Assets/Музыка/05 Улучшенная Speech of the Land.mp3"
+dest_files=["res://.godot/imported/05 Улучшенная Speech of the Land.mp3-720fa71e0a0add053dc304afba943cd6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

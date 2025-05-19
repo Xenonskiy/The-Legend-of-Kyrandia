@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bcp2576hmce6l"
+path="res://.godot/imported/08 Улучшенная Brynn's Theme.mp3-6a604136be472b5496e3d582b43e0f3f.mp3str"
+
+[deps]
+
+source_file="res://Assets/Музыка/08 Улучшенная Brynn's Theme.mp3"
+dest_files=["res://.godot/imported/08 Улучшенная Brynn's Theme.mp3-6a604136be472b5496e3d582b43e0f3f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3u5ilb46pq5g"
+path="res://.godot/imported/Звук предмет кладется в ячейку.mp3-9e4f9fa9e4ea2409f6c24675f053dd88.mp3str"
+
+[deps]
+
+source_file="res://Assets/Звуки/Звук предмет кладется в ячейку.mp3"
+dest_files=["res://.godot/imported/Звук предмет кладется в ячейку.mp3-9e4f9fa9e4ea2409f6c24675f053dd88.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

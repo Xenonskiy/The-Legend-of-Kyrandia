@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://1yifhwpxu4l6"
+path="res://.godot/imported/Hey Perfect fit.mp3-15a8a433fc7ec5f673ef7c9c92b62555.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 12/Hey Perfect fit.mp3"
+dest_files=["res://.godot/imported/Hey Perfect fit.mp3-15a8a433fc7ec5f673ef7c9c92b62555.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

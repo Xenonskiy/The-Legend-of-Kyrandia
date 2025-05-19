@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://04a4wsk4rnsj"]
+
+[ext_resource type="Texture2D" uid="uid://ceffiffjkwcu2" path="res://Scenes/Scene 13/13 Оригинал.png" id="1_8hx8t"]
+[ext_resource type="Script" uid="uid://b6y1etqxennbs" path="res://Scenes/Scene 13/scene_13.gd" id="1_c2xq8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8hx8t"]
+size = Vector2(1523.5, 44)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4y86y"]
+size = Vector2(29, 510)
+
+[node name="Scene 13" type="Sprite2D"]
+position = Vector2(48, 48)
+texture = ExtResource("1_8hx8t")
+centered = false
+script = ExtResource("1_c2xq8")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(765.25, 144)
+shape = SubResource("RectangleShape2D_8hx8t")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1531, 490)
+shape = SubResource("RectangleShape2D_4y86y")

@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://m71wsvf60ofm"]
+
+[ext_resource type="Script" uid="uid://bwo4i3m6wpx80" path="res://Scenes/Scene 8/scene_8.gd" id="1_ti7xq"]
+[ext_resource type="Texture2D" uid="uid://b4ehlosaqtu6i" path="res://Scenes/Scene 8/8 Оригинал.png" id="1_wol8y"]
+[ext_resource type="Texture2D" uid="uid://bn11wfwgcpx4t" path="res://Scenes/Scene 8/Мирит сцена номер 8.png" id="3_lsr43"]
+[ext_resource type="VideoStream" uid="uid://d0t16ebsttij1" path="res://Scenes/Scene 8/Видео Сцена 8.ogv" id="4_tqac1"]
+
+[node name="Scene 8" type="Sprite2D"]
+position = Vector2(48, 48)
+texture = ExtResource("1_wol8y")
+centered = false
+script = ExtResource("1_ti7xq")
+
+[node name="Sprite2D Мирит" type="Sprite2D" parent="."]
+visible = false
+z_index = 1
+position = Vector2(1155, 534)
+texture = ExtResource("3_lsr43")
+
+[node name="VideoStreamPlayer Заставка с Миритом" type="VideoStreamPlayer" parent="."]
+visible = false
+z_index = 1
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(3, 3)
+stream = ExtResource("4_tqac1")
+volume_db = 10.0
+
+[connection signal="finished" from="VideoStreamPlayer Заставка с Миритом" to="." method="_on_video_stream_player_заставка_с_миритом_finished"]

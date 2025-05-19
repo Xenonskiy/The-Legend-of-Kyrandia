@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://deoqr8rguvapa"
+path="res://.godot/imported/but the rest is blank.mp3-16bec7b05553fbfc1a1aabd0402d0493.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/but the rest is blank.mp3"
+dest_files=["res://.godot/imported/but the rest is blank.mp3-16bec7b05553fbfc1a1aabd0402d0493.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqhhm8nwkbsp"]
+
+[ext_resource type="Texture2D" uid="uid://bcxdj88vq605b" path="res://Scenes/Scene 16/16 Оригинал.png" id="1_j1huk"]
+[ext_resource type="Script" uid="uid://b1nb8yh3x2shg" path="res://Scenes/Scene 16/scene_16.gd" id="1_q5m15"]
+
+[node name="Scene 16" type="Sprite2D"]
+position = Vector2(48, 48)
+texture = ExtResource("1_j1huk")
+centered = false
+script = ExtResource("1_q5m15")

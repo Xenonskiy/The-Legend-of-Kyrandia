@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://csei5madiqlx"
+path="res://.godot/imported/Did_you_find_a_clue_Brandon.mp3-d3b8b4a78a0068c03f0cfddb0bc2f341.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/Did_you_find_a_clue_Brandon.mp3"
+dest_files=["res://.godot/imported/Did_you_find_a_clue_Brandon.mp3-d3b8b4a78a0068c03f0cfddb0bc2f341.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

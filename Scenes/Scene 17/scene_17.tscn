@@ -1,0 +1,158 @@
+[gd_scene load_steps=22 format=3 uid="uid://cy2vc8n11baxp"]
+
+[ext_resource type="Texture2D" uid="uid://cgf71hpf2o3aa" path="res://Scenes/Scene 17/17 Оригинал.png" id="1_26ff1"]
+[ext_resource type="Script" uid="uid://d1mw7d6cqnwr8" path="res://Scenes/Scene 17/scene_17.gd" id="1_pe5jc"]
+[ext_resource type="Texture2D" uid="uid://wbg1nyaiq17p" path="res://Scenes/Scene 17/Херман 1.png" id="3_3jusx"]
+[ext_resource type="Texture2D" uid="uid://7vys8a62wbu3" path="res://Scenes/Scene 17/Движение воды мост сломан 1.png" id="3_ocg8p"]
+[ext_resource type="Texture2D" uid="uid://bsi3xjcx5vjbk" path="res://Scenes/Scene 17/Движение воды мост сломан 2.png" id="4_6jvqd"]
+[ext_resource type="Texture2D" uid="uid://bb7uybvs3xf3h" path="res://Scenes/Scene 17/Херман 2.png" id="4_jfcga"]
+[ext_resource type="Texture2D" uid="uid://luxo3uy6fr0b" path="res://Scenes/Scene 17/Движение воды мост сломан 3.png" id="5_0jdu6"]
+[ext_resource type="Texture2D" uid="uid://crpptqsm08x10" path="res://Scenes/Scene 17/Анимация воды мост починен 1.png" id="6_pddhd"]
+[ext_resource type="Texture2D" uid="uid://c5ukrewxhgxd0" path="res://Scenes/Scene 17/Анимация воды мост починен 2.png" id="7_mba3q"]
+[ext_resource type="Texture2D" uid="uid://bmd6tea0iiue1" path="res://Scenes/Scene 17/Анимация воды мост починен 3.png" id="8_j2pus"]
+[ext_resource type="VideoStream" uid="uid://dfny0ha885wqq" path="res://Scenes/Scene 17/Видео Сцена 17 Первая заставка.ogv" id="12_2n6xp"]
+[ext_resource type="VideoStream" uid="uid://bon2w7h6qrnew" path="res://Scenes/Scene 17/Видео Сцена 17 Вторая заставка.ogv" id="13_kgmkt"]
+[ext_resource type="VideoStream" uid="uid://cjqor0omr3djn" path="res://Scenes/Scene 17/Видео Сцена 17 Третья заставка.ogv" id="14_cspvd"]
+[ext_resource type="VideoStream" uid="uid://p13ndiyqx346" path="res://Scenes/Scene 17/Видео Сцена 17 Четвертая заставка Херман спрашивает про пилу.ogv" id="15_slyyn"]
+[ext_resource type="VideoStream" uid="uid://cqemc5po2ux5d" path="res://Scenes/Scene 17/Видео Сцена 17 Пятая заставка Херман починил мост.ogv" id="16_ahh7k"]
+[ext_resource type="Texture2D" uid="uid://bbhkvdcl3y0kk" path="res://Scenes/Scene 17/Херман после того как отремонтировал мост.png" id="914_dv7ci"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u2tby"]
+animations = [{
+"frames": [{
+"duration": 2.0,
+"texture": ExtResource("3_ocg8p")
+}, {
+"duration": 2.0,
+"texture": ExtResource("4_6jvqd")
+}, {
+"duration": 2.0,
+"texture": ExtResource("5_0jdu6")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1vlpb"]
+animations = [{
+"frames": [{
+"duration": 2.0,
+"texture": ExtResource("6_pddhd")
+}, {
+"duration": 2.0,
+"texture": ExtResource("7_mba3q")
+}, {
+"duration": 2.0,
+"texture": ExtResource("8_j2pus")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8kpdj"]
+size = Vector2(149, 239)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ahh7k"]
+size = Vector2(62, 410.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8i7ac"]
+size = Vector2(126, 324)
+
+[node name="Scene 17" type="Sprite2D"]
+position = Vector2(48, 48)
+texture = ExtResource("1_26ff1")
+centered = false
+script = ExtResource("1_pe5jc")
+
+[node name="Анимация воды мост сломан" type="AnimatedSprite2D" parent="."]
+position = Vector2(912, 384)
+sprite_frames = SubResource("SpriteFrames_u2tby")
+autoplay = "default"
+
+[node name="Анимация воды мост починен" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(912, 384)
+sprite_frames = SubResource("SpriteFrames_1vlpb")
+
+[node name="Area2D Херман" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D Херман"]
+position = Vector2(1262.5, 407.5)
+shape = SubResource("RectangleShape2D_8kpdj")
+
+[node name="Sprite2D Херман 1" type="Sprite2D" parent="."]
+position = Vector2(1263, 411)
+texture = ExtResource("3_3jusx")
+
+[node name="Sprite2D Херман 2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1278, 414)
+texture = ExtResource("4_jfcga")
+
+[node name="Sprite2D Херман после того как отремонтировал мост" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1260, 495)
+texture = ExtResource("914_dv7ci")
+
+[node name="VideoStreamPlayer Первая заставка" type="VideoStreamPlayer" parent="."]
+visible = false
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(3, 3)
+stream = ExtResource("12_2n6xp")
+volume_db = 10.0
+
+[node name="VideoStreamPlayer Вторая заставка" type="VideoStreamPlayer" parent="."]
+visible = false
+z_index = 1
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(3, 3)
+stream = ExtResource("13_kgmkt")
+volume_db = 10.0
+
+[node name="VideoStreamPlayer Третья заставка" type="VideoStreamPlayer" parent="."]
+visible = false
+z_index = 1
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(3, 3)
+stream = ExtResource("14_cspvd")
+volume_db = 10.0
+
+[node name="VideoStreamPlayer Четвертая заставка Херман спрашивает про пилу" type="VideoStreamPlayer" parent="."]
+visible = false
+z_index = 1
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(3, 3)
+stream = ExtResource("15_slyyn")
+volume_db = 10.0
+
+[node name="VideoStreamPlayer Пятая заставка Херман починил мост" type="VideoStreamPlayer" parent="."]
+visible = false
+z_index = 1
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(3, 3)
+stream = ExtResource("16_ahh7k")
+volume_db = 10.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(922, 562.25)
+shape = SubResource("RectangleShape2D_ahh7k")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1021, 184)
+shape = SubResource("RectangleShape2D_8i7ac")
+
+[connection signal="input_event" from="Area2D Херман" to="." method="_on_area_2d_херман_input_event"]
+[connection signal="finished" from="VideoStreamPlayer Первая заставка" to="." method="_on_video_stream_player_первая_заставка_finished"]
+[connection signal="finished" from="VideoStreamPlayer Вторая заставка" to="." method="_on_video_stream_player_вторая_заставка_finished"]
+[connection signal="finished" from="VideoStreamPlayer Третья заставка" to="." method="_on_video_stream_player_третья_заставка_finished"]
+[connection signal="finished" from="VideoStreamPlayer Четвертая заставка Херман спрашивает про пилу" to="." method="_on_video_stream_player_четвертая_заставка_херман_спрашивает_про_пилу_finished"]
+[connection signal="finished" from="VideoStreamPlayer Пятая заставка Херман починил мост" to="." method="_on_video_stream_player_пятая_заставка_херман_починил_мост_finished"]

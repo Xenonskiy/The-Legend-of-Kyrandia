@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://up0ey06uiubc"
+path="res://.godot/imported/Аудио анимация 4 первая часть.mp3-e91f3536f8c8c2c2fce93743d8a1892d.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/Аудио анимация 4 первая часть.mp3"
+dest_files=["res://.godot/imported/Аудио анимация 4 первая часть.mp3-e91f3536f8c8c2c2fce93743d8a1892d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

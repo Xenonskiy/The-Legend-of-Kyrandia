@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://bhic1arw0503t"]
+
+[ext_resource type="Script" uid="uid://ckq738ryd5fvq" path="res://Scenes/Scene 10/scene_10.gd" id="1_2mshh"]
+[ext_resource type="Texture2D" uid="uid://cf2um1muv27us" path="res://Scenes/Scene 10/10 Оригинал.png" id="1_u3si5"]
+[ext_resource type="VideoStream" uid="uid://dlsqlgwiptao7" path="res://Scenes/Scene 10/Видео падение зеленого листа English.ogv" id="3_edf06"]
+
+[node name="Scene 10" type="Sprite2D"]
+position = Vector2(48, 48)
+texture = ExtResource("1_u3si5")
+centered = false
+script = ExtResource("1_2mshh")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+visible = false
+z_index = 1
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(3, 3)
+stream = ExtResource("3_edf06")
+volume_db = 10.0
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

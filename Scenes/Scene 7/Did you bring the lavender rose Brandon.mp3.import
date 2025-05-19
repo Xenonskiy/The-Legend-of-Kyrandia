@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://di65d6poymqus"
+path="res://.godot/imported/Did you bring the lavender rose Brandon.mp3-43afc6105724b1faf92c02e4ebabfc29.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/Did you bring the lavender rose Brandon.mp3"
+dest_files=["res://.godot/imported/Did you bring the lavender rose Brandon.mp3-43afc6105724b1faf92c02e4ebabfc29.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

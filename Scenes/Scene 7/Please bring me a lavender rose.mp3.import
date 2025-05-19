@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bqjwqusqhi3g"
+path="res://.godot/imported/Please bring me a lavender rose.mp3-f4bd870af2dae30e2d2ec9f984d83917.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/Please bring me a lavender rose.mp3"
+dest_files=["res://.godot/imported/Please bring me a lavender rose.mp3-f4bd870af2dae30e2d2ec9f984d83917.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

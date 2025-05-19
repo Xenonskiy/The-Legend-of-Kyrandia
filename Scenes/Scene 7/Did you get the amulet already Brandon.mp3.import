@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://44sp66o5bqjo"
+path="res://.godot/imported/Did you get the amulet already Brandon.mp3-9b5b2d5694acc1568ff70fdbb2094ccb.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/Did you get the amulet already Brandon.mp3"
+dest_files=["res://.godot/imported/Did you get the amulet already Brandon.mp3-9b5b2d5694acc1568ff70fdbb2094ccb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

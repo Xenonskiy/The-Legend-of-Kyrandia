@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dy58p2yruokc2"
+path="res://.godot/imported/I found a note on his bench.mp3-b50c958e28bd4ffdddd726bb370b70d0.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/I found a note on his bench.mp3"
+dest_files=["res://.godot/imported/I found a note on his bench.mp3-b50c958e28bd4ffdddd726bb370b70d0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

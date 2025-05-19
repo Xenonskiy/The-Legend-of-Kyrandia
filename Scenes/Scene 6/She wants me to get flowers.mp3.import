@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d2v2d65vpnije"
+path="res://.godot/imported/She wants me to get flowers.mp3-aae159b3ebe10bca0092e24ead096824.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 6/She wants me to get flowers.mp3"
+dest_files=["res://.godot/imported/She wants me to get flowers.mp3-aae159b3ebe10bca0092e24ead096824.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

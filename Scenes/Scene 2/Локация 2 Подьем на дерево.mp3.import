@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://3s8rxo4432yx"
+path="res://.godot/imported/Локация 2 Подьем на дерево.mp3-e8f01ed0ae6937ed37fcd6d108181499.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 2/Локация 2 Подьем на дерево.mp3"
+dest_files=["res://.godot/imported/Локация 2 Подьем на дерево.mp3-e8f01ed0ae6937ed37fcd6d108181499.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

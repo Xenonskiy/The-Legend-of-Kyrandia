@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://colm20vhebsyk"
+path="res://.godot/imported/Several rocks..mp3-cda26e405c4f32939499268279283a9f.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 1/Several rocks..mp3"
+dest_files=["res://.godot/imported/Several rocks..mp3-cda26e405c4f32939499268279283a9f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

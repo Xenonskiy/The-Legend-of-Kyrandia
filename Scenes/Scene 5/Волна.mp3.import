@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://jva4pmnuvcl3"
+path="res://.godot/imported/Волна.mp3-dca958bc341f7292792f2ebb6073dc65.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 5/Волна.mp3"
+dest_files=["res://.godot/imported/Волна.mp3-dca958bc341f7292792f2ebb6073dc65.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,676 @@
+[gd_scene load_steps=141 format=3 uid="uid://da60fqyw1bjs"]
+
+[ext_resource type="Texture2D" uid="uid://djf252875hla4" path="res://Scenes/Scene 12/12 Оригинал.png" id="1_qgb4q"]
+[ext_resource type="Script" uid="uid://bj1yorcwjp7gu" path="res://Scenes/Scene 12/scene_12.gd" id="1_vudrr"]
+[ext_resource type="Texture2D" uid="uid://ddp1648h13ikj" path="res://Scenes/Scene 12/Роза 1.png" id="3_2thyw"]
+[ext_resource type="Texture2D" uid="uid://c340h0r2muol8" path="res://Scenes/Scene 12/Роза 2.png" id="4_052qt"]
+[ext_resource type="Texture2D" uid="uid://b2g1mpgsx43s1" path="res://Scenes/Scene 12/Роза 3.png" id="5_f4kfk"]
+[ext_resource type="Texture2D" uid="uid://be565tywceeq" path="res://Scenes/Scene 12/Роза 4.png" id="6_j0sn0"]
+[ext_resource type="Texture2D" uid="uid://8ln0tsoh1ly" path="res://Scenes/Scene 12/Роза 5.png" id="7_k54i1"]
+[ext_resource type="Texture2D" uid="uid://y3lm23bjb1sv" path="res://Scenes/Scene 12/Алтарь починен.png" id="8_23sb0"]
+[ext_resource type="Texture2D" uid="uid://b5nmwue3660t5" path="res://Scenes/Scene 12/Алтарь установка мрамора 1.png" id="9_35be5"]
+[ext_resource type="Texture2D" uid="uid://bl3pcdxkkidu7" path="res://Scenes/Scene 12/Алтарь установка мрамора 2.png" id="10_2768g"]
+[ext_resource type="Texture2D" uid="uid://dmlcq26c5u4ms" path="res://Scenes/Scene 12/Алтарь установка мрамора 3.png" id="11_ggy7n"]
+[ext_resource type="Texture2D" uid="uid://byl2h0f15f0iq" path="res://Scenes/Scene 12/Алтарь установка мрамора 4.png" id="12_0v4ix"]
+[ext_resource type="Texture2D" uid="uid://duvfrpeilutis" path="res://Scenes/Scene 12/Алтарь установка мрамора 5.png" id="13_86rsu"]
+[ext_resource type="Texture2D" uid="uid://dnuvjqm2uk2rx" path="res://Scenes/Scene 12/Алтарь установка мрамора 6.png" id="14_1uhv6"]
+[ext_resource type="Texture2D" uid="uid://dhmwpnl0qqk4" path="res://Scenes/Scene 12/Алтарь установка мрамора 7.png" id="15_vjrdf"]
+[ext_resource type="Texture2D" uid="uid://cl4lvmm6nrqwf" path="res://Scenes/Scene 12/Алтарь установка мрамора 8.png" id="16_516mx"]
+[ext_resource type="Texture2D" uid="uid://bd2kbwenx2mll" path="res://Scenes/Scene 12/Алтарь установка мрамора 9.png" id="17_dkgev"]
+[ext_resource type="Texture2D" uid="uid://xn516upyqfmi" path="res://Scenes/Scene 12/Алтарь установка мрамора 10.png" id="18_wu7ko"]
+[ext_resource type="Texture2D" uid="uid://cn86v10kcojqu" path="res://Scenes/Scene 12/Алтарь установка мрамора 11.png" id="19_vvtpr"]
+[ext_resource type="Texture2D" uid="uid://u6odtnbf624s" path="res://Scenes/Scene 12/Алтарь установка мрамора 12.png" id="20_5al3y"]
+[ext_resource type="Texture2D" uid="uid://bx4ox5ytkdjq8" path="res://Scenes/Scene 12/Алтарь установка мрамора 13.png" id="21_s8ks5"]
+[ext_resource type="Texture2D" uid="uid://bg7jp2jjgmcix" path="res://Scenes/Scene 12/Алтарь установка мрамора 14.png" id="22_ver52"]
+[ext_resource type="Texture2D" uid="uid://dmq1gqqdbt8i4" path="res://Scenes/Scene 12/Алтарь установка мрамора 15.png" id="23_1i4y5"]
+[ext_resource type="Texture2D" uid="uid://b17eogikrad4t" path="res://Scenes/Scene 12/Алтарь установка мрамора 16.png" id="24_pn2if"]
+[ext_resource type="Texture2D" uid="uid://b6s5jcm3j57g6" path="res://Scenes/Scene 12/Алтарь установка мрамора 17.png" id="25_qnua4"]
+[ext_resource type="AudioStream" uid="uid://bj5jcyv685o0w" path="res://Scenes/Scene 12/Звук мрамор установил в алтарь.mp3" id="26_bv02j"]
+[ext_resource type="Texture2D" uid="uid://sdun0pfsi4pm" path="res://Scenes/Scene 12/Превращение белой розы в амулет розовый цвет 1.png" id="27_kmymr"]
+[ext_resource type="Texture2D" uid="uid://c78i28liamrjn" path="res://Scenes/Scene 12/Превращение белой розы в амулет розовый цвет 2.png" id="28_nx0gh"]
+[ext_resource type="Texture2D" uid="uid://bkkqave3muhyq" path="res://Scenes/Scene 12/Превращение белой розы в амулет розовый цвет 3.png" id="29_4q40b"]
+[ext_resource type="Texture2D" uid="uid://dlhuaqk513iwu" path="res://Scenes/Scene 12/Превращение белой розы в амулет розовый цвет 4.png" id="30_kh53t"]
+[ext_resource type="Texture2D" uid="uid://ben4ywk8g824u" path="res://Scenes/Scene 12/Превращение белой розы в амулет розовый цвет 5.png" id="31_w6qlc"]
+[ext_resource type="Texture2D" uid="uid://b2g4loc2xf5or" path="res://Scenes/Scene 12/Превращение белой розы в амулет розовый цвет 6.png" id="32_haqo0"]
+[ext_resource type="Texture2D" uid="uid://cp3l6orql27l4" path="res://Scenes/Scene 12/Превращение белой розы в амулет розовый цвет 7.png" id="33_mx3eg"]
+[ext_resource type="Texture2D" uid="uid://bvegyv2b36jhf" path="res://Scenes/Scene 12/Превращение белой розы в амулет розовый цвет 8.png" id="34_oxjef"]
+[ext_resource type="Texture2D" uid="uid://dib616c600hnw" path="res://Scenes/Scene 12/Превращение белой розы в амулет розовый цвет 9.png" id="35_y32sm"]
+[ext_resource type="Texture2D" uid="uid://d337llvoy4ovt" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 63.png" id="36_4l4q2"]
+[ext_resource type="Texture2D" uid="uid://ccd2eqfepihbk" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 64.png" id="37_yk838"]
+[ext_resource type="Texture2D" uid="uid://d3d0p7vr2tpx7" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 65.png" id="38_mu3du"]
+[ext_resource type="Texture2D" uid="uid://bjh0u8c3imty1" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 66.png" id="39_uxjra"]
+[ext_resource type="Texture2D" uid="uid://dmexnx3gimdmh" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 67.png" id="40_w08is"]
+[ext_resource type="Texture2D" uid="uid://cum1ix72oulne" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 68.png" id="41_13v2i"]
+[ext_resource type="Texture2D" uid="uid://c82bc0m5ke1ow" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 69.png" id="42_qx4ln"]
+[ext_resource type="Texture2D" uid="uid://j6n82vbcp2bw" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 70.png" id="43_ah4l5"]
+[ext_resource type="Texture2D" uid="uid://j3xxssrytoc" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 71.png" id="44_b75i1"]
+[ext_resource type="Texture2D" uid="uid://dat1u4mtiwndf" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 72.png" id="45_md0iq"]
+[ext_resource type="Texture2D" uid="uid://8c3ciho6l4gk" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 73.png" id="46_xp3pr"]
+[ext_resource type="Texture2D" uid="uid://ddkiciv70wpk7" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 74.png" id="47_7ekpb"]
+[ext_resource type="Texture2D" uid="uid://cj13ku002y1yw" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 75.png" id="48_fhmpa"]
+[ext_resource type="Texture2D" uid="uid://mcpks4t2k1n7" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 76.png" id="49_e70k7"]
+[ext_resource type="Texture2D" uid="uid://bw3hltd0xdemu" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 77.png" id="50_gpmhd"]
+[ext_resource type="Texture2D" uid="uid://d0vuwqusjjmjo" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 78.png" id="51_diw5w"]
+[ext_resource type="Texture2D" uid="uid://doamumomonf4x" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 79.png" id="52_1uvlx"]
+[ext_resource type="Texture2D" uid="uid://d3em6yhnwk70g" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 80.png" id="53_kqyxt"]
+[ext_resource type="Texture2D" uid="uid://bnvqigrvgglx2" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 81.png" id="54_2bfyl"]
+[ext_resource type="Texture2D" uid="uid://cl85c3hn5rba0" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 82.png" id="55_bmchy"]
+[ext_resource type="Texture2D" uid="uid://c6p4wbwrtcvdi" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 83.png" id="56_xv38l"]
+[ext_resource type="Texture2D" uid="uid://cdsi3xx775nob" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 84.png" id="57_euet4"]
+[ext_resource type="Texture2D" uid="uid://cyimi6p8rsiar" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 85.png" id="58_df5id"]
+[ext_resource type="Texture2D" uid="uid://c0qkdyjlf7hyf" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 86.png" id="59_oo74v"]
+[ext_resource type="Texture2D" uid="uid://dm3ico5h7qyc7" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 87.png" id="60_u7l50"]
+[ext_resource type="Texture2D" uid="uid://beql5drvex8gg" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 88.png" id="61_yospy"]
+[ext_resource type="Texture2D" uid="uid://bg0aet0qevix8" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 89.png" id="62_i880s"]
+[ext_resource type="Texture2D" uid="uid://b1a2buee7jeek" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 90.png" id="63_115xr"]
+[ext_resource type="Texture2D" uid="uid://douxfvxfdfdsi" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 91.png" id="64_d2j6g"]
+[ext_resource type="Texture2D" uid="uid://dqwk1pffge20t" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 92.png" id="65_c2e88"]
+[ext_resource type="Texture2D" uid="uid://dh6abmxhojd23" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 93.png" id="66_wn4ix"]
+[ext_resource type="Texture2D" uid="uid://b3nysyonjbx2p" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 94.png" id="67_vs7um"]
+[ext_resource type="Texture2D" uid="uid://bps2dtlpd2nri" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 95.png" id="68_2o76e"]
+[ext_resource type="Texture2D" uid="uid://c64ich34cqkn0" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 96.png" id="69_25ea2"]
+[ext_resource type="Texture2D" uid="uid://due3dvrmohu04" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 97.png" id="70_qecab"]
+[ext_resource type="Texture2D" uid="uid://dx1m65baikgu6" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 98.png" id="71_q2r4v"]
+[ext_resource type="Texture2D" uid="uid://cah7wsatquyac" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 99.png" id="72_u16h3"]
+[ext_resource type="Texture2D" uid="uid://cojba31x3e6ep" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 100.png" id="73_2qntt"]
+[ext_resource type="Texture2D" uid="uid://11xxh58twin" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 101.png" id="74_6kjby"]
+[ext_resource type="Texture2D" uid="uid://c16akn82wjqpa" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 102.png" id="75_to2j8"]
+[ext_resource type="Texture2D" uid="uid://b67txu2rc3aj7" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 103.png" id="76_dc51p"]
+[ext_resource type="Texture2D" uid="uid://c4ph27vb8o4lo" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 104.png" id="77_26063"]
+[ext_resource type="Texture2D" uid="uid://gt20d05jbwkc" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 105.png" id="78_i7syh"]
+[ext_resource type="Texture2D" uid="uid://ixmxybxnbmrx" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 106.png" id="79_m2snt"]
+[ext_resource type="Texture2D" uid="uid://bppts7picbywj" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 107.png" id="80_7x1j3"]
+[ext_resource type="Texture2D" uid="uid://d02u5hwypfgh4" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 108.png" id="81_hkuyg"]
+[ext_resource type="Texture2D" uid="uid://c7l5l5mmj2c6j" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 109.png" id="82_4lw8u"]
+[ext_resource type="Texture2D" uid="uid://dahvtq3upj0r7" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 110.png" id="83_xku2y"]
+[ext_resource type="Texture2D" uid="uid://d2cl7nel543ue" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 111.png" id="84_5yp1b"]
+[ext_resource type="Texture2D" uid="uid://bhv2eu3yausni" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 112.png" id="85_j7xea"]
+[ext_resource type="Texture2D" uid="uid://d3xkgxjj0kqhk" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 113.png" id="86_od2ag"]
+[ext_resource type="Texture2D" uid="uid://d1ue3cp7aedd3" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 114.png" id="87_lfm4i"]
+[ext_resource type="Texture2D" uid="uid://dyym85eok88k4" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 115.png" id="88_5g6ue"]
+[ext_resource type="Texture2D" uid="uid://egbf7q4mutrt" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 116.png" id="89_xsmwe"]
+[ext_resource type="Texture2D" uid="uid://s3yudngmo6wb" path="res://Scenes/Scene 12/Получение амулета вторая часть анимации 117.png" id="90_heifj"]
+[ext_resource type="Texture2D" uid="uid://cn15tg7py3rjr" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 1.png" id="91_6sg8o"]
+[ext_resource type="Texture2D" uid="uid://h0ujl81gh0nq" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 2.png" id="92_kev4y"]
+[ext_resource type="Texture2D" uid="uid://drsbfpwls71tj" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 3.png" id="93_kb64n"]
+[ext_resource type="Texture2D" uid="uid://dip8h8vxk3j8s" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 4.png" id="94_ikfun"]
+[ext_resource type="Texture2D" uid="uid://c4dmecixancoi" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 5.png" id="95_27snb"]
+[ext_resource type="Texture2D" uid="uid://de20rhl15vens" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 6.png" id="96_rqbjs"]
+[ext_resource type="Texture2D" uid="uid://uvdc8htcyoe4" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 7.png" id="97_m2mko"]
+[ext_resource type="Texture2D" uid="uid://dhxqh7bq4y3q0" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 8.png" id="98_yxe5l"]
+[ext_resource type="Texture2D" uid="uid://crpia1wv6brrt" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 9.png" id="99_fh7ar"]
+[ext_resource type="Texture2D" uid="uid://oxc6e2ufhqoi" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 10.png" id="100_v1cok"]
+[ext_resource type="Texture2D" uid="uid://erb2yuovxqfs" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 11.png" id="101_n2xfq"]
+[ext_resource type="Texture2D" uid="uid://cv6s1ck170poy" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 12.png" id="102_n48uq"]
+[ext_resource type="Texture2D" uid="uid://bf50sov32jc4k" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 13.png" id="103_qmj5e"]
+[ext_resource type="Texture2D" uid="uid://rwtky1k28l8a" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 14.png" id="104_k3upb"]
+[ext_resource type="Texture2D" uid="uid://cufcp1nkgj0xr" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 15.png" id="105_d5jqd"]
+[ext_resource type="Texture2D" uid="uid://b7jrgtym01a3n" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 16.png" id="106_x3pse"]
+[ext_resource type="Texture2D" uid="uid://cj1vl2l7iumk3" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 17.png" id="107_p1uhk"]
+[ext_resource type="Texture2D" uid="uid://ceg638pkp173k" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 18.png" id="108_id45x"]
+[ext_resource type="Texture2D" uid="uid://cqtolu3v5paj2" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 19.png" id="109_ix3vj"]
+[ext_resource type="Texture2D" uid="uid://c513fesfkt01d" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 20.png" id="110_adqfu"]
+[ext_resource type="Texture2D" uid="uid://b5185htlrdya0" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 21.png" id="111_bs83c"]
+[ext_resource type="Texture2D" uid="uid://ck2ky45kq6ws0" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 22.png" id="112_8imp2"]
+[ext_resource type="Texture2D" uid="uid://bhtye4tmcswq7" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 23.png" id="113_1f8aw"]
+[ext_resource type="Texture2D" uid="uid://dq0irk51iudii" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 24.png" id="114_ircwm"]
+[ext_resource type="Texture2D" uid="uid://6xvvfusku6xe" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 25.png" id="115_opyj5"]
+[ext_resource type="Texture2D" uid="uid://dadh2mv87jrys" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 26.png" id="116_wafme"]
+[ext_resource type="Texture2D" uid="uid://b2g8epv0xrluk" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 27.png" id="117_n64i4"]
+[ext_resource type="Texture2D" uid="uid://dtmfi8ruvjjy3" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 28.png" id="118_fwvnn"]
+[ext_resource type="Texture2D" uid="uid://2lbitb0apffa" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 29.png" id="119_4hege"]
+[ext_resource type="Texture2D" uid="uid://cm1l5d2dthwtj" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 30.png" id="120_8344p"]
+[ext_resource type="Texture2D" uid="uid://y65d53issi4i" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 31.png" id="121_op566"]
+[ext_resource type="Texture2D" uid="uid://dtvgprvhb0x2l" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 32.png" id="122_te1oe"]
+[ext_resource type="Texture2D" uid="uid://brob7csndf6fe" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 33.png" id="123_4eaiu"]
+[ext_resource type="Texture2D" uid="uid://biliexpcwpbtd" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 34.png" id="124_q0421"]
+[ext_resource type="Texture2D" uid="uid://dr8so0dg6bvd0" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 35.png" id="125_41sfj"]
+[ext_resource type="Texture2D" uid="uid://dpkc218mde8g4" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 36.png" id="126_nvihg"]
+[ext_resource type="Texture2D" uid="uid://b40psxaj6vtgj" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 37.png" id="127_j6l7a"]
+[ext_resource type="Texture2D" uid="uid://dy4lpexyurgkd" path="res://Scenes/Scene 12/Получение амулета третья часть анимации 38.png" id="128_23sn7"]
+[ext_resource type="AudioStream" uid="uid://boycy10vdy5ow" path="res://Scenes/Scene 12/Превращение розы в амулет.mp3" id="129_pexny"]
+[ext_resource type="AudioStream" uid="uid://b65dw3u0w58k7" path="res://Scenes/Scene 12/Диалог Брэндона после получения амулета.mp3" id="130_ukwek"]
+[ext_resource type="AudioStream" uid="uid://dbtft3vlmemah" path="res://Scenes/Scene 12/120 Forest Altar (real FM SB16 OPL3) The Legend of Kyrandia I Soundtrack OST BGM.ogg" id="131_fv66g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7wxb7"]
+size = Vector2(30, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0chwd"]
+size = Vector2(48, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ijsy1"]
+size = Vector2(36, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a7jwf"]
+size = Vector2(48, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eadd2"]
+size = Vector2(48, 36)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_a78mp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_35be5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_2768g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ggy7n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_0v4ix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_86rsu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_1uhv6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_vjrdf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_516mx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_dkgev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_wu7ko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_vvtpr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_5al3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_s8ks5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ver52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_1i4y5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_pn2if")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_qnua4")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ypb3r"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_kmymr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_nx0gh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_4q40b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_kh53t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_w6qlc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_haqo0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_mx3eg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_oxjef")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_y32sm")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ldoux"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("36_4l4q2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_yk838")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_mu3du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_uxjra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_w08is")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_13v2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_qx4ln")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_ah4l5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_b75i1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_md0iq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_xp3pr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_7ekpb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_fhmpa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_e70k7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_gpmhd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_diw5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_1uvlx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_kqyxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_2bfyl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_bmchy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_xv38l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_euet4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_df5id")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_oo74v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_u7l50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_yospy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_i880s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_115xr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_d2j6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_c2e88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_wn4ix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_vs7um")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_2o76e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_25ea2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_qecab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_q2r4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_u16h3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_2qntt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_6kjby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_to2j8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_dc51p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_26063")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_i7syh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_m2snt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_7x1j3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_hkuyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_4lw8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_xku2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_5yp1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_j7xea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_od2ag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_lfm4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_5g6ue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_xsmwe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_heifj")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_66op5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("91_6sg8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_kev4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_kb64n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_ikfun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_27snb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_rqbjs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_m2mko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_yxe5l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_fh7ar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_v1cok")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_n2xfq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_n48uq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_qmj5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_k3upb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_d5jqd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_x3pse")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_p1uhk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_id45x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_ix3vj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_adqfu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_bs83c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_8imp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_1f8aw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_ircwm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_opyj5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_wafme")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_n64i4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_fwvnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_4hege")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_8344p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_op566")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_te1oe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_4eaiu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_q0421")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_41sfj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_nvihg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_j6l7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_23sn7")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="Scene 12" type="Sprite2D"]
+position = Vector2(48, 48)
+texture = ExtResource("1_qgb4q")
+centered = false
+script = ExtResource("1_vudrr")
+
+[node name="Цветок 1" type="Sprite2D" parent="."]
+
+[node name="Роза 1" type="Sprite2D" parent="Цветок 1"]
+visible = false
+position = Vector2(660, 372)
+texture = ExtResource("3_2thyw")
+centered = false
+
+[node name="Area2D Цветок 1" type="Area2D" parent="Цветок 1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Цветок 1/Area2D Цветок 1"]
+position = Vector2(675, 384)
+shape = SubResource("RectangleShape2D_7wxb7")
+
+[node name="Цветок 2" type="Sprite2D" parent="."]
+
+[node name="Роза 2" type="Sprite2D" parent="Цветок 2"]
+visible = false
+position = Vector2(684, 318)
+texture = ExtResource("4_052qt")
+centered = false
+
+[node name="Area2D Цветок 2" type="Area2D" parent="Цветок 2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Цветок 2/Area2D Цветок 2"]
+position = Vector2(708, 333)
+shape = SubResource("RectangleShape2D_0chwd")
+
+[node name="Цветок 3" type="Sprite2D" parent="."]
+
+[node name="Роза 3" type="Sprite2D" parent="Цветок 3"]
+visible = false
+position = Vector2(1116, 318)
+texture = ExtResource("5_f4kfk")
+centered = false
+
+[node name="Area2D Цветок 3" type="Area2D" parent="Цветок 3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Цветок 3/Area2D Цветок 3"]
+position = Vector2(1134, 330)
+shape = SubResource("RectangleShape2D_ijsy1")
+
+[node name="Цветок 4" type="Sprite2D" parent="."]
+
+[node name="Роза 4" type="Sprite2D" parent="Цветок 4"]
+visible = false
+position = Vector2(1152, 288)
+texture = ExtResource("6_j0sn0")
+centered = false
+
+[node name="Area2D Цветок 4" type="Area2D" parent="Цветок 4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Цветок 4/Area2D Цветок 4"]
+position = Vector2(1176, 303)
+shape = SubResource("RectangleShape2D_a7jwf")
+
+[node name="Цветок 5" type="Sprite2D" parent="."]
+
+[node name="Роза 5" type="Sprite2D" parent="Цветок 5"]
+visible = false
+position = Vector2(1176, 342)
+texture = ExtResource("7_k54i1")
+centered = false
+
+[node name="Area2D Цветок 5" type="Area2D" parent="Цветок 5"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Цветок 5/Area2D Цветок 5"]
+position = Vector2(1200, 360)
+shape = SubResource("RectangleShape2D_eadd2")
+
+[node name="AudioStreamPlayer диалоги Брендона" type="AudioStreamPlayer" parent="."]
+volume_db = 10.0
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Алтарь починен" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(720, 150)
+texture = ExtResource("8_23sb0")
+centered = false
+
+[node name="AnimatedSprite2D Алтарь установка мрамора" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(720, 150)
+sprite_frames = SubResource("SpriteFrames_a78mp")
+centered = false
+
+[node name="AudioStreamPlayer звук когда мрамор установил" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26_bv02j")
+volume_db = 15.0
+
+[node name="AnimatedSprite2D активация белой розы" type="AnimatedSprite2D" parent="."]
+visible = false
+sprite_frames = SubResource("SpriteFrames_ypb3r")
+centered = false
+
+[node name="AnimatedSprite2D Получение амулета вторая часть анимации" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(921, 285)
+sprite_frames = SubResource("SpriteFrames_ldoux")
+
+[node name="AnimatedSprite2D Получение амулета третья часть анимации" type="AnimatedSprite2D" parent="."]
+visible = false
+z_index = 2
+position = Vector2(1551, 1024)
+sprite_frames = SubResource("SpriteFrames_66op5")
+
+[node name="AudioStreamPlayer превращение розы в амулет" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("129_pexny")
+volume_db = 10.0
+
+[node name="Timer для диалога Брэндона после получения амулета" type="Timer" parent="."]
+
+[node name="AudioStreamPlayer диалог брэндона после получения амулета" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("130_ukwek")
+volume_db = 10.0
+
+[node name="AudioStreamPlayer новая музыка в игре" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("131_fv66g")
+
+[connection signal="input_event" from="Цветок 1/Area2D Цветок 1" to="." method="_on_area_2d_цветок_1_input_event"]
+[connection signal="input_event" from="Цветок 2/Area2D Цветок 2" to="." method="_on_area_2d_цветок_2_input_event"]
+[connection signal="input_event" from="Цветок 3/Area2D Цветок 3" to="." method="_on_area_2d_цветок_3_input_event"]
+[connection signal="input_event" from="Цветок 4/Area2D Цветок 4" to="." method="_on_area_2d_цветок_4_input_event"]
+[connection signal="input_event" from="Цветок 5/Area2D Цветок 5" to="." method="_on_area_2d_цветок_5_input_event"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="animation_finished" from="AnimatedSprite2D Алтарь установка мрамора" to="." method="_on_animated_sprite_2d_алтарь_установка_мрамора_animation_finished"]
+[connection signal="animation_finished" from="AnimatedSprite2D активация белой розы" to="." method="_on_animated_sprite_2d_активация_белой_розы_animation_finished"]
+[connection signal="animation_finished" from="AnimatedSprite2D Получение амулета вторая часть анимации" to="." method="_on_animated_sprite_2d_получение_амулета_вторая_часть_анимации_animation_finished"]
+[connection signal="animation_finished" from="AnimatedSprite2D Получение амулета третья часть анимации" to="." method="_on_animated_sprite_2d_получение_амулета_третья_часть_анимации_animation_finished"]
+[connection signal="finished" from="AudioStreamPlayer превращение розы в амулет" to="." method="_on_audio_stream_player_превращение_розы_в_амулет_finished"]
+[connection signal="timeout" from="Timer для диалога Брэндона после получения амулета" to="." method="_on_timer_для_диалога_брэндона_после_получения_амулета_timeout"]

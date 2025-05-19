@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bnbrmsd6n3in"
+path="res://.godot/imported/Amulet What Amulet.mp3-131674c6f41f11ae5550cd597db509c0.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 6/Amulet What Amulet.mp3"
+dest_files=["res://.godot/imported/Amulet What Amulet.mp3-131674c6f41f11ae5550cd597db509c0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://tfy65q6vl0bg"
+path="res://.godot/imported/11 Улучшенная Timbermist Woods.mp3-adca9e7ee45668cc21ca04220b903e2e.mp3str"
+
+[deps]
+
+source_file="res://Assets/Музыка/11 Улучшенная Timbermist Woods.mp3"
+dest_files=["res://.godot/imported/11 Улучшенная Timbermist Woods.mp3-adca9e7ee45668cc21ca04220b903e2e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

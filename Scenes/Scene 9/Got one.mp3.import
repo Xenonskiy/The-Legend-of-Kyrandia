@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://sdqsu58w2pcm"
+path="res://.godot/imported/Got one.mp3-81d77c57bc168ce2df02563c5ec95c49.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 9/Got one.mp3"
+dest_files=["res://.godot/imported/Got one.mp3-81d77c57bc168ce2df02563c5ec95c49.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

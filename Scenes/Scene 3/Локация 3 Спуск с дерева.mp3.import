@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3rxgryls3t5m"
+path="res://.godot/imported/Локация 3 Спуск с дерева.mp3-26db9e856b08efb060c920d89ded4c4b.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 3/Локация 3 Спуск с дерева.mp3"
+dest_files=["res://.godot/imported/Локация 3 Спуск с дерева.mp3-26db9e856b08efb060c920d89ded4c4b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

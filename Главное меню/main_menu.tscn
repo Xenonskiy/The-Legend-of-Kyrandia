@@ -1,0 +1,182 @@
+[gd_scene load_steps=12 format=3 uid="uid://cp6ysugv3prik"]
+
+[ext_resource type="Script" uid="uid://dodapnkv3ycu2" path="res://Главное меню/main_menu.gd" id="1_ow0mc"]
+[ext_resource type="Texture2D" uid="uid://bctoo0uq3bj4y" path="res://Главное меню/Меню игры.png" id="2_jouwp"]
+[ext_resource type="FontFile" uid="uid://by8gt8ymfwxom" path="res://Assets/Шрифты/sitka-bold.ttf" id="3_khvok"]
+[ext_resource type="Texture2D" uid="uid://dv357no6l0gw8" path="res://Главное меню/Меню игры Настройки.png" id="4_0ryij"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uvsw3"]
+size = Vector2(340, 220)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vvvvu"]
+size = Vector2(340, 220)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6s3vy"]
+size = Vector2(340, 220)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tcrua"]
+size = Vector2(340, 220)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qy27q"]
+size = Vector2(340, 220)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5jjfh"]
+size = Vector2(340, 220)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hdo7v"]
+size = Vector2(340, 220)
+
+[node name="Главное меню" type="Node2D"]
+z_index = 6
+script = ExtResource("1_ow0mc")
+
+[node name="Главное меню" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Главное меню"]
+z_index = 6
+texture = ExtResource("2_jouwp")
+centered = false
+
+[node name="Label Шапка меню игры" type="Label" parent="Главное меню/Sprite2D"]
+anchors_preset = -1
+anchor_left = 0.0208333
+anchor_right = 0.979167
+anchor_bottom = 0.0233333
+offset_top = 80.0
+offset_bottom = 125.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("3_khvok")
+theme_override_font_sizes/font_size = 64
+text = "Легенда о Кирандии"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Настройки" type="TouchScreenButton" parent="Главное меню/Sprite2D"]
+position = Vector2(300, 320)
+shape = SubResource("RectangleShape2D_uvsw3")
+
+[node name="Label Настройки" type="Label" parent="Главное меню/Sprite2D/Настройки"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_khvok")
+theme_override_font_sizes/font_size = 44
+text = "Настройки"
+
+[node name="Карта" type="TouchScreenButton" parent="Главное меню/Sprite2D"]
+position = Vector2(740, 320)
+shape = SubResource("RectangleShape2D_vvvvu")
+
+[node name="Label Карта" type="Label" parent="Главное меню/Sprite2D/Карта"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_khvok")
+theme_override_font_sizes/font_size = 44
+text = "Карта"
+
+[node name="Выйти из игры" type="TouchScreenButton" parent="Главное меню/Sprite2D"]
+position = Vector2(1620, 320)
+shape = SubResource("RectangleShape2D_6s3vy")
+
+[node name="Label Выйти из игры" type="Label" parent="Главное меню/Sprite2D/Выйти из игры"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_khvok")
+theme_override_font_sizes/font_size = 44
+text = "Выйти"
+
+[node name="Вернуться" type="TouchScreenButton" parent="Главное меню/Sprite2D"]
+position = Vector2(960, 960)
+shape = SubResource("RectangleShape2D_tcrua")
+
+[node name="Label Вернуться" type="Label" parent="Главное меню/Sprite2D/Вернуться"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_khvok")
+theme_override_font_sizes/font_size = 44
+text = "Вернуться"
+
+[node name="Меню Настройки" type="Node2D" parent="."]
+visible = false
+z_index = 6
+
+[node name="Sprite2D" type="Sprite2D" parent="Меню Настройки"]
+texture = ExtResource("4_0ryij")
+centered = false
+
+[node name="Label Шапка меню игры" type="Label" parent="Меню Настройки/Sprite2D"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 40.0
+offset_top = 80.0
+offset_right = -40.0
+offset_bottom = 145.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("3_khvok")
+theme_override_font_sizes/font_size = 64
+text = "Настройки"
+horizontal_alignment = 1
+
+[node name="Язык" type="TouchScreenButton" parent="Меню Настройки/Sprite2D"]
+z_index = 6
+position = Vector2(300, 320)
+shape = SubResource("RectangleShape2D_qy27q")
+
+[node name="Label Язык" type="Label" parent="Меню Настройки/Sprite2D/Язык"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_khvok")
+theme_override_font_sizes/font_size = 44
+text = "  Язык:
+Русский"
+
+[node name="Музыка" type="TouchScreenButton" parent="Меню Настройки/Sprite2D"]
+position = Vector2(740, 320)
+shape = SubResource("RectangleShape2D_5jjfh")
+
+[node name="Label Музыка" type="Label" parent="Меню Настройки/Sprite2D/Музыка"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_khvok")
+theme_override_font_sizes/font_size = 44
+text = " Музыка:
+Оригинал"
+
+[node name="Вернуться Настройки" type="TouchScreenButton" parent="Меню Настройки/Sprite2D"]
+position = Vector2(960, 960)
+shape = SubResource("RectangleShape2D_hdo7v")
+
+[node name="Label Вернуться Настройки" type="Label" parent="Меню Настройки/Sprite2D/Вернуться Настройки"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_khvok")
+theme_override_font_sizes/font_size = 44
+text = "Вернуться"
+
+[connection signal="pressed" from="Главное меню/Sprite2D/Настройки" to="." method="_on_настройки_pressed"]
+[connection signal="pressed" from="Главное меню/Sprite2D/Карта" to="." method="_on_карта_pressed"]
+[connection signal="pressed" from="Главное меню/Sprite2D/Выйти из игры" to="." method="_on_выйти_из_игры_pressed"]
+[connection signal="pressed" from="Главное меню/Sprite2D/Вернуться" to="." method="_on_вернуться_pressed"]
+[connection signal="pressed" from="Меню Настройки/Sprite2D/Язык" to="." method="_on_язык_pressed"]
+[connection signal="pressed" from="Меню Настройки/Sprite2D/Музыка" to="." method="_on_музыка_pressed"]
+[connection signal="pressed" from="Меню Настройки/Sprite2D/Вернуться Настройки" to="." method="_on_вернуться_настройки_pressed"]

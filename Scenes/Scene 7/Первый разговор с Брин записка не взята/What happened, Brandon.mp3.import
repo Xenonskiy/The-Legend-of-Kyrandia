@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgn72v0tw22qd"
+path="res://.godot/imported/What happened, Brandon.mp3-2063e881c03cdad107be45a6df39002b.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/What happened, Brandon.mp3"
+dest_files=["res://.godot/imported/What happened, Brandon.mp3-2063e881c03cdad107be45a6df39002b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

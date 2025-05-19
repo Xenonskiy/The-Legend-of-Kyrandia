@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b65dw3u0w58k7"
+path="res://.godot/imported/Диалог Брэндона после получения амулета.mp3-e1b86ab6b16abda7f508481136d033e4.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 12/Диалог Брэндона после получения амулета.mp3"
+dest_files=["res://.godot/imported/Диалог Брэндона после получения амулета.mp3-e1b86ab6b16abda7f508481136d033e4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cw14bafoctlaw"
+path="res://.godot/imported/How can these help.mp3-3974ab24c44ce7e77cca84eeac401a6d.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 1/How can these help.mp3"
+dest_files=["res://.godot/imported/How can these help.mp3-3974ab24c44ce7e77cca84eeac401a6d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

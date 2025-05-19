@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bbwx3dxqcnotq"
+path="res://.godot/imported/He has been turned to stone!.mp3-acb2c8adce26047e2f0d053f0738239a.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/Первый разговор с Брин записка не взята/He has been turned to stone!.mp3"
+dest_files=["res://.godot/imported/He has been turned to stone!.mp3-acb2c8adce26047e2f0d053f0738239a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

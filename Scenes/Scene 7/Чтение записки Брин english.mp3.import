@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dfkndu5h8adu7"
+path="res://.godot/imported/Чтение записки Брин english.mp3-b86a569c12df1a03f74c10c2ecd80f14.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/Чтение записки Брин english.mp3"
+dest_files=["res://.godot/imported/Чтение записки Брин english.mp3-b86a569c12df1a03f74c10c2ecd80f14.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

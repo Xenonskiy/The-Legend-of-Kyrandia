@@ -1,0 +1,607 @@
+[gd_scene load_steps=118 format=3 uid="uid://ylah2wx8sd2w"]
+
+[ext_resource type="Script" uid="uid://co6lodi8gcx1r" path="res://Scenes/Scene 9/scene_9.gd" id="1_ascaa"]
+[ext_resource type="Texture2D" uid="uid://dworfjg8xm832" path="res://Scenes/Scene 9/9 Оригинал.png" id="1_x8dup"]
+[ext_resource type="Texture2D" uid="uid://qqsm6jnd0w8k" path="res://Scenes/Scene 9/Падающая капля.png" id="3_0vsqn"]
+[ext_resource type="AudioStream" uid="uid://c6e0q7hsik8pi" path="res://Scenes/Scene 9/Звук капли.mp3" id="4_8nnvj"]
+[ext_resource type="Texture2D" uid="uid://dxwgqb2nklewu" path="res://Scenes/Scene 9/Первая капля 1.png" id="5_7oa11"]
+[ext_resource type="Texture2D" uid="uid://wgsmdkdabvl6" path="res://Scenes/Scene 9/Первая капля 2.png" id="6_i07mg"]
+[ext_resource type="Texture2D" uid="uid://bqidc0u7jlakg" path="res://Scenes/Scene 9/Первая капля 3.png" id="7_3fgsl"]
+[ext_resource type="Texture2D" uid="uid://djdaixespecpp" path="res://Scenes/Scene 9/Первая капля 5.png" id="9_yjhmd"]
+[ext_resource type="Texture2D" uid="uid://cok4vovjwoutf" path="res://Scenes/Scene 9/Первая капля 6.png" id="10_xo1f4"]
+[ext_resource type="Texture2D" uid="uid://bx747peswvru2" path="res://Scenes/Scene 9/Первая капля 7.png" id="11_o1p7k"]
+[ext_resource type="Texture2D" uid="uid://c35s7p7i0uik1" path="res://Scenes/Scene 9/Первая капля 9.png" id="13_jc4ij"]
+[ext_resource type="Texture2D" uid="uid://8gwiklkv48sl" path="res://Scenes/Scene 9/Вторая капля 1.png" id="14_qu2b8"]
+[ext_resource type="Texture2D" uid="uid://cyb2mwdp4inn3" path="res://Scenes/Scene 9/Вторая капля 2.png" id="15_lu405"]
+[ext_resource type="Texture2D" uid="uid://dwto7vkqvdkv6" path="res://Scenes/Scene 9/Вторая капля 3.png" id="16_1x7fh"]
+[ext_resource type="Texture2D" uid="uid://o3u8pnpxpwfi" path="res://Scenes/Scene 9/Вторая капля 4.png" id="17_gixm3"]
+[ext_resource type="Texture2D" uid="uid://ddtdamenv87rs" path="res://Scenes/Scene 9/Вторая капля 6.png" id="19_0hdpn"]
+[ext_resource type="Texture2D" uid="uid://10dc6o8wjk11" path="res://Scenes/Scene 9/Вторая капля 7.png" id="20_gyacw"]
+[ext_resource type="Texture2D" uid="uid://4c2pncmlhdaa" path="res://Scenes/Scene 9/Вторая капля 8.png" id="21_41kln"]
+[ext_resource type="Texture2D" uid="uid://6u8kqw7nc6ol" path="res://Scenes/Scene 9/Третья капля 1.png" id="22_5prjm"]
+[ext_resource type="Texture2D" uid="uid://brj44hhcva61j" path="res://Scenes/Scene 9/Третья капля 2.png" id="23_1wxag"]
+[ext_resource type="Texture2D" uid="uid://rtlv5ilte48m" path="res://Scenes/Scene 9/Третья капля 3.png" id="24_81u75"]
+[ext_resource type="Texture2D" uid="uid://52ejtcpaeju5" path="res://Scenes/Scene 9/Четвертая капля 1.png" id="25_0c37w"]
+[ext_resource type="Texture2D" uid="uid://b0gx87s5o8r0j" path="res://Scenes/Scene 9/Третья капля 4.png" id="25_t0emj"]
+[ext_resource type="Texture2D" uid="uid://camafc1y4bd37" path="res://Scenes/Scene 9/Четвертая капля 2.png" id="26_5yoxx"]
+[ext_resource type="Texture2D" uid="uid://b13iilukyacu" path="res://Scenes/Scene 9/Третья капля 5.png" id="26_x4con"]
+[ext_resource type="Texture2D" uid="uid://d25hhh2wav50r" path="res://Scenes/Scene 9/Четвертая капля 3.png" id="27_5m6mr"]
+[ext_resource type="Texture2D" uid="uid://dj6c73nlmgqx2" path="res://Scenes/Scene 9/Четвертая капля 4.png" id="28_7p2en"]
+[ext_resource type="Texture2D" uid="uid://d1d60p88x7a86" path="res://Scenes/Scene 9/Третья капля 7.png" id="28_aowda"]
+[ext_resource type="Texture2D" uid="uid://6kw1v3oyqlb" path="res://Scenes/Scene 9/Третья капля 8.png" id="29_3af1p"]
+[ext_resource type="Texture2D" uid="uid://dh4co13fuo30b" path="res://Scenes/Scene 9/Четвертая капля 5.png" id="29_e0bmk"]
+[ext_resource type="Texture2D" uid="uid://5xcbym3neot3" path="res://Scenes/Scene 9/Четвертая капля 6.png" id="30_7qyxw"]
+[ext_resource type="Texture2D" uid="uid://dqjnt4a643ika" path="res://Scenes/Scene 9/Пятая капля 1.png" id="30_faswq"]
+[ext_resource type="Texture2D" uid="uid://dwnmaety6lt08" path="res://Scenes/Scene 9/Пятая капля 2.png" id="31_qruxn"]
+[ext_resource type="Texture2D" uid="uid://bm6ey1kq36hat" path="res://Scenes/Scene 9/Четвертая капля 7.png" id="31_ycj7v"]
+[ext_resource type="Texture2D" uid="uid://dk7upposmncwy" path="res://Scenes/Scene 9/Пятая капля 3.png" id="32_pe50i"]
+[ext_resource type="Texture2D" uid="uid://chki305ps1ldj" path="res://Scenes/Scene 9/Пятая капля 4.png" id="33_5rhkf"]
+[ext_resource type="Texture2D" uid="uid://c6xc3gm0hmmm8" path="res://Scenes/Scene 9/Пятая капля 5.png" id="34_brfo8"]
+[ext_resource type="Texture2D" uid="uid://dcuxw7iyrf41b" path="res://Scenes/Scene 9/Пятая капля 6.png" id="35_5mmw2"]
+[ext_resource type="Texture2D" uid="uid://cyvao4y76fbr1" path="res://Scenes/Scene 9/Пятая капля 7.png" id="36_bxbud"]
+[ext_resource type="Texture2D" uid="uid://ctlrdit5xefvy" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 1.png" id="40_o5oaj"]
+[ext_resource type="Texture2D" uid="uid://cqpb388uypqpd" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 2.png" id="41_ule1p"]
+[ext_resource type="Texture2D" uid="uid://chr3kepgy8eff" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 3.png" id="42_cjudn"]
+[ext_resource type="Texture2D" uid="uid://svvu2rrq1gkn" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 4.png" id="43_1557v"]
+[ext_resource type="Texture2D" uid="uid://dmgjlvjyli6n2" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 5.png" id="44_wiayd"]
+[ext_resource type="Texture2D" uid="uid://cg2i1v7nlahkj" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 6.png" id="45_bp5hd"]
+[ext_resource type="Texture2D" uid="uid://dbluabftv25qx" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 7.png" id="46_t6k5j"]
+[ext_resource type="Texture2D" uid="uid://dfxe26p002dnm" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 8.png" id="47_iqexi"]
+[ext_resource type="Texture2D" uid="uid://di71vvgvw1rht" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 9.png" id="48_0joex"]
+[ext_resource type="Texture2D" uid="uid://bu30dqqm1rm5c" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 10.png" id="49_7x5e2"]
+[ext_resource type="Texture2D" uid="uid://cna3u5rsrjkae" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 11.png" id="50_bgn07"]
+[ext_resource type="Texture2D" uid="uid://bywbcwww3ebc8" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 12.png" id="51_bl0rd"]
+[ext_resource type="Texture2D" uid="uid://co7vqx65qxox0" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 13.png" id="52_rxmxm"]
+[ext_resource type="Texture2D" uid="uid://cvd82max5d8fr" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 14.png" id="53_fw36o"]
+[ext_resource type="Texture2D" uid="uid://dqlf7q4n0erp7" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 15.png" id="54_smfjw"]
+[ext_resource type="Texture2D" uid="uid://mncsu6p7aeu5" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 16.png" id="55_868v8"]
+[ext_resource type="Texture2D" uid="uid://b3p5oci4huqa5" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 17.png" id="56_b5vvb"]
+[ext_resource type="Texture2D" uid="uid://3bqrj672fjem" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 18.png" id="57_v1mta"]
+[ext_resource type="Texture2D" uid="uid://d0i10kxvau8t" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 19.png" id="58_75qmo"]
+[ext_resource type="Texture2D" uid="uid://co5lkk3jyspht" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 20.png" id="59_3dyem"]
+[ext_resource type="Texture2D" uid="uid://be82vyr6p1nvf" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 21.png" id="60_lhju7"]
+[ext_resource type="Texture2D" uid="uid://d0ip7dpituce5" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 22.png" id="61_g475r"]
+[ext_resource type="Texture2D" uid="uid://dpu3f8mwrgjyp" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 23.png" id="62_nkcm2"]
+[ext_resource type="Texture2D" uid="uid://dc50swv2330xr" path="res://Scenes/Scene 9/Анимация Брэндон ловит слезу 24.png" id="63_aw5r3"]
+[ext_resource type="Texture2D" uid="uid://doflmp5bcnceu" path="res://Scenes/Scene 9/Мирит сцена номер 9.png" id="76_2v86v"]
+[ext_resource type="Texture2D" uid="uid://dia06c2asovee" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 67.png" id="77_dmpfm"]
+[ext_resource type="Texture2D" uid="uid://8o2mxlvmglnh" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 68.png" id="78_1obip"]
+[ext_resource type="Texture2D" uid="uid://dph8cjp1qllmo" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 69.png" id="79_d8gf4"]
+[ext_resource type="Texture2D" uid="uid://bojxw086t8ou8" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 70.png" id="80_t5xjr"]
+[ext_resource type="Texture2D" uid="uid://f0rqr1o7f43c" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 71.png" id="81_qxevj"]
+[ext_resource type="Texture2D" uid="uid://kxc2etkp50wy" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 72.png" id="82_v4sao"]
+[ext_resource type="Texture2D" uid="uid://dsweor3xpflir" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 73.png" id="83_ivct8"]
+[ext_resource type="Texture2D" uid="uid://fv6g37u8436i" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 74.png" id="84_bvkno"]
+[ext_resource type="Texture2D" uid="uid://cdj03unaruvy" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 75.png" id="85_4ksf8"]
+[ext_resource type="Texture2D" uid="uid://cwgrjkuclh8jh" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 76.png" id="86_yuxr5"]
+[ext_resource type="Texture2D" uid="uid://m454djlb0746" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 77.png" id="87_82pkv"]
+[ext_resource type="Texture2D" uid="uid://bfyydapdwnddc" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 78.png" id="88_j1661"]
+[ext_resource type="Texture2D" uid="uid://s3qa7ud8u1qg" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 79.png" id="89_rgkcj"]
+[ext_resource type="Texture2D" uid="uid://cwg4bad5pw787" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 80.png" id="90_eqjas"]
+[ext_resource type="Texture2D" uid="uid://d3p64upf7dl1b" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 81.png" id="91_kajmd"]
+[ext_resource type="Texture2D" uid="uid://dnhdk2r88mg25" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 82.png" id="92_7pf6a"]
+[ext_resource type="Texture2D" uid="uid://dc4ic4ggy0qu0" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 83.png" id="93_cyk6k"]
+[ext_resource type="Texture2D" uid="uid://gby565i4d72e" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 84.png" id="94_hcpfu"]
+[ext_resource type="Texture2D" uid="uid://dxy716rej7lng" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 85.png" id="95_cawat"]
+[ext_resource type="Texture2D" uid="uid://bictag1i0wfh5" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 86.png" id="96_ohete"]
+[ext_resource type="Texture2D" uid="uid://t8154vrq6sm7" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 87.png" id="97_xgbhk"]
+[ext_resource type="Texture2D" uid="uid://0122eori8glb" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 88.png" id="98_adhe3"]
+[ext_resource type="Texture2D" uid="uid://b3a8ko5arxgop" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 89.png" id="99_trir1"]
+[ext_resource type="Texture2D" uid="uid://bwe5dweftgl5i" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 90.png" id="100_eq8du"]
+[ext_resource type="Texture2D" uid="uid://dq0nmc3g07bl" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 91.png" id="101_qj0fd"]
+[ext_resource type="Texture2D" uid="uid://btfpd6ja8yyg6" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 92.png" id="102_j2v2c"]
+[ext_resource type="Texture2D" uid="uid://cwg70gty1xe54" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 93.png" id="103_0pck2"]
+[ext_resource type="Texture2D" uid="uid://bb6bwstoyyugu" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 94.png" id="104_n64ca"]
+[ext_resource type="Texture2D" uid="uid://cfkewxcmpuq2p" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 95.png" id="105_iko1n"]
+[ext_resource type="Texture2D" uid="uid://dbei3yw6pc6ak" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 96.png" id="106_68eog"]
+[ext_resource type="Texture2D" uid="uid://coixc85vbf5cu" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 97.png" id="107_wm5v4"]
+[ext_resource type="Texture2D" uid="uid://noybln7rogt1" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 98.png" id="108_k6146"]
+[ext_resource type="Texture2D" uid="uid://ndt7iswd5ce2" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 99.png" id="109_s6uny"]
+[ext_resource type="Texture2D" uid="uid://biogyfjmqqsod" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 100.png" id="110_7kh8q"]
+[ext_resource type="Texture2D" uid="uid://cnpyhfy6qn1wq" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 101.png" id="111_6f20b"]
+[ext_resource type="Texture2D" uid="uid://m7wttrpl0k7t" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 102.png" id="112_6h0jm"]
+[ext_resource type="Texture2D" uid="uid://car6q7ulxgu3e" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 103.png" id="113_6uare"]
+[ext_resource type="Texture2D" uid="uid://b3s8obux52onn" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 104.png" id="114_21hpw"]
+[ext_resource type="Texture2D" uid="uid://dlna4hmg3h4p4" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 105.png" id="115_6waoq"]
+[ext_resource type="Texture2D" uid="uid://dnvst4nf1uxyw" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 106.png" id="116_s3ptx"]
+[ext_resource type="Texture2D" uid="uid://dv3s4gk7tcgs5" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 107.png" id="117_tidyu"]
+[ext_resource type="Texture2D" uid="uid://gpgan6yp0sdn" path="res://Scenes/Scene 9/Анимация Мирита Сцена 9/Мирит сцена номер 9 108.png" id="118_u2j17"]
+[ext_resource type="FontFile" uid="uid://bxlq43i6a6tk3" path="res://Assets/Шрифты/PressStart2P-Regular.ttf" id="119_qt4is"]
+[ext_resource type="Script" uid="uid://dc6jdmcmll1b5" path="res://Scenes/Scene 4/текст_мирита.gd" id="120_qc0q2"]
+[ext_resource type="AudioStream" uid="uid://dsk3jnbxb7qwu" path="res://Scenes/Scene 9/Диалог с Миритом Сцена 9.mp3" id="121_82b8b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4a1cd"]
+size = Vector2(583, 164)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i3ndo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_7oa11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_i07mg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_3fgsl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_yjhmd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_xo1f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_o1p7k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jc4ij")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kxo5j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_qu2b8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_lu405")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_1x7fh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_gixm3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_0hdpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_gyacw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_41kln")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ac4ae"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_5prjm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_1wxag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_81u75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_t0emj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_x4con")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_aowda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_3af1p")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eq8jp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_0c37w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_5yoxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_5m6mr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_7p2en")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_e0bmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_7qyxw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ycj7v")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_grulu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30_faswq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_qruxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_pe50i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_5rhkf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_brfo8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_5mmw2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_bxbud")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_myt4s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("40_o5oaj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ule1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_cjudn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_1557v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_wiayd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_bp5hd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_t6k5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_iqexi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_0joex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_7x5e2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_bgn07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_bl0rd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_rxmxm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_fw36o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_smfjw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_868v8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_b5vvb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_v1mta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_75qmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_3dyem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_lhju7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_g475r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_nkcm2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_aw5r3")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_khxys"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("77_dmpfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_1obip")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_d8gf4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_t5xjr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_qxevj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_v4sao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_ivct8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_bvkno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_4ksf8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_yuxr5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_82pkv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_j1661")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_rgkcj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_eqjas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_kajmd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_7pf6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_cyk6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_hcpfu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_cawat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_ohete")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_xgbhk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_adhe3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_trir1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_eq8du")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_qj0fd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_j2v2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_0pck2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_n64ca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_iko1n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_68eog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_wm5v4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_k6146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_s6uny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_7kh8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_6f20b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_6h0jm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_6uare")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_21hpw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_6waoq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_s3ptx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_tidyu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_u2j17")
+}],
+"loop": false,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="Scene 9" type="Sprite2D"]
+position = Vector2(48, 48)
+texture = ExtResource("1_x8dup")
+centered = false
+script = ExtResource("1_ascaa")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(717.5, 532)
+shape = SubResource("RectangleShape2D_4a1cd")
+
+[node name="AudioStreamPlayer звук капли" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_8nnvj")
+volume_db = 24.0
+
+[node name="Timer звук капли" type="Timer" parent="AudioStreamPlayer звук капли"]
+
+[node name="AudioStreamPlayer звук второй капли" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_8nnvj")
+volume_db = 24.0
+
+[node name="Timer звук второй капли" type="Timer" parent="AudioStreamPlayer звук второй капли"]
+
+[node name="AnimatedSprite2D Капля 1" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(372, 546)
+sprite_frames = SubResource("SpriteFrames_i3ndo")
+
+[node name="AnimatedSprite2D Капля 2" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(546, 565.5)
+sprite_frames = SubResource("SpriteFrames_kxo5j")
+
+[node name="AnimatedSprite2D Капля 3" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(684, 525)
+sprite_frames = SubResource("SpriteFrames_ac4ae")
+
+[node name="AnimatedSprite2D Капля 4" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(747, 582)
+sprite_frames = SubResource("SpriteFrames_eq8jp")
+
+[node name="AnimatedSprite2D Капля 5" type="AnimatedSprite2D" parent="."]
+visible = false
+position = Vector2(840, 522)
+sprite_frames = SubResource("SpriteFrames_grulu")
+
+[node name="Капля 1" type="Sprite2D" parent="."]
+position = Vector2(381, -100)
+texture = ExtResource("3_0vsqn")
+
+[node name="Timer_капля_1" type="Timer" parent="Капля 1"]
+
+[node name="Капля 2" type="Sprite2D" parent="."]
+position = Vector2(549, -100)
+texture = ExtResource("3_0vsqn")
+
+[node name="Timer_капля_2" type="Timer" parent="Капля 2"]
+
+[node name="Капля 3" type="Sprite2D" parent="."]
+position = Vector2(693, -100)
+texture = ExtResource("3_0vsqn")
+
+[node name="Timer_капля_3" type="Timer" parent="Капля 3"]
+
+[node name="Капля 4" type="Sprite2D" parent="."]
+position = Vector2(741, -100)
+texture = ExtResource("3_0vsqn")
+
+[node name="Timer_капля_4" type="Timer" parent="Капля 4"]
+
+[node name="Капля 5" type="Sprite2D" parent="."]
+position = Vector2(837, -100)
+texture = ExtResource("3_0vsqn")
+
+[node name="Timer_капля_5" type="Timer" parent="Капля 5"]
+
+[node name="AnimatedSprite2D Брэндон ловит слезу" type="AnimatedSprite2D" parent="."]
+visible = false
+z_index = 2
+position = Vector2(1122, 264)
+sprite_frames = SubResource("SpriteFrames_myt4s")
+frame = 23
+frame_progress = 1.0
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="AnimatedSprite2D Брэндон ловит слезу"]
+volume_db = 10.0
+
+[node name="Timer" type="Timer" parent="AnimatedSprite2D Брэндон ловит слезу"]
+one_shot = true
+
+[node name="Sprite2D Мирит" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1563, 525)
+texture = ExtResource("76_2v86v")
+
+[node name="Анимация Мирита" type="AnimatedSprite2D" parent="."]
+visible = false
+z_index = 2
+position = Vector2(1650, 504)
+sprite_frames = SubResource("SpriteFrames_khxys")
+
+[node name="Текст мирита" type="Label" parent="."]
+z_index = 2
+offset_right = 800.0
+offset_bottom = 200.0
+theme_override_fonts/font = ExtResource("119_qt4is")
+theme_override_font_sizes/font_size = 36
+script = ExtResource("120_qc0q2")
+
+[node name="Timer время до появления сообщения" type="Timer" parent="."]
+
+[node name="Timer длительность отображения сообщения" type="Timer" parent="."]
+
+[node name="AudioStreamPlayer Диалог с миритом Сцена 9" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("121_82b8b")
+volume_db = 10.0
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="timeout" from="AudioStreamPlayer звук капли/Timer звук капли" to="." method="_on_timer_звук_капли_timeout"]
+[connection signal="timeout" from="AudioStreamPlayer звук второй капли/Timer звук второй капли" to="." method="_on_timer_звук_второй_капли_timeout"]
+[connection signal="timeout" from="Капля 1/Timer_капля_1" to="." method="_on_timer_капля_1_timeout"]
+[connection signal="timeout" from="Капля 2/Timer_капля_2" to="." method="_on_timer_капля_2_timeout"]
+[connection signal="timeout" from="Капля 3/Timer_капля_3" to="." method="_on_timer_капля_3_timeout"]
+[connection signal="timeout" from="Капля 4/Timer_капля_4" to="." method="_on_timer_капля_4_timeout"]
+[connection signal="timeout" from="Капля 5/Timer_капля_5" to="." method="_on_timer_капля_5_timeout"]
+[connection signal="animation_finished" from="AnimatedSprite2D Брэндон ловит слезу" to="." method="_on_animated_sprite_2d_брэндон_ловит_слезу_animation_finished"]
+[connection signal="timeout" from="AnimatedSprite2D Брэндон ловит слезу/Timer" to="." method="_on_timer_timeout"]
+[connection signal="animation_finished" from="Анимация Мирита" to="." method="_on_анимация_мирита_animation_finished"]
+[connection signal="timeout" from="Timer время до появления сообщения" to="." method="_on_timer_время_до_появления_сообщения_timeout"]
+[connection signal="timeout" from="Timer длительность отображения сообщения" to="." method="_on_timer_длительность_отображения_сообщения_timeout"]

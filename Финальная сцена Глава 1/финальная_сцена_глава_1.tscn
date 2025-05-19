@@ -1,0 +1,100 @@
+[gd_scene load_steps=9 format=3 uid="uid://e30au4d7aqne"]
+
+[ext_resource type="Script" uid="uid://cavjlnj0m4nae" path="res://Финальная сцена Глава 1/финальная_сцена_глава_1.gd" id="1_bnh4t"]
+[ext_resource type="Texture2D" uid="uid://bm5akrfal5bvl" path="res://Финальная сцена Глава 1/Финальная сцена Главы 1.png" id="2_pvocv"]
+[ext_resource type="FontFile" uid="uid://by8gt8ymfwxom" path="res://Assets/Шрифты/sitka-bold.ttf" id="3_weqcr"]
+[ext_resource type="AudioStream" uid="uid://cku3omgyohyen" path="res://Финальная сцена Глава 1/151 (real FM SB16 OPL3).ogg" id="4_lt82d"]
+[ext_resource type="Texture2D" uid="uid://bm5g5qvy3fblh" path="res://Начальная заставка/Начальная заставка Меню.png" id="5_mubq4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mubq4"]
+size = Vector2(1920, 1200)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b0wrq"]
+size = Vector2(520, 340)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gpdln"]
+size = Vector2(520, 340)
+
+[node name="Финальная сцена Глава 1" type="Node2D"]
+script = ExtResource("1_bnh4t")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_top = -1.0
+offset_right = 40.0
+offset_bottom = 39.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 236)
+texture = ExtResource("2_pvocv")
+centered = false
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 236.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_weqcr")
+theme_override_font_sizes/font_size = 72
+text = "Это конец Демо версии"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_lt82d")
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+position = Vector2(960, 600)
+shape = SubResource("RectangleShape2D_mubq4")
+
+[node name="Sprite2D Меню" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(220, 180)
+texture = ExtResource("5_mubq4")
+centered = false
+
+[node name="Label" type="Label" parent="Sprite2D Меню"]
+offset_top = 20.0
+offset_right = 1479.0
+offset_bottom = 280.0
+theme_override_fonts/font = ExtResource("3_weqcr")
+theme_override_font_sizes/font_size = 72
+text = "Выйти из игры?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label Да" type="Label" parent="Sprite2D Меню"]
+offset_left = 120.0
+offset_top = 280.0
+offset_right = 660.0
+offset_bottom = 640.0
+theme_override_fonts/font = ExtResource("3_weqcr")
+theme_override_font_sizes/font_size = 72
+text = "Да"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label Нет" type="Label" parent="Sprite2D Меню"]
+offset_left = 820.0
+offset_top = 280.0
+offset_right = 1360.0
+offset_bottom = 640.0
+theme_override_fonts/font = ExtResource("3_weqcr")
+theme_override_font_sizes/font_size = 72
+text = "Нет"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TouchScreenButton Да" type="TouchScreenButton" parent="Sprite2D Меню"]
+position = Vector2(390, 460)
+shape = SubResource("RectangleShape2D_b0wrq")
+
+[node name="TouchScreenButton Нет" type="TouchScreenButton" parent="Sprite2D Меню"]
+position = Vector2(1090, 460)
+shape = SubResource("RectangleShape2D_gpdln")
+
+[connection signal="pressed" from="TouchScreenButton" to="." method="_on_touch_screen_button_pressed"]
+[connection signal="pressed" from="Sprite2D Меню/TouchScreenButton Да" to="." method="_on_touch_screen_button_да_pressed"]
+[connection signal="pressed" from="Sprite2D Меню/TouchScreenButton Нет" to="." method="_on_touch_screen_button_нет_pressed"]

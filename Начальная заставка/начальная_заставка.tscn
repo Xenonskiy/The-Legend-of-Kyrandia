@@ -1,0 +1,124 @@
+[gd_scene load_steps=10 format=3 uid="uid://cicmqx4y5sukc"]
+
+[ext_resource type="Script" uid="uid://mq8ar8uthvbb" path="res://Начальная заставка/начальная_заставка.gd" id="1_iudm8"]
+[ext_resource type="VideoStream" uid="uid://cp8711w2m2g5l" path="res://Начальная заставка/Начальная заставка.ogv" id="2_tlcyn"]
+[ext_resource type="Texture2D" uid="uid://b0goekmwl6e82" path="res://Начальная заставка/Начальная заставка Меню.png" id="3_508ht"]
+[ext_resource type="FontFile" uid="uid://by8gt8ymfwxom" path="res://Assets/Шрифты/sitka-bold.ttf" id="3_tlcyn"]
+[ext_resource type="Texture2D" uid="uid://bfekhjg128h18" path="res://Начальная заставка/Картинка на начальную заставку.png" id="4_0wx3y"]
+[ext_resource type="Texture2D" uid="uid://cgq6pvwr1yw15" path="res://Начальная заставка/Картинка на начальную заставку Черная полоса.png" id="5_508ht"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_508ht"]
+size = Vector2(1920, 1200)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tlcyn"]
+size = Vector2(520, 340)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0wx3y"]
+size = Vector2(520, 340)
+
+[node name="Начальная заставка" type="Node2D"]
+script = ExtResource("1_iudm8")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 642.0
+offset_bottom = 402.0
+scale = Vector2(3, 3)
+stream = ExtResource("2_tlcyn")
+volume_db = 10.0
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+position = Vector2(960, 600)
+shape = SubResource("RectangleShape2D_508ht")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+z_index = 1
+position = Vector2(220, 180)
+texture = ExtResource("3_508ht")
+centered = false
+
+[node name="Label" type="Label" parent="Sprite2D"]
+z_index = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 100.0
+offset_bottom = -650.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_tlcyn")
+theme_override_font_sizes/font_size = 72
+text = "Пропустить заставку?"
+horizontal_alignment = 1
+
+[node name="Label Да" type="Label" parent="Sprite2D"]
+z_index = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 120.0
+offset_top = 280.0
+offset_right = -819.0
+offset_bottom = -200.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_tlcyn")
+theme_override_font_sizes/font_size = 72
+text = "Да"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label Нет" type="Label" parent="Sprite2D"]
+z_index = 1
+offset_left = 820.0
+offset_top = 280.0
+offset_right = 1360.0
+offset_bottom = 640.0
+theme_override_fonts/font = ExtResource("3_tlcyn")
+theme_override_font_sizes/font_size = 72
+text = "Нет"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TouchScreenButton Да" type="TouchScreenButton" parent="Sprite2D"]
+z_index = 1
+position = Vector2(390, 460)
+shape = SubResource("RectangleShape2D_tlcyn")
+
+[node name="TouchScreenButton Нет" type="TouchScreenButton" parent="Sprite2D"]
+z_index = 1
+position = Vector2(1090, 460)
+shape = SubResource("RectangleShape2D_0wx3y")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("4_0wx3y")
+centered = false
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1, 1052)
+texture = ExtResource("5_508ht")
+centered = false
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.7
+one_shot = true
+
+[node name="Timer2" type="Timer" parent="."]
+wait_time = 7.0
+one_shot = true
+
+[node name="Timer3" type="Timer" parent="."]
+wait_time = 25.0
+one_shot = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]
+[connection signal="pressed" from="TouchScreenButton" to="." method="_on_touch_screen_button_pressed"]
+[connection signal="pressed" from="Sprite2D/TouchScreenButton Да" to="." method="_on_touch_screen_button_да_pressed"]
+[connection signal="pressed" from="Sprite2D/TouchScreenButton Нет" to="." method="_on_touch_screen_button_нет_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="Timer2" to="." method="_on_timer_2_timeout"]
+[connection signal="timeout" from="Timer3" to="." method="_on_timer_3_timeout"]

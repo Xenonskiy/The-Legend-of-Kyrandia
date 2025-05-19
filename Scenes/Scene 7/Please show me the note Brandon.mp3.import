@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ppcypm1nw1y7"
+path="res://.godot/imported/Please show me the note Brandon.mp3-f897420b83222592f21994a5dcc869af.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/Please show me the note Brandon.mp3"
+dest_files=["res://.godot/imported/Please show me the note Brandon.mp3-f897420b83222592f21994a5dcc869af.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

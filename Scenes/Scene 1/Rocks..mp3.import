@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bttyc2854xan0"
+path="res://.godot/imported/Rocks..mp3-32907db046cb5a19a49e00a75c888f98.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 1/Rocks..mp3"
+dest_files=["res://.godot/imported/Rocks..mp3-32907db046cb5a19a49e00a75c888f98.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

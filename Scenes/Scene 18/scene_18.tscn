@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1jvxmro7csr3"]
+
+[ext_resource type="Texture2D" uid="uid://cy6cu7jc0ul54" path="res://Scenes/Scene 18/18 Оригинал.png" id="1_7o8dm"]
+[ext_resource type="Script" uid="uid://bpm6fg3jcyhku" path="res://Scenes/Scene 18/scene_18.gd" id="1_m3jci"]
+
+[node name="Scene 18" type="Sprite2D"]
+position = Vector2(48, 48)
+texture = ExtResource("1_7o8dm")
+centered = false
+script = ExtResource("1_m3jci")

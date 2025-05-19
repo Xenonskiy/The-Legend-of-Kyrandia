@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dapf1l37l0ngj"
+path="res://.godot/imported/Ow I hope this is what Brynn wants.mp3-6888ddf99b47505a96407b07d2928234.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 12/Ow I hope this is what Brynn wants.mp3"
+dest_files=["res://.godot/imported/Ow I hope this is what Brynn wants.mp3-6888ddf99b47505a96407b07d2928234.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

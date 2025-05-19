@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3 uid="uid://byxfuy88s33q2"]
+
+[ext_resource type="Texture2D" uid="uid://c1l50vf47kkv6" path="res://Scenes/Scene 4/4 Оригинал.png" id="1_5iu4s"]
+[ext_resource type="Script" uid="uid://cqooii2ppdosx" path="res://Scenes/Scene 4/scene_4.gd" id="1_un6y1"]
+[ext_resource type="VideoStream" uid="uid://cw5k5m3e6fe5t" path="res://Scenes/Scene 4/Видео вылечил иву.ogv" id="8_jr5jd"]
+[ext_resource type="AudioStream" uid="uid://c3u5ilb46pq5g" path="res://Assets/Звуки/Звук предмет кладется в ячейку.mp3" id="320_c8xn1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tvok7"]
+size = Vector2(164, 256)
+
+[node name="Scene 4" type="Sprite2D"]
+position = Vector2(48, 48)
+texture = ExtResource("1_5iu4s")
+centered = false
+script = ExtResource("1_un6y1")
+
+[node name="Area2D Место для капли" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D Место для капли"]
+position = Vector2(900, 441)
+shape = SubResource("RectangleShape2D_tvok7")
+
+[node name="AudioStreamPlayer Звук установки капли" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("320_c8xn1")
+volume_db = 24.0
+
+[node name="Timer время до появления сообщения при входе в сцену" type="Timer" parent="."]
+
+[node name="Timer длительность отображения сообщения при входе в сцену" type="Timer" parent="."]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+visible = false
+z_index = 1
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(3, 3)
+stream = ExtResource("8_jr5jd")
+volume_db = 10.0
+
+[node name="Timer для запуска музыки во время заставки" type="Timer" parent="."]
+wait_time = 31.0
+one_shot = true
+
+[connection signal="timeout" from="Timer время до появления сообщения при входе в сцену" to="." method="_on_timer_время_до_появления_сообщения_при_входе_в_сцену_timeout"]
+[connection signal="timeout" from="Timer длительность отображения сообщения при входе в сцену" to="." method="_on_timer_длительность_отображения_сообщения_при_входе_в_сцену_timeout"]
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]
+[connection signal="timeout" from="Timer для запуска музыки во время заставки" to="." method="_on_timer_для_запуска_музыки_во_время_заставки_timeout"]

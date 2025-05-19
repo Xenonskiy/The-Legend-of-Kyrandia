@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bab6dvqs143wm"
+path="res://.godot/imported/Аудио анимация 6.mp3-e5ce33e38cdc43a247d95973259b7a43.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 7/Аудио анимация 6.mp3"
+dest_files=["res://.godot/imported/Аудио анимация 6.mp3-e5ce33e38cdc43a247d95973259b7a43.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

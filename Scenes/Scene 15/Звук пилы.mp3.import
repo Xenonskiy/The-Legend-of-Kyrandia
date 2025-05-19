@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bh0albc2lpmv0"
+path="res://.godot/imported/Звук пилы.mp3-f53f570a7679ae08bb03b0de70e677c5.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 15/Звук пилы.mp3"
+dest_files=["res://.godot/imported/Звук пилы.mp3-f53f570a7679ae08bb03b0de70e677c5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

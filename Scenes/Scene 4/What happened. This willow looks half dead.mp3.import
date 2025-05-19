@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dafv3jxthj4vx"
+path="res://.godot/imported/What happened. This willow looks half dead.mp3-96c5534b628ef664f4f8f573da18e2d2.mp3str"
+
+[deps]
+
+source_file="res://Scenes/Scene 4/What happened. This willow looks half dead.mp3"
+dest_files=["res://.godot/imported/What happened. This willow looks half dead.mp3-96c5534b628ef664f4f8f573da18e2d2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
